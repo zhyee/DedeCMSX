@@ -1,0 +1,40 @@
+<div class="thead">
+  <div class="w_980">
+	  <span>南方矿业 / 石材体验网 / 瀚得实业 / 天下石仓 /  uniplus人造石 &nbsp;&nbsp;简体中文 | English</span>
+  </div>
+</div>
+</div>
+<div class="header"> 
+  <!-- 顶部 -->
+  <div class="h_top_c">
+    <div class="h_top">
+      <div class="logo"> <a href="/" title="南方矿业"> <img src="/skin/images/logo.png" alt="{dede:global.cfg_webname/}"  height="80"/> </a> </div>
+      <!--div class="tel_index_top">
+        <div class="top_msg">SERVICE PHONE</div>
+        <div class="num">+86-4000-99877</div>
+      </div-->
+	  <div class="phone_b">
+        <div>
+          <div class="msg">SERVICE PHONE</div>
+          <div class="num">18784090789</div>
+        </div>
+      </div>
+      <div class="c"></div>
+    </div>
+  </div>
+  <!-- 顶部 end--> 
+  <!-- 导航 -->
+  <div class="nav_c">
+    <div class="zz_nav"></div>
+    <div class="nav">
+      <ul>
+        <li {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='on' ":@me="";{/dede:field}> <a href="/">首页</a> </li>
+        {dede:channelartlist typeid='top' currentstyle='on'}
+        <li class="{dede:field.currentstyle/}"> <a href="{dede:field name='typeurl'/}" title="{dede:field name='typename'/}">{dede:field name='typename'/}</a>
+        </li>
+        {/dede:channelartlist}
+      </ul>
+    </div>
+  </div>
+  <!-- 导航 end--> 
+</div>

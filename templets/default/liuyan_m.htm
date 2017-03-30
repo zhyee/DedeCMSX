@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<style>
+.head {
+	background: #1b1c1d
+}
+.foot {
+	background: #000000
+}
+.nav {
+	background: #000000
+}
+.nav_color {
+	background: #000000
+}
+</style>
+<link rel="stylesheet" type="text/css" href="/m/skin/css/subpage.css">
+<script src="/m/skin/js/jquery.js"></script>
+<script src="/m/skin/js/nav.js"></script>
+<script src="/m/skin/js/respond.js"></script>
+<script src="/m/skin/js/sdcms.js"></script>
+<script src="/m/skin/js/jquery.validator.js"></script>
+<link rel="stylesheet" type="text/css" href="/m/skin/css/master.css">
+<link rel="stylesheet" type="text/css" href="/m/skin/css/swiper.css">
+<script src="/m/skin/js/swipe.js"></script>
+<script src="/m/skin/js/lihe.js"></script>
+<script src="/m/skin/js/share.js"></script>
+<link rel="stylesheet" href="/m/skin/css/share_style0_32.css">
+<script type="text/javascript" src="/m/skin/js/cart_icon.js"></script>
+</head>
+<body>
+<!--导航开始--> 
+{dede:include filename="header_m.htm"/} 
+<!--导航结束--> 
+
+<!--内容开始-->
+<div class="allpage">
+  <div class="black-fixed iconfont">&#xe60f;</div>
+  <!--页头开始-->
+  <div class="header">
+    <div class="head"> <a href="index.php" title="首页" class="home-btn commonfont">&#xe608;</a>
+      <p class="top-title">{dede:field name='typename'/}</p>
+      <div class="class-btn"><span class="commonfont">&#xe60a;</span></div>
+      <div class="nav-btn commonfont">&#xe60b;</div>
+    </div>
+    <div class="type">
+      <h1>搜索：</h1>
+      <div class="common-pro-search">
+        <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+          <input type="hidden" name="mobile" value="1" />
+          <input type="hidden" name="kwtype" value="0" />
+          <input type="text" class="common-text" name="q" placeholder="请输入搜索关键词"/>
+          <input type="submit" class="common-submit commonfont" value="&#xe602;"/>
+        </form>
+      </div>
+      <h1>服务项目分类：</h1>
+      <ul>
+        {dede:channel type='son' row='10' currentstyle="
+        <li><a href='list.php?tid=~id~' ~rel~><span>~typename~</span></a> </li>
+        "}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a> <span class="commonfont class-down">&#xe60c;</span></li>
+        {/dede:channel}
+      </ul>
+    </div>
+  </div>
+  <!--页头结束--> 
+  <!--在线留言开始-->
+  <div class="content">
+    <ul class="login">
+      <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+        <input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="1" />
+        <input type="hidden" name="do" value="2" />
+        <li>
+          <input type="text" name="yx" id="yx" maxlength="20" placeholder="留言标题" data-rule="留言标题:required;" class="login_input " />
+        </li>
+		<li>
+          <textarea name="nra" cols="" rows="" data-rule="留言内容:required;"  onKeyUp="strlen_verify(this,'booklen',255)" placeholder="留言内容" class="login_textarea" ></textarea>
+        </li>
+		<li>
+          <input type="text" name="xm" id="xm" maxlength="20" placeholder="姓名" data-rule="姓名:required;" class="login_input " />
+        </li>
+        <li>
+          <input type="text" name="sj" maxlength="20" placeholder="手机号码" data-rule="手机号码:required;mobile|tel" class="login_input" >
+        </li>
+        
+        <input type="hidden" name="dede_fields" value="yx,text;nra,text;xm,text;sj,text" />
+        <input type="hidden" name="dede_fieldshash" value="5b14cf258b40a319a7de3b8aadf7d6da" />
+        <li>
+          <input class="login_btn common_bg" type="submit" value="提   交">
+        </li>
+      </form>
+    </ul>
+  </div>
+  <!--在线留言结束--> 
+  {dede:include filename="footer_m.htm"/} </div>
+<!--内容结束-->
+</body>
+</html>

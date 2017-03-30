@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+<meta >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/child_cart.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/child_atm.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/master.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/subpage.css" />
+<script type="text/javascript" src="/skin/js/jquery.js"></script>
+<script type="text/javascript" src="/skin/js/child_atm.js"></script>
+<script type="text/javascript" src="/skin/js/lihe.js"></script>
+<script type="text/javascript" src="/skin/js/superslide.js"></script>
+<script type="text/javascript" src="/skin/js/select_beauty.js"></script>
+<meta http-equiv="mobile-agent" content="format=xhtml;url={dede:global.cfg_mobileurl/}/index.php">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="m/index.php";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/skin/js/png.js"></script>
+<script>DD_belatedPNG.fix('div,img,span,li,a,a:hover,dd,p,input,select')</script>
+<![endif]-->
+<script type="text/javascript">
+    window.onload = function(){
+        imgZoomRun("product3","p","prod-zoom","li"); // 图片放大
+        imgZoomRun("product7","p","prod-zoom","li");
+        imgZoomRun("product8","p","prod-zoom","li");
+        newsFontMove("fontjump"); // 鼠标放上，字体上下挪
+        newsFontMove("fontjumpcolor"); // 鼠标放上，字体上下挪
+        colorChange("fontjumpcolor"); // 隔行换色
+        colorChange("news5"); // 隔行换色
+		listImgZoom("product1","215"); // 图片缩放，需要给定宽度
+        listImgZoom("product2","215"); // 图片缩放，需要给定宽度
+        listImgZoom("product3","215"); // 图片缩放，需要给定宽度
+		listImgZoom("product4","215"); // 图片缩放，需要给定宽度
+		listImgZoom("product5","215"); // 图片缩放，需要给定宽度
+		listImgZoom("product6","215"); // 图片缩放，需要给定宽度
+        listImgZoom("product8","200"); // 图片缩放，需要给定宽度
+		enterAnimation("news_fadein");
+		if(typeof(data) != "undefined"){
+            var lefttype = new LeftType(data,"left-type",0); // 多级分类
+        }
+        afx.conHeightAuto();
+    };
+    window.addEventListener("resize",function(){
+        afx.conHeightAuto();
+    },false);
+    </script>
+<script type="text/javascript">
+$(function(){
+	/*
+	$('.product .rdata').first().show();
+	$('.product .lnav li').mouseenter(function(){
+		$('.product .rdata').hide();
+		$($('.product .rdata')[$(this).index()]).show();
+	});
+	*/
+	jQuery(".rimgs").slide({mainCell:".bd ul",autoPlay:true});
+	// 最下方滑过
+	$('.imgh').hover(function(){
+		$(this).find('.msg_bg').show();
+	}, function(){
+		$(this).find('.msg_bg').hide();
+	});
+})
+</script>
+</head>
+<body>
+<!-- 头部 -->
+{dede:include filename="head.htm"/}
+<!-- 头部 end --> 
+<!-- banner -->
+<div id="slideBox" class="slideBox">
+  <div class="hd">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+  </div>
+  <div class="bd">
+    <ul>
+      <li><img src="/skin/images/banner1.jpg" /></li>
+      <li><img src="/skin/images/banner2.jpg" /></li>
+      <li><img src="/skin/images/banner3.jpg" /></li>
+      <li><img src="/skin/images/banner4.jpg" /></li>
+    </ul>
+  </div>
+	<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+	<a class="prev" href="javascript:void(0)"></a>
+	<a class="next" href="javascript:void(0)"></a>
+</div>
+<div class="h_mid_news_c_nnbg">
+  <div class="h_mid_news_c_nn">
+    <div class="txtMarquee-left">
+      <div class="hd"> <a class="next"></a> <a class="prev"></a> </div>
+      <div class="pgcnm fl">网站公告：</div>
+      <div class="bd fl">
+        <ul class="infoList">
+          {dede:arclist typeid='2' row='5' titlelen='50' orderby='pubdate'}
+          <li><a href="[field:arcurl/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul>
+      </div>
+      <div class="c"></div>
+    </div>
+  </div>
+</div>
+<!-- banner end --> 
+<!-- 四个展品展示 -->
+<div class="fourcols" style="display:none">
+  <ul>
+    {dede:arclist typeid='3' row='3' titlelen='50' orderby='pubdate'}
+    <li> <a href="[field:arcurl/]" title="[field:title/]">
+      <div class="img"><img src="[field:picname/]" alt="[field:title/]" /></div>
+      <div class="title">[field:title/]</div>
+      </a> </li>
+    {/dede:arclist}
+    
+    
+    {dede:type typeid='3'}
+    <li> <a href="[field:typelink/]" title="查看更多">
+      <div class="imgb"><img src="/skin/images/001454_01.jpg" alt="查看更多" /></div>
+      <div class="title">查看更多</div>
+      </a> </li>
+    {/dede:type}
+  </ul>
+</div>
+<!-- 四个产品展示 end --> 
+<!-- 关于我们 -->
+<div class="abme_bg">
+  <div class="title">
+    <div>关于我们</div>
+  </div>
+  <div class="text">
+    <div class="title">四川省南方矿业投资有限公司</div>
+    {dede:type typeid='1'} <a href="[field:typelink/]" title="查看详细" class="more">查看详细</a>{/dede:type}
+    <div class="msg">{dede:sql sql='Select content from dede_arctype where id=1'} 
+      [field:content  function='cn_substr(html2text(@me),550)'/]
+      {/dede:sql} ...</div>
+  </div>
+  <div class="img atm_mid"></div>
+  <script type="text/javascript">
+			var atmdateD = [{"is_url":"0","url_controller":"","url_action":"","url_para":"","pic_path":"/skin\/images\/about.jpg","title":"aboutus","href":"","url":"\/skin\/images\/about.jpg"}];
+			$(document).ready(function(){
+				var bannerShow = new Atm();
+				bannerShow.randomPic(atmdateD,".atm_mid","auto","228");
+			});
+		</script> 
+</div>
+<!-- 关于我们 end --> 
+<!-- 产品中心 -->
+<div class="product">
+  <div class="head">
+    <div class="w_980">
+      <div class="title_b">
+        <div class="a">产品中心</div><div class="b">Product Center</div>
+      </div>
+      <!-- search -->
+      <div class="search">
+        <form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+          <input type="hidden" name="kwtype" value="0" />
+          <div class="s_c">
+            <input type="text" name="q" id="q" value="" class="search_text" placeholder="请输入关键词！" />
+          </div>
+          <input type="submit" name="submit" id="" value=" " class="search_submit" />
+        </form>
+      </div>
+      <!-- search end -->
+      <div class="phone_b">
+        <div>
+          <div class="msg">SERVICE PHONE</div>
+          <div class="num">13788821832</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cont">
+    <ul class="rdata">
+      {dede:arclist typeid='3' row='10' titlelen='50' isweight='Y' orderby='weight' orderway='asc'}
+      <li> <a href="[field:arcurl/]" title="[field:title/]" target="_self">
+        <div class="img"><img src="[field:picname/]" alt="[field:title/]" /></div>
+        <div class="title">[field:title/]</div>
+        </a> </li>
+      {/dede:arclist}
+    </ul>
+	<div class="c"></div>
+  </div>
+</div>
+<!-- 产品中心 end --> 
+<!-- 最新资讯 -->
+<div class="news_b">
+  <div class="head">
+    <div class="title">新闻</div>
+    <div class="line">
+      <div></div>
+    </div>
+    <div class="en">News</div>
+    {dede:type typeid='2'} <a href="[field:typelink/]" title="查看详细" class="more" target="_self">查看详细</a>{/dede:type} </div>
+  <div class="w_980">
+    <div class="lnews"> {dede:arclist typeid='2' row='1' titlelen='50' orderby='pubdate' infolen='120'}
+      <div class="fir">
+        <div class="time">
+          <div class="day">[field:pubdate function="MyDate('d',@me)"/]</div>
+          <div class="year">[field:pubdate function="MyDate('Y-m',@me)"/]</div>
+        </div>
+        <div class="info">
+          <div class="title">[field:title/]</div>
+          <div class="msg">[field:info/]...</div>
+        </div>
+      </div>
+      {/dede:arclist}
+      
+      {dede:arclist typeid='2' row='4' titlelen='50' orderby='pubdate'}
+      <div class="item"> <a href="[field:arcurl/]" title="[field:title/]" class="title">[field:title/]</a>
+        <div class="time">[field:pubdate function="MyDate('Y/m/d',@me)"/]</div>
+      </div>
+      {/dede:arclist} </div>
+    <div id="rimgs" class="rimgs">
+      <div class="hd">
+        <ul>
+          <li class="on">1</li>
+          <li>2</li>
+		  <li>3</li>
+        </ul>
+      </div>
+      <div class="bd">
+        <ul>
+          {dede:arclist typeid='2' row='3' titlelen='50' orderby='pubdate' type='image'}
+          <li><a href="[field:arcurl/]" title="[field:title/]" target="_self"><img src="[field:picname/]"></a></li>
+          {/dede:arclist}
+        </ul>
+      </div>
+    </div>
+    <div class="oimgs">
+      <div class="imga imgh"> <img src="/skin/images/6a8f90a07cd4c2db24c7a04eb4fb94c4.png" alt="案例展示" />
+        <div class="msg_bg">
+          <div class="msg_b">
+            <div class="titlea">
+              <div class="line"></div>
+              <div class="name">案例展示</div>
+              <div class="line"></div>
+            </div>
+            <div class="msg">四川省南方矿业有限公司
+              四川省南方矿业投资有限公司，是集矿山开采、加工、贸易为一体的综合型矿山开发企业。 公司现有大型饰面用灰岩矿山两座，资源储存量巨大。矿山位于江油至北川米黄大理石产业带，该地区被誉为中国米黄大理石之乡。 ...</div>
+          </div>
+        </div>
+      </div>
+      <div class="case">
+        <div class="title">Cases</div>
+        <div class="msg">与我们合作的企业案例</div>
+        {dede:type typeid='9'} <a href="[field:typelink/]" title="查看更多" class="more" target="_self">查看更多+</a>{/dede:type} </div>
+      <div class="imgb imgh"> <img src="/skin/images/8d1bb4399b9ae3ecc7ad094d98ca8587.png" alt="案例展示" />
+        <div class="msg_bg">
+          <div class="msg_b">
+            <div class="titleb">
+              <div class="line"></div>
+              <div class="name">案例展示</div>
+              <div class="line"></div>
+            </div>
+            <div class="msg">四川省南方矿业有限公司
+              四川省南方矿业投资有限公司，是集矿山开采、加工、贸易为一体的综合型矿山开发企业。 公司现有 ...</div>
+          </div>
+        </div>
+      </div>
+	 <div class="imgf imgh"> <img src="/skin/images/F46F0059-8766-42A2-9A1F-F4096C844E9F.jpg" alt="案例展示" />
+        <div class="msg_bg">
+          <div class="msg_b">
+            <div class="titleb titlec">
+              <div class="line"></div>
+              <div class="name">案例展示</div>
+              <div class="line"></div>
+            </div>
+            <div class="msg">四川省南方矿业有限公司
+              四川省南方矿业投资有限公司，是集矿山开采、加工、贸易为一体的综合型矿山开发企业。 公司现有 ...</div>
+          </div>
+        </div>
+      </div>
+      <div class="imgc imgh"> <img src="/skin/images/1bf19aa82aa8ade2bda66cb7b7390f8b.png" alt="案例展示" />
+        <div class="msg_bg">
+          <div class="msg_b">
+            <div class="titleb">
+              <div class="line"></div>
+              <div class="name">案例展示</div>
+              <div class="line"></div>
+            </div>
+            <div class="msg">四川省南方矿业有限公司
+              四川省南方矿业投资有限公司，是集矿山开采、加工、贸易为一体的综合型矿山开发企业。 公司现有 ...</div>
+          </div>
+        </div>
+      </div>
+      <div class="textimg imgh"> <img src="/skin/images/8e9e22559b7dd05046d65c6465e672a2.png" alt="案例展示" />
+        <div class="msg_bg">
+          <div class="msg_b">
+            <div class="titlea">
+              <div class="line"></div>
+              <div class="name">案例展示</div>
+              <div class="line"></div>
+            </div>
+            <div class="msg">四川省南方矿业有限公司
+              四川省南方矿业投资有限公司，是集矿山开采、加工、贸易为一体的综合型矿山开发企业。 公司现有大型饰面用灰岩矿山两座，资源储存量巨大。矿山位于江油至北川米黄大理石产业带，该地区被誉为中国米黄大理石之乡 ...</div>
+          </div>
+        </div>
+      </div>
+      <div class="imgd imgh"> <img src="/skin/images/748111e12612c94067c348534f1a4687.jpg" alt="案例展示" />
+        <div class="msg_bg">
+          <div class="msg_b">
+            <div class="titleb">
+              <div class="line"></div>
+              <div class="name">案例展示</div>
+              <div class="line"></div>
+            </div>
+            <div class="msg">四川省南方矿业有限公司
+              四川省南方矿业投资有限公司，是集矿山开采、加工、贸易为一体的综合型矿山开发企业。 公司现有 ...</div>
+          </div>
+        </div>
+      </div>
+
+	  <div class="c"></div>
+    </div>
+  </div>
+</div>
+<!-- 最新资讯 end --> 
+<!-- footer -->
+{dede:include filename="footer.htm"/}
+</body>
+</html>

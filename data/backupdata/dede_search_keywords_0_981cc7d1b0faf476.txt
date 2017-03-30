@@ -1,0 +1,12 @@
+INSERT INTO `dede_search_keywords` VALUES('1','网络','网络','1','1','1444360255','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','请输入关键词','请输入关键词 关键词 输入','1','0','1444449447','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','续','续','1','0','1462680891','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','如何让自己','如何让自己 如何 自己','1','1','1462686418','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','dfg','dfg','1','0','1462689568','0','0');
+INSERT INTO `dede_search_keywords` VALUES('6','sdsdfds','sdsdfds','1','0','1462691173','0','0');
+INSERT INTO `dede_search_keywords` VALUES('7','淘宝开店与装修','淘宝开店与装修 开店 淘宝 装修','1','0','1462691719','0','0');
+INSERT INTO `dede_search_keywords` VALUES('8','的闪光灯时','的闪光灯时 闪光灯','1','0','1462693289','0','0');
+INSERT INTO `dede_search_keywords` VALUES('9','产品','产品','2','12','1462693342','0','0');
+INSERT INTO `dede_search_keywords` VALUES('10','sy','sy','9','4','1462693620','0','0');
+INSERT INTO `dede_search_keywords` VALUES('11','昨天','昨天','1','0','1489314358','0','0');
+INSERT INTO `dede_search_keywords` VALUES('12','阿曼木纹','阿曼木纹 木纹 阿曼','1','1','1489813337','0','0');

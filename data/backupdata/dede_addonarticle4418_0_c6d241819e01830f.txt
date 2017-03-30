@@ -1,0 +1,2 @@
+INSERT INTO `dede_addonarticle4418` VALUES('32','39','<img alt=\"\" src=\"/uploads/allimg/150711/1-150G1113215423.jpg\" style=\"width: 750px; height: 732px;\" />','','','127.0.0.1');
+INSERT INTO `dede_addonarticle4418` VALUES('34','39','<img alt=\"\" src=\"/uploads/allimg/150711/1-150G1115P0141.jpg\" style=\"width: 750px; height: 456px;\" />','','','127.0.0.1');
