@@ -29,10 +29,9 @@
     <div class="nav">
       <ul>
         <li {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='on' ":@me="";{/dede:field}> <a href="/">首页</a> </li>
-        {dede:channelartlist typeid='top' currentstyle='on'}
-        <li class="{dede:field.currentstyle/}"> <a href="{dede:field name='typeurl'/}" title="{dede:field name='typename'/}">{dede:field name='typename'/}</a>
-        </li>
-        {/dede:channelartlist}
+        {dede:channel type='top' currentstyle="<li class='on'><a href='~typelink~' title='~typename~'>~typename~</a> </li>"}
+        <li><a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:channel}
       </ul>
     </div>
   </div>
