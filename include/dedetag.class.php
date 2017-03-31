@@ -369,12 +369,18 @@ class DedeTagParse
         }
         else
         {
-            $fp = @fopen($filename, "r");
+/*            $fp = @fopen($filename, "r");
             while($line = fgets($fp,1024))
             {
                 $this->SourceString .= $line;
             }
-            fclose($fp);
+            fclose($fp);*/
+
+            ob_start();
+            include $filename;
+            $this->SourceString = ob_get_contents();
+            ob_end_clean();
+
             if($this->LoadCache($filename))
             {
                 return '';

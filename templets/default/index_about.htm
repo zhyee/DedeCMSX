@@ -66,13 +66,13 @@
 
            <div class="ul">
 
-               <ul>
+               <ul id="subnav">
                    <div class="cur_position">
                        +{dede:field name='position'/}
                    </div>
-
-                   {dede:channel type='son' typeid="1" row='5' currentstyle="<li><a href='~typelink~' class='current'>~typename~</a></li>"}
-                        <li><a href='[field:typelink/]'>[field:typename/]</a> </li>
+                   <?php helper('arctype'); ?>
+                   {dede:channel type='son' typeid="<?php echo getTopTypeid(); ?>" row='5'}
+                        <li><a rel="[field:id/]" href='[field:typelink/]'>[field:typename/]</a> </li>
                    {/dede:channel}
 
                    <div class="c"></div>
@@ -89,6 +89,17 @@
 <!-- 内容部分 end-->
     </div>
 </div>
+
+   <script>
+       var curtid = '<?php echo (int)$_REQUEST["tid"]; ?>';
+        $("#subnav li").each(function () {
+            var aobj = $(this).find("a");
+            if (aobj.attr("rel") == curtid)
+            {
+                aobj.addClass("current");
+            }
+        });
+   </script>
 
 <!-- footer --> 
 {dede:include filename="footer.htm"/}

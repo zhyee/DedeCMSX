@@ -2,47 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eb2cc1c-28a4-43b7-bd17-604a0426b53e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/helpers/arctype.helper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/62.html" afterPath="$PROJECT_DIR$/case/62.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/58/e1/a7/58e1a7778b49675a9c5d1d6800e1bdb4.php" afterPath="$PROJECT_DIR$/data/cache/listcache/58/e1/a7/58e1a7778b49675a9c5d1d6800e1bdb4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" afterPath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sessions_d41d8cd98f/sess_s0ntppevqm259n1udlsm413eo7" afterPath="$PROJECT_DIR$/data/sessions_d41d8cd98f/sess_s0ntppevqm259n1udlsm413eo7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/album_add.htm" afterPath="$PROJECT_DIR$/dede/templets/album_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/album_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/album_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/archives_add.htm" afterPath="$PROJECT_DIR$/dede/templets/archives_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/archives_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/archives_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/article_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/article_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/catalog_add.htm" afterPath="$PROJECT_DIR$/dede/templets/catalog_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/catalog_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/catalog_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/20.html" afterPath="$PROJECT_DIR$/news/20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/21.html" afterPath="$PROJECT_DIR$/news/21.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/22.html" afterPath="$PROJECT_DIR$/news/22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2015/1009/3.html" afterPath="$PROJECT_DIR$/news/gsxw/2015/1009/3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2015/1009/4.html" afterPath="$PROJECT_DIR$/news/gsxw/2015/1009/4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2016/0508/42.html" afterPath="$PROJECT_DIR$/news/gsxw/2016/0508/42.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2016/0508/43.html" afterPath="$PROJECT_DIR$/news/gsxw/2016/0508/43.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2017/0312/47.html" afterPath="$PROJECT_DIR$/news/gsxw/2017/0312/47.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2017/0312/48.html" afterPath="$PROJECT_DIR$/news/gsxw/2017/0312/48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2017/0313/50.html" afterPath="$PROJECT_DIR$/news/gsxw/2017/0313/50.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/gsxw/2017/0313/51.html" afterPath="$PROJECT_DIR$/news/gsxw/2017/0313/51.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/23.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/23.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/24.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/24.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/25.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/25.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/26.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/26.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/27.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/27.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/28.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/28.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/40.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/40.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/hydt/2016/0508/41.html" afterPath="$PROJECT_DIR$/news/hydt/2016/0508/41.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/52.html" afterPath="$PROJECT_DIR$/products/52.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/53.html" afterPath="$PROJECT_DIR$/products/53.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/54.html" afterPath="$PROJECT_DIR$/products/54.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/55.html" afterPath="$PROJECT_DIR$/products/55.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/56.html" afterPath="$PROJECT_DIR$/products/56.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/57.html" afterPath="$PROJECT_DIR$/products/57.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/58.html" afterPath="$PROJECT_DIR$/products/58.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/59.html" afterPath="$PROJECT_DIR$/products/59.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/60.html" afterPath="$PROJECT_DIR$/products/60.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/61.html" afterPath="$PROJECT_DIR$/products/61.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc" afterPath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc" afterPath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc" afterPath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/dedetag.class.php" afterPath="$PROJECT_DIR$/include/dedetag.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index.htm" afterPath="$PROJECT_DIR$/templets/default/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index_about.htm" afterPath="$PROJECT_DIR$/templets/default/index_about.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_article.htm" afterPath="$PROJECT_DIR$/templets/default/list_article.htm" />
     </list>
     <ignored path="nanfang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +35,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="list_article.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_contact.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/index_contact.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_about.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/index_about.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="304">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="65" />
               <folding>
                 <marker date="1490941128925" expanded="true" signature="646:677" ph="Select * Fro... ##@__homepageset" />
               </folding>
@@ -75,112 +77,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arc.partview.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/arc.partview.class.php">
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4341">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dedetag.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/dedetag.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1865">
-              <caret line="756" column="31" selection-start-line="756" selection-start-column="31" selection-end-line="756" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog_edit.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dede/templets/catalog_edit.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="242" column="15" selection-start-line="242" selection-start-column="15" selection-end-line="242" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog_add.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dede/templets/catalog_add.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="331" column="17" selection-start-line="331" selection-start-column="17" selection-end-line="331" selection-end-column="17" />
+            <state relative-caret-position="390">
+              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
               <folding>
-                <element signature="n#style#0;n#tr#9;n#table#3;n#td#0;n#form#0;n#tr#1;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1452391436000" expanded="true" signature="778:949" ph="SELECT tp.id... ##@__arctype" />
+                <marker date="1452391436000" expanded="true" signature="1082:1196" ph="SELECT ch.is... ##@__arctype" />
+                <marker date="1452391436000" expanded="true" signature="2129:2156" ph="SELECT * FRO... ##@__arcrank" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_edit.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dede/templets/article_edit.htm">
+      <file leaf-file-name="common.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/common.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="457" column="15" selection-start-line="457" selection-start-column="15" selection-end-line="457" selection-end-column="15" />
+            <state relative-caret-position="732">
+              <caret line="355" column="31" selection-start-line="355" selection-start-column="11" selection-end-line="355" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arctype.helper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/helpers/arctype.helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
               <folding>
-                <marker date="1490946128510" expanded="true" signature="2721:2795" ph="..." />
+                <element signature="e#6#115#0#PHP" expanded="true" />
+                <marker date="1490952781815" expanded="true" signature="462:505" ph="SELECT topid... ##@__arctype" />
+                <marker date="1490952781815" expanded="true" signature="462:506" ph="SELECT topid... ##@__arctype" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dede/article_edit.php">
+      <file leaf-file-name="dedesqli.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/dedesqli.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="105" column="11" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="11" />
+            <state relative-caret-position="468">
+              <caret line="351" column="12" selection-start-line="351" selection-start-column="8" selection-end-line="351" selection-end-column="12" />
               <folding>
-                <marker date="1452391434000" expanded="true" signature="864:1087" ph="SELECT ch.ty... ##@__archives" />
-                <marker date="1452391434000" expanded="true" signature="1234:1299" ph="SELECT * FRO... ##@__channeltype" />
-                <marker date="1452391434000" expanded="true" signature="1507:1549" ph="SELECT * FRO... ${$addtable}" />
-                <marker date="1452391434000" expanded="true" signature="5181:5736" ph="UPDATE ##@__a... " />
-                <marker date="1452391434000" expanded="true" signature="5887:5947" ph="SELECT addta... ##@__channeltype" />
-                <marker date="1452391434000" expanded="true" signature="6117:6257" ph="UPDATE `${$a... " />
-                <marker date="1452391434000" expanded="false" signature="7225:7231" ph=" " />
-                <marker date="1452391434000" expanded="false" signature="7231:7237" ph=" " />
-                <marker date="1452391434000" expanded="false" signature="7320:7326" ph=" " />
-                <marker date="1452391434000" expanded="false" signature="7326:7332" ph=" " />
-                <marker date="1452391434000" expanded="false" signature="7391:7397" ph=" " />
-                <marker date="1452391434000" expanded="false" signature="7397:7403" ph=" " />
-                <marker date="1452391434000" expanded="false" signature="7485:7491" ph=" " />
-                <marker date="1452391434000" expanded="false" signature="7491:7497" ph=" " />
+                <marker date="1452391436000" expanded="true" signature="11589:11622" ph="SELECT * FRO... $" />
+                <marker date="1452391436000" expanded="true" signature="13985:13994" ph="..." />
+                <marker date="1452391436000" expanded="true" signature="14075:14118" ph="..." />
+                <marker date="1452391436000" expanded="true" signature="14152:14162" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dede/article_add.php">
+      <file leaf-file-name="archive.helper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/helpers/archive.helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1273">
-              <caret line="98" column="11" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="11" />
+            <state relative-caret-position="114">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <marker date="1434612996000" expanded="true" signature="973:1026" ph="Select chann... ##@__arctype" />
-                <marker date="1434612996000" expanded="true" signature="1221:1275" ph="Select * Fro... ##@__channeltype" />
-                <marker date="1434612996000" expanded="true" signature="1339:1378" ph="SELECT COUNT... ##@_" />
-                <marker date="1434612996000" expanded="true" signature="5235:5763" ph="INSERT INTO `##@__archives`... " />
-                <marker date="1434612996000" expanded="true" signature="5883:5926" ph="DELETE FROM " />
-                <marker date="1434612996000" expanded="true" signature="6104:6164" ph="SELECT addta... ##@__channeltype" />
-                <marker date="1434612996000" expanded="true" signature="6273:6317" ph="DELETE FROM " />
-                <marker date="1434612996000" expanded="true" signature="6354:6397" ph="DELETE FROM " />
-                <marker date="1434612996000" expanded="true" signature="6578:6737" ph="INSERT INTO `${{$addtable}}`... " />
-                <marker date="1434612996000" expanded="true" signature="6855:6899" ph="Delete From " />
-                <marker date="1434612996000" expanded="true" signature="6936:6979" ph="Delete From " />
-                <marker date="1434612996000" expanded="true" signature="7898:7972" ph="UPDATE `##@__... " />
-                <marker date="1434612996000" expanded="false" signature="8269:8275" ph=" " />
-                <marker date="1434612996000" expanded="false" signature="8275:8281" ph=" " />
-                <marker date="1434612996000" expanded="false" signature="8340:8346" ph=" " />
-                <marker date="1434612996000" expanded="false" signature="8346:8352" ph=" " />
-                <marker date="1434612996000" expanded="false" signature="8438:8444" ph=" " />
-                <marker date="1434612996000" expanded="false" signature="8444:8450" ph=" " />
-                <marker date="1434612996000" expanded="false" signature="8535:8541" ph=" " />
-                <marker date="1434612996000" expanded="false" signature="8541:8547" ph=" " />
-                <marker date="1434612996000" expanded="true" signature="8589:8617" ph="..." />
+                <marker date="1452391436000" expanded="true" signature="691:835" ph="SELECT arc.*... ##@__arctiny" />
+                <marker date="1452391436000" expanded="true" signature="1086:1313" ph="SELECT arc.*... ${{$chRow['maintable']}}" />
+                <marker date="1452391436000" expanded="true" signature="1374:1639" ph="SELECT arc.*... ${{$chRow['addtable']}}" />
+                <marker date="1452391436000" expanded="true" signature="3076:3198" ph="SELECT ch.ma... ##@_" />
+                <marker date="1452391436000" expanded="true" signature="3282:3408" ph="SELECT ch.ma... ##@_" />
+                <marker date="1452391436000" expanded="true" signature="3466:3528" ph="SELECT maint... ##@_" />
+                <marker date="1452391436000" expanded="true" signature="3820:3866" ph="SELECT tag F... ##@__taglist" />
+                <marker date="1452391436000" expanded="true" signature="4757:4952" ph="INSERT INTO `##@__arctiny`... " />
+                <marker date="1452391436000" expanded="true" signature="5537:5665" ph="UPDATE `##@__... " />
+                <marker date="1452391436000" expanded="true" signature="6419:6480" ph="DELETE FROM " />
+                <marker date="1452391436000" expanded="true" signature="6530:6591" ph="UPDATE `##@__... " />
+                <marker date="1452391436000" expanded="true" signature="6698:6789" ph="UPDATE `##@__... " />
+                <marker date="1452391436000" expanded="true" signature="7900:7950" ph="SELECT * FRO... ##@__tagindex" />
+                <marker date="1452391436000" expanded="true" signature="8037:8217" ph="INSERT INTO `##@__tagindex`... " />
+                <marker date="1452391436000" expanded="true" signature="8339:8417" ph="UPDATE `##@__... " />
+                <marker date="1452391436000" expanded="true" signature="8526:8643" ph="INSERT INTO `##@__taglist`... " />
               </folding>
             </state>
           </provider>
@@ -206,11 +177,9 @@
         <option value="$PROJECT_DIR$/templets/default/article_article.htm" />
         <option value="$PROJECT_DIR$/templets/default/index_article.htm" />
         <option value="$PROJECT_DIR$/templets/default/index_news.htm" />
-        <option value="$PROJECT_DIR$/templets/default/list_article.htm" />
         <option value="$PROJECT_DIR$/templets/default/left.htm" />
         <option value="$PROJECT_DIR$/templets/default/index_contact.htm" />
         <option value="$PROJECT_DIR$/templets/default/demo.html" />
-        <option value="$PROJECT_DIR$/templets/default/index.htm" />
         <option value="$PROJECT_DIR$/templets/default/article_pic.htm" />
         <option value="$PROJECT_DIR$/skin/css/master.css" />
         <option value="$PROJECT_DIR$/templets/default/footer.htm" />
@@ -222,7 +191,6 @@
         <option value="$PROJECT_DIR$/include/common.inc.php" />
         <option value="$PROJECT_DIR$/templets/default/head.htm" />
         <option value="$PROJECT_DIR$/include/common.func.php" />
-        <option value="$PROJECT_DIR$/include/dedetag.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/dede/templets/catalog_edit.htm" />
         <option value="$PROJECT_DIR$/dede/templets/catalog_add.htm" />
@@ -231,6 +199,12 @@
         <option value="$PROJECT_DIR$/dede/templets/archives_add.htm" />
         <option value="$PROJECT_DIR$/dede/templets/archives_edit.htm" />
         <option value="$PROJECT_DIR$/dede/templets/article_edit.htm" />
+        <option value="$PROJECT_DIR$/templets/default/index.htm" />
+        <option value="$PROJECT_DIR$/include/dedetag.class.php" />
+        <option value="$PROJECT_DIR$/include/helpers/archive.helper.php" />
+        <option value="$PROJECT_DIR$/include/helpers/arctype.helper.php" />
+        <option value="$PROJECT_DIR$/templets/default/list_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/index_about.htm" />
       </list>
     </option>
   </component>
@@ -299,57 +273,53 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DedeCMSX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DedeCMSX" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taglib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DedeCMSX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DedeCMSX" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dede" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DedeCMSX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DedeCMSX" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dede" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="templets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,12 +412,12 @@
       <workItem from="1490836491099" duration="4719000" />
       <workItem from="1490875510143" duration="586000" />
       <workItem from="1490880522867" duration="600000" />
-      <workItem from="1490923821339" duration="19072000" />
+      <workItem from="1490923821339" duration="26895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81078000" />
+    <option name="totallyTimeSpent" value="88901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
@@ -488,53 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skin/css/child_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/css/subpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/css/article_pic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/footer.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/list_pic.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skin/js/jquery.ad-gallery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -552,39 +475,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/arc.archives.class - 副本.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/helpers/archive.helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="691:835" ph="SELECT arc.*... ##@__arctiny" />
-            <marker date="1452391436000" expanded="true" signature="1086:1313" ph="SELECT arc.*... ${{$chRow['maintable']}}" />
-            <marker date="1452391436000" expanded="true" signature="1374:1639" ph="SELECT arc.*... ${{$chRow['addtable']}}" />
-            <marker date="1452391436000" expanded="true" signature="3076:3198" ph="SELECT ch.ma... ##@_" />
-            <marker date="1452391436000" expanded="true" signature="3282:3408" ph="SELECT ch.ma... ##@_" />
-            <marker date="1452391436000" expanded="true" signature="3466:3528" ph="SELECT maint... ##@_" />
-            <marker date="1452391436000" expanded="true" signature="3820:3866" ph="SELECT tag F... ##@__taglist" />
-            <marker date="1452391436000" expanded="true" signature="4757:4952" ph="INSERT INTO `##@__arctiny`... " />
-            <marker date="1452391436000" expanded="true" signature="5537:5665" ph="UPDATE `##@__... " />
-            <marker date="1452391436000" expanded="true" signature="6419:6480" ph="DELETE FROM " />
-            <marker date="1452391436000" expanded="true" signature="6530:6591" ph="UPDATE `##@__... " />
-            <marker date="1452391436000" expanded="true" signature="6698:6789" ph="UPDATE `##@__... " />
-            <marker date="1452391436000" expanded="true" signature="7900:7950" ph="SELECT * FRO... ##@__tagindex" />
-            <marker date="1452391436000" expanded="true" signature="8037:8217" ph="INSERT INTO `##@__tagindex`... " />
-            <marker date="1452391436000" expanded="true" signature="8339:8417" ph="UPDATE `##@__... " />
-            <marker date="1452391436000" expanded="true" signature="8526:8643" ph="INSERT INTO `##@__taglist`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/helper.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -740,39 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/dedesqli.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4969">
-          <caret line="599" column="1" selection-start-line="599" selection-start-column="1" selection-end-line="599" selection-end-column="1" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="11589:11622" ph="SELECT * FRO... $" />
-            <marker date="1452391436000" expanded="true" signature="13985:13994" ph="..." />
-            <marker date="1452391436000" expanded="true" signature="14075:14118" ph="..." />
-            <marker date="1452391436000" expanded="true" signature="14152:14162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/config.cache.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/common.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3993">
-          <caret line="330" column="28" selection-start-line="330" selection-start-column="14" selection-end-line="330" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3553">
-          <caret line="263" column="59" selection-start-line="263" selection-start-column="59" selection-end-line="263" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -783,18 +644,6 @@
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <marker date="1452391436000" expanded="true" signature="1035:1082" ph="SELECT * FRO... ##@__channeltype" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/common.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-          <folding>
-            <marker date="1490941095344" expanded="true" signature="5995:6044" ph="..." />
-            <marker date="1490941095344" expanded="true" signature="6079:6200" ph="..." />
-            <marker date="1490941095344" expanded="true" signature="6288:6334" ph="..." />
           </folding>
         </state>
       </provider>
@@ -844,14 +693,6 @@
           <folding>
             <marker date="1452391436000" expanded="true" signature="18073:18194" ph="SELECT keywo... ##@_" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/dedetag.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1865">
-          <caret line="756" column="31" selection-start-line="756" selection-start-column="31" selection-end-line="756" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,8 +751,8 @@
         <state relative-caret-position="335">
           <caret line="304" column="53" selection-start-line="304" selection-start-column="49" selection-end-line="304" selection-end-column="53" />
           <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -929,8 +770,8 @@
         <state relative-caret-position="570">
           <caret line="484" column="18" selection-start-line="484" selection-start-column="18" selection-end-line="484" selection-end-column="18" />
           <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#tr#3;n#table#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,7 +781,7 @@
         <state relative-caret-position="392">
           <caret line="331" column="17" selection-start-line="331" selection-start-column="17" selection-end-line="331" selection-end-column="17" />
           <folding>
-            <element signature="n#style#0;n#tr#9;n#table#3;n#td#0;n#form#0;n#tr#1;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#9;n#table#3;n#td#0;n#form#0;n#tr#1;n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -998,14 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/taglib/php.lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dede/templets/article_edit.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -1016,18 +849,166 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/taglib/php.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3667">
+          <caret line="189" column="25" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/dedetag.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="361" column="13" selection-start-line="361" selection-start-column="13" selection-end-line="361" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/helper.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/arc.partview.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4341">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="-2023">
+          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/common.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <marker date="1490941095344" expanded="true" signature="5995:6044" ph="..." />
+            <marker date="1490941095344" expanded="true" signature="6079:6200" ph="..." />
+            <marker date="1490941095344" expanded="true" signature="6288:6334" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/helpers/archive.helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1452391436000" expanded="true" signature="691:835" ph="SELECT arc.*... ##@__arctiny" />
+            <marker date="1452391436000" expanded="true" signature="1086:1313" ph="SELECT arc.*... ${{$chRow['maintable']}}" />
+            <marker date="1452391436000" expanded="true" signature="1374:1639" ph="SELECT arc.*... ${{$chRow['addtable']}}" />
+            <marker date="1452391436000" expanded="true" signature="3076:3198" ph="SELECT ch.ma... ##@_" />
+            <marker date="1452391436000" expanded="true" signature="3282:3408" ph="SELECT ch.ma... ##@_" />
+            <marker date="1452391436000" expanded="true" signature="3466:3528" ph="SELECT maint... ##@_" />
+            <marker date="1452391436000" expanded="true" signature="3820:3866" ph="SELECT tag F... ##@__taglist" />
+            <marker date="1452391436000" expanded="true" signature="4757:4952" ph="INSERT INTO `##@__arctiny`... " />
+            <marker date="1452391436000" expanded="true" signature="5537:5665" ph="UPDATE `##@__... " />
+            <marker date="1452391436000" expanded="true" signature="6419:6480" ph="DELETE FROM " />
+            <marker date="1452391436000" expanded="true" signature="6530:6591" ph="UPDATE `##@__... " />
+            <marker date="1452391436000" expanded="true" signature="6698:6789" ph="UPDATE `##@__... " />
+            <marker date="1452391436000" expanded="true" signature="7900:7950" ph="SELECT * FRO... ##@__tagindex" />
+            <marker date="1452391436000" expanded="true" signature="8037:8217" ph="INSERT INTO `##@__tagindex`... " />
+            <marker date="1452391436000" expanded="true" signature="8339:8417" ph="UPDATE `##@__... " />
+            <marker date="1452391436000" expanded="true" signature="8526:8643" ph="INSERT INTO `##@__taglist`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/dedesqli.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="351" column="12" selection-start-line="351" selection-start-column="8" selection-end-line="351" selection-end-column="12" />
+          <folding>
+            <marker date="1452391436000" expanded="true" signature="11589:11622" ph="SELECT * FRO... $" />
+            <marker date="1452391436000" expanded="true" signature="13985:13994" ph="..." />
+            <marker date="1452391436000" expanded="true" signature="14075:14118" ph="..." />
+            <marker date="1452391436000" expanded="true" signature="14152:14162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/common.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="355" column="31" selection-start-line="355" selection-start-column="11" selection-end-line="355" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/helpers/arctype.helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#115#0#PHP" expanded="true" />
+            <marker date="1490952781815" expanded="true" signature="462:505" ph="SELECT topid... ##@__arctype" />
+            <marker date="1490952781815" expanded="true" signature="462:506" ph="SELECT topid... ##@__arctype" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+          <folding>
+            <marker date="1452391436000" expanded="true" signature="778:949" ph="SELECT tp.id... ##@__arctype" />
+            <marker date="1452391436000" expanded="true" signature="1082:1196" ph="SELECT ch.is... ##@__arctype" />
+            <marker date="1452391436000" expanded="true" signature="2129:2156" ph="SELECT * FRO... ##@__arcrank" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_about.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/article_article_m.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-883">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_contact.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="304">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="65" />
           <folding>
             <marker date="1490941128925" expanded="true" signature="646:677" ph="Select * Fro... ##@__homepageset" />
           </folding>

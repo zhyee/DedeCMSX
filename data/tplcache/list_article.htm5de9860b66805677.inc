@@ -18,21 +18,20 @@ $z[7]=Array("field","",1645,1661);
 $z[7][4]['name']="id";
 $z[8]=Array("include","",3417,3452);
 $z[8][4]['filename']="head.htm";
-$z[9]=Array("include","",3479,3514);
+$z[9]=Array("include","",3484,3519);
 $z[9][4]['filename']="left.htm";
-$z[10]=Array("field","",3906,3935);
+$z[10]=Array("field","",3911,3940);
 $z[10][4]['name']="position";
-$z[11]=Array("channel","\r\n                       <li><a href='[field:typelink/]'>[field:typename/]</a></li>\r\n                       ",3993,4236);
+$z[11]=Array("channel","\r\n                            <li><a rel=\"[field:id/]\" href='[field:typelink/]'>[field:typename/]</a></li>\r\n                       ",3998,4188);
 $z[11][4]['type']="son";
 $z[11][4]['typeid']="2";
 $z[11][4]['row']="5";
-$z[11][4]['currentstyle']="<li><a href='~typelink~' class='current'>~typename~</a></li>";
-$z[12]=Array("list","\r\n         <li> <a href=\"[field:arcurl/]\" title=\"[field:title/]\" class=\"pg-color\">[field:title/]</a> <span>[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span> </li>\r\n         ",4529,4745);
+$z[12]=Array("list","\r\n         <li> <a href=\"[field:arcurl/]\" title=\"[field:title/]\" class=\"pg-color\">[field:title/]</a> <span>[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span> </li>\r\n         ",4481,4697);
 $z[12][4]['pagesize']="20";
-$z[13]=Array("pagelist","",4786,4857);
+$z[13]=Array("pagelist","",4738,4809);
 $z[13][4]['listitem']="info,index,end,pre,next,pageno";
 $z[13][4]['listsize']="5";
-$z[14]=Array("include","",4949,4986);
+$z[14]=Array("include","",4901,4938);
 $z[14][4]['filename']="footer.htm";
 
 ?>

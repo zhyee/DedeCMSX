@@ -55,6 +55,8 @@
 {dede:include filename="head.htm"/} 
 <!-- 头部 end --> 
 
+   <?php helper('arctype'); ?>
+
 {dede:include filename="left.htm"/}
    <div class="main_c">
        <div class="main" id="content">
@@ -71,8 +73,8 @@
                            +{dede:field name='position'/}
                        </div>
 
-                       {dede:channel type='son' typeid="2" row='5' currentstyle="<li><a href='~typelink~' class='current'>~typename~</a></li>"}
-                       <li><a href='[field:typelink/]'>[field:typename/]</a></li>
+                       {dede:channel type='son' typeid="<?php echo getTopTypeid(); ?>" row='5'}
+                            <li><a rel="[field:id/]" href='[field:typelink/]'>[field:typename/]</a></li>
                        {/dede:channel}
 
                        <div class="c"></div>
