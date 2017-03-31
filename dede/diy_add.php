@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('c_New');
@@ -33,7 +33,7 @@ else
         exit();
     }
     $public = isset($public) && is_numeric($public) ? $public : 0;
-    $name = dede_htmlspecialchars($name);
+    $name = htmlspecialchars($name);
     $row = $dsql->GetOne("SELECT * FROM #@__diyforms WHERE diyid='$diyid' OR `table` LIKE '$table' OR name LIKE '$name' ");
     if(is_array($row))
     {

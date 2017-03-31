@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('c_Edit');
@@ -737,7 +737,7 @@ else if($dopost == 'modifysearch')
         $formssql = addslashes($forms);
         $query = "REPLACE INTO #@__advancedsearch(mid, maintable, mainfields, addontable, addonfields, forms, template) VALUES('$mid','$maintable','$mainstring','$addontable','$addonstring','$formssql', '$template')";
         $dsql->ExecuteNoneQuery($query);
-        $formshtml = dede_htmlspecialchars($forms);
+        $formshtml = htmlspecialchars($forms);
         echo '<meta http-equiv="Content-Type" content="text/html; charset='.$cfg_soft_lang.'">';
         echo "下面为生成的html表单，请自行复制，根据自己需求修改样式后粘贴到对应的模板中<br><br><textarea cols=\"100\"  rows=\"10\">".$forms."</textarea>";
         echo '<br />预览：<br /><hr>';

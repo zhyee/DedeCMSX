@@ -4,7 +4,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
  
 document.write("<style type=\"text/css\">.close{float:right;cursor:default;}</style>")
@@ -130,3 +130,4 @@ function initDrag(e) {
 }   
 document.onmousedown = initDrag;   
 document.onmouseup = new Function("isdrag=false");  
+

@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 define('DEDEADMIN', str_replace("\\", '/', dirname(__FILE__) ) );
 require_once(DEDEADMIN.'/../include/common.inc.php');
@@ -36,21 +36,6 @@ if($cuserLogin->getUserID()==-1)
 {
     header("location:login.php?gotopage=".urlencode($dedeNowurl));
     exit();
-}
-
-function XSSClean($val)
-{
-
-    if (is_array($val))
-    {
-        while (list($key) = each($val))
-        {
-            if(in_array($key,array('tags','body','dede_fields','dede_addonfields','dopost','introduce'))) continue;
-            $val[$key] = XSSClean($val[$key]);
-        }
-        return $val;
-    }
-    return RemoveXss($val);
 }
 
 if($cfg_dede_log=='Y')
@@ -107,43 +92,6 @@ if(file_exists($cacheFile)) require_once($cacheFile);
 
 //更新服务器
 require_once (DEDEDATA.'/admin/config_update.php');
-
-if(strlen($cfg_cookie_encode)<=10)
-{
-    $chars='abcdefghigklmnopqrstuvwxwyABCDEFGHIGKLMNOPQRSTUVWXWY0123456789';
-    $hash='';
-    $length = rand(28,32);
-    $max = strlen($chars) - 1;
-    for($i = 0; $i < $length; $i++) {
-        $hash .= $chars[mt_rand(0, $max)];
-    }
-	$dsql->ExecuteNoneQuery("UPDATE `#@__sysconfig` SET `value`='{$hash}' WHERE varname='cfg_cookie_encode' ");
-	$configfile = DEDEDATA.'/config.cache.inc.php';
-    if(!is_writeable($configfile))
-    {
-        echo "配置文件'{$configfile}'不支持写入，无法修改系统配置参数！";
-        exit();
-    }
-    $fp = fopen($configfile,'w');
-    flock($fp,3);
-    fwrite($fp,"<"."?php\r\n");
-    $dsql->SetQuery("SELECT `varname`,`type`,`value`,`groupid` FROM `#@__sysconfig` ORDER BY aid ASC ");
-    $dsql->Execute();
-    while($row = $dsql->GetArray())
-    {
-        if($row['type']=='number')
-        {
-            if($row['value']=='') $row['value'] = 0;
-            fwrite($fp,"\${$row['varname']} = ".$row['value'].";\r\n");
-        }
-        else
-        {
-            fwrite($fp,"\${$row['varname']} = '".str_replace("'",'',$row['value'])."';\r\n");
-        }
-    }
-    fwrite($fp,"?".">");
-    fclose($fp);
-}
 
 /**
  *  更新栏目缓存

@@ -1,9 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>智能标记向导</title>
-<link href="css/base.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<script language="javascript" src="js/jquery.min.js" type="text/javascript"></script>	
+<script type="text/javascript" src="js/admin.jquery.configuration.js"></script>
+
+<script language="javascript" src="js/global.js"></script>
+<script language="javascript" src="../include/js/dedeajax2.js"></script>
 <script language="JavaScript">
 function ChangeListStyle(){
    var itxt = document.getElementById("myinnertext");
@@ -26,7 +34,29 @@ function SelectArcList(fname){
 }
 </script>
 </head>
-<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+<body>
+<div id="body-wrapper"> <!-- Wrapper for the radial gradient background -->
+<?php include(DEDEADMIN.'/templets/menu.htm'); ?>
+<script language="javascript">
+$("#templets").addClass("current");$("#mytag_tag_guide").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+					<h3>增加自定义标记</h3>
+					
+					<ul class="content-box-tabs">
+
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+					
+<div class="tab-content  default-tab" id="tab1">				
 <center>
 <span style="display:none" id="list1">
 ·[field:textlink/]([field:pubdate function=MyDate('m-d',@me)/])<br/>
@@ -49,23 +79,21 @@ function SelectArcList(fname){
   <tr><td>[field:info/]</td></tr>
 </table>
 </span>
-<table width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#D6D6D6" align="center">
+<table width="98%" border="0" cellpadding="2" cellspacing="1" align="center">
   <form action="mytag_tag_guide_ok.php" method="post" target="stafrm" name="form1">
   <input type="hidden" name="dopost" value="gettag"/>
+
   <tr> 
-    <td height="28" align="left" background="images/tbg.gif"  style="padding-left:10px;"><b><a href="mytag_main.php" align="left"><u>自定义标记管理</u></a></b> &gt;&gt; 智能标记生成向导：</td>
-  </tr>
-  <tr> 
-    <td height="265" valign="top" bgcolor="#FFFFFF">
+    <td height="265" valign="top">
     	<table width="99%" border="0" align="right" cellpadding="0" cellspacing="0"  style="text-align:left;">
           <tr> 
-            <td height="28">列表样式：</td>
+            <td>列表样式：</td>
           </tr>
           <tr> 
-            <td height="72">
+            <td >
             	<table width="99%" border="0" cellspacing="0" cellpadding="0">
                 <tr> 
-                  <td width="25%" height="126">
+                  <td width="25%">
                   	<img src="images/g_t2.gif" width="130" height="100" /> 
                     <input name="liststyle" class="np" type="radio" onClick="ChangeListStyle()" value="1" checked='1' />                  </td>
                   <td width="25%">
@@ -81,7 +109,7 @@ function SelectArcList(fname){
               </table>             </td>
           </tr>
           <tr> 
-            <td height="28">调用栏目： 
+            <td>调用栏目： 
     <?php
        $tl = new TypeLink(0);
        $typeOptions = $tl->GetOptionArray(0,$admin_catalogs,0,1);
@@ -92,7 +120,7 @@ function SelectArcList(fname){
 		?>            </td>
           </tr>
           <tr> 
-            <td height="28"> 限定频道： 
+            <td> 限定频道： 
     <?php
      echo "<select name='channel' style='width:100px'>\r\n";
      echo "<option value='0' selected>不限频道...</option>\r\n";
@@ -118,7 +146,7 @@ function SelectArcList(fname){
 		?>            </td>
           </tr>
           <tr> 
-            <td height="28">调用记录条数： 
+            <td>调用记录条数： 
               <input name="row" type="text" id="row" value="10" size="4" />
               　显示列数： 
               <input name="col" type="text" id="col" value="1" size="4" />
@@ -127,7 +155,7 @@ function SelectArcList(fname){
               （1 字节 = 0.5个中文字）</td>
           </tr>
           <tr> 
-            <td height="28"> 高级筛选： 
+            <td> 高级筛选： 
               <input name="types[]" type="checkbox" id="type[]" value="image" class="np" />
               带缩略图 
               <input name="types[]" type="checkbox" id="type[]" value="commend" class="np" />
@@ -138,7 +166,7 @@ function SelectArcList(fname){
               （&quot;,&quot;逗号分开）              </td>
           </tr>
           <tr> 
-            <td height="28">排列顺序： 
+            <td>排列顺序： 
               <select name="orderby" id="orderby" style="width:120">
                 <option value="sortrank">置顶权限值</option>
                 <option value="pubdate" selected>发布时间</option>
@@ -156,23 +184,24 @@ function SelectArcList(fname){
               由低到高</td>
           </tr>
           <tr> 
-            <td height="28">文档发布时间： 
+            <td>文档发布时间： 
               <input name="subday" type="text" id="subday" value="0" size="6" />
               天以内 （0 表示不限）</td>
           </tr>
           <tr>
-            <td height="28">提取特定文档： <input name="selarc" type="button" id="selarc" value="选择节点文章" style="width:100" onClick="SelectArcList('form1.arcid');">&nbsp;&nbsp;
+            <td height="28">提取特定文档： 
+            <input class="button" name="selarc" type="button" id="selarc" value="选择节点文章" onClick="SelectArcList('form1.arcid');" />&nbsp;&nbsp;
             <textarea name="arcid" rows="3" id="arcid" style="width:90%"></textarea>
             </td>
           </tr>
           <tr> 
-            <td height="28">单条记录样式(InnerText)：</td>
+            <td>单条记录样式(InnerText)：</td>
           </tr>
           <tr>
-            <td height="99"><textarea name="innertext" cols="80" rows="6" id="myinnertext">·[field:textlink/]([field:pubdate function=MyDate('m-d',@me)/])<br/></textarea></td>
+            <td ><textarea name="innertext" cols="80" rows="6" id="myinnertext">·[field:textlink/]([field:pubdate function=MyDate('m-d',@me)/])<br/></textarea></td>
           </tr>
           <tr> 
-            <td height="80">
+            <td>
             	<font color="#CC6600">支持字段：id,title,color,typeid,ismake,description,pubdate,senddate,arcrank,click,litpic,typedir,typename,arcurl,typeurl,
               <br />
               stime(pubdate 的&quot;0000-00-00&quot;格式),textlink,typelink,imglink,image 
@@ -180,10 +209,11 @@ function SelectArcList(fname){
               ·Pubdate发布时间的调用参数 [field:pubdate function=MyDate('Y-m-d H:i:s',@me)/]              </font>            </td>
           </tr>
           <tr> 
-            <td height="39">
-            	<input name="Submit1" type="button" id="Submit1" onClick="DoSubmit('gettag')" value="生成模板调用标记" class="coolbg np" />
+            <td>
+            <input class="button" name="Submit1" type="button" id="Submit1" onClick="DoSubmit('gettag')" value="生成模板调用标记" />
+
             	&nbsp;
-              <input name="Submit2" type="button" id="Submit2" onClick="DoSubmit('savetag')" value="保存为自定义标记" class="coolbg np" />              </td>
+                <input class="button" name="Submit2" type="button" id="Submit2" onClick="DoSubmit('savetag')" value="保存为自定义标记" />            </td>
           </tr>
         </table></td>
   </tr>
@@ -200,5 +230,22 @@ function SelectArcList(fname){
   </tr>
 </table>
 </center>
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           <?php include(DEDEADMIN.'/templets/footer.htm'); ?>
+			
+		</div> <!-- End #main-content -->	
+	</div>
 </body>
 </html>

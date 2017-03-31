@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_Task');

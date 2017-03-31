@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('a_Edit,a_AccEdit,a_MyEdit');
@@ -53,7 +53,6 @@ if($dopost!='save')
     $ddmaxwidth = $addRow["ddmaxwidth"];
     $pagepicnum = $addRow["pagepicnum"];
     $tags = GetTags($aid);
-    $arcRow=XSSClean($arcRow);$addRow=XSSClean($addRow);
     include DedeInclude("templets/album_edit.htm");
     exit();
 }
@@ -410,24 +409,17 @@ else if($dopost=='save')
     }
     ClearMyAddon($id, $title);
     //返回成功信息
-    $msg =
-    " 　　请选择你的后续操作：
+    $msg = "成功更改图集！<br />
     <a href='album_add.php?cid=$typeid'><u>继续发布图片</u></a>
-    &nbsp;&nbsp;
-    <a href='archives_do.php?aid=".$id."&dopost=editArchives'><u>查看更改</u></a>
-    &nbsp;&nbsp;
-    <a href='$arcUrl' target='_blank'><u>预览文档</u></a>
-    &nbsp;&nbsp;
+    &nbsp;
+    <a href='archives_do.php?aid=".$id."&dopost=editArchives' target='_blank'><u>查看更改</u></a>
+    &nbsp;
+    <a href='$arcUrl' target='_blank'><u>预览图片</u></a>
+    &nbsp;
     <a href='catalog_do.php?cid=$typeid&dopost=listArchives'><u>管理已发布图片</u></a>
-    &nbsp;&nbsp;
+    &nbsp;<br />
     $backurl
-    ";
-
-    $wintitle = "成功更改图集！";
-    $wecome_info = "文章管理::更改图集";
-    $win = new OxWindow();
-    $win->AddTitle("成功更改一个图集：");
-    $win->AddMsgItem($msg);
-    $winform = $win->GetWindow("hand","&nbsp;",false);
-    $win->Display();
+  ";
+  $msg = "<style type='text/css'>#errorbox{border:#CCCCCC 1px dashed; width:500px; margin:30px auto; line-height:25px; background:#FFF;}#errortitle{height:30px; font-weight:bold; background-color:#CCCCCC; padding-left:10px;}#errorinfo{height:100px; padding:10px 10px;}#errorlink{height:30px; text-align:center;}#indexad1{line-height:25px; width:226px; height:100px; overflow:hidden; margin-left:10px;}#indexad2{ padding:0; margin:0;}#indexad3{lint-height:25px; width:160px; height:100px; margin-left:40px;}}</style><div id='errorbox'><div id='errortitle'>系统信息</div><div id='errorinfo'>{$msg}</div></div>".GetUpdateTest();
+    echo $msg;
 }

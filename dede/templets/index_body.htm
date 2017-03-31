@@ -30,15 +30,8 @@ $(function()
 	{
 		$("#__testEvn").html(data);
 	}
-  });
-   $.get("index_body.php?dopost=get_seo",function(data)
-  {
-	if(data !== '')
-	{
-		$("#SEOInfo").html(data);
-	}
-  });
-});
+  })
+})
 </script>
 </head>
 <body leftmargin="8" topmargin='8' bgcolor="#FFFFFF">
@@ -192,7 +185,7 @@ $(function()
                     </tr>
                     <tr>
                         <td height='36' class='nline' style="text-align:right">鸣谢：</td>
-                        <td class='nline' style="text-align:left"><a href="http://www.desdev.cn/dedecms-thanks.html" target="_blank" style="color:blue">热心用户</a>、<a href="http://www.dede58.com/thanks.html" target="_blank" style="color:blue">赞助商</a></td>
+                        <td class='nline' style="text-align:left"><a href="http://www.desdev.cn/dedecms-thanks.html" target="_blank" style="color:blue">热心用户</a>、<a href="http://www.dedecms.com/thanks.html" target="_blank" style="color:blue">赞助商</a></td>
                     </tr>
                 </table>
             </dd>
@@ -211,12 +204,6 @@ $(function()
                 正在载入中...
             </dd>
         </dl><!--信息统计结束-->
-<dl class='dbox' id="item7">
-            <dt class='lside'><div class='l'>SEO信息</div></dt>
-            <dd id='SEOInfo'>
-			正在载入中……
-            </dd>
-        </dl>
         <dl class='dbox' id="item7">
             <dt class='lside'><div class='l'>最新文档</div></dt>
             <dd id='listNews'>
@@ -263,13 +250,12 @@ $(function()
     </table>
             </dd>
         </dl><!--最新文档结束-->
-        
     </div>
 </div>
 <br style='clear:both'/>
 <!-- //底部 -->
 <div align="center" class="footer">
-Copyright &copy; 2004-2011 <a href='http://www.dede58.com' target='_blank'><u>DedeCMS</u></a>. 织梦科技 版权所有
+Copyright &copy; 2004-2011 <a href='http://www.dedecms.com' target='_blank'><u>DedeCMS</u></a>. 织梦科技 版权所有
 </div>
 
 <!--  下面是隐藏的项目  -->

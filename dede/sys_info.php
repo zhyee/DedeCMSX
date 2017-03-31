@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_Edit');
@@ -142,13 +142,13 @@ EOT;
         echo "<input type='radio' class='np' name='edit___{$row['varname']}' value='N'$c2>否 ";
     }else if($row['type']=='bstring')
     {
-        echo "<textarea name='edit___{$row['varname']}' row='4' id='edit___{$row['varname']}' class='textarea_info' style='width:98%;height:50px'>".dede_htmlspecialchars($row['value'])."</textarea>";
+        echo "<textarea name='edit___{$row['varname']}' row='4' id='edit___{$row['varname']}' class='textarea_info' style='width:98%;height:50px'>".htmlspecialchars($row['value'])."</textarea>";
     }else if($row['type']=='number')
     {
         echo "<input type='text' name='edit___{$row['varname']}' id='edit___{$row['varname']}' value='{$row['value']}' style='width:30%'>";
     }else
     {
-        echo "<input type='text' name='edit___{$row['varname']}' id='edit___{$row['varname']}' value=\"".dede_htmlspecialchars($row['value'])."\" style='width:80%'>";
+        echo "<input type='text' name='edit___{$row['varname']}' id='edit___{$row['varname']}' value=\"".htmlspecialchars($row['value'])."\" style='width:80%'>";
     }
     ?>
 </td>
@@ -168,17 +168,6 @@ EOT;
           </tr></table>';
     }
     exit;
-} else if ($dopost=='make_encode')
-{
-    $chars='abcdefghigklmnopqrstuvwxwyABCDEFGHIGKLMNOPQRSTUVWXWY0123456789';
-    $hash='';
-    $length = rand(28,32);
-    $max = strlen($chars) - 1;
-    for($i = 0; $i < $length; $i++) {
-        $hash .= $chars[mt_rand(0, $max)];
-    }
-    echo $hash;
-    exit();
 }
 
 include DedeInclude('templets/sys_info.htm');

@@ -1,56 +1,66 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php echo $cfg_softname." ".$cfg_version; ?></title>
-<link href="css/base.css" rel="stylesheet" type="text/css" />
-<link href="css/login.css" rel="stylesheet" type="text/css" />
-<script src="../include/js/jquery/jquery.js" language="javascript" type="text/javascript"></script>
-<script type="text/javascript">
-$ = jQuery;
-function changeAuthCode() {
-	var num = 	new Date().getTime();
-	var rand = Math.round(Math.random() * 10000);
-	num = num + rand;
-	$('#ver_code').css('visibility','visible');
-	if ($("#vdimgck")[0]) {
-		$("#vdimgck")[0].src = "../include/vdimgck.php?tag=" + num;
-	}
-	return false;	
-}
-</script>
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/invalid.css" type="text/css" media="screen" />	
 </head>
-<body>
-<div id="login-box">
-   <div class="login-top"><a href="../index.php" target="_blank" title="返回网站主页">返回网站主页</a></div>
-   <?php echo $redmsg; ?>
-   <div class="login-main">
+<body id="login">		
+		<div id="login-wrapper" class="png_bg">
+			<div id="login-top">
+			
+				<h1>VMACMS</h1>
+				<a href="http://www.dede58.com"><img id="logo" src="images/logo.png" alt="VMACMS Admin logo" /></a>
+			</div> <!-- End #logn-top -->
+			
+			<div id="login-content">
+				
     <form name="form1" method="post" action="login.php">
       <input type="hidden" name="gotopage" value="<?php if(!empty($gotopage)) echo RemoveXSS($gotopage);?>" />
       <input type="hidden" name="dopost" value="login" />
       <input name='adminstyle' type='hidden' value='newdedecms' />
-      <dl>
-	   <dt>用户名：</dt>
-	   <dd><input type="text" name="userid"/></dd>
-	   <dt>密&nbsp;&nbsp;码：</dt>
-	   <dd><input type="password" class="alltxt" name="pwd"/></dd>
-	   <?php
-        	if(preg_match("/6/",$safe_gdopen))
-        	{
-        ?>
-	   <dt>验证码：</dt>
-	   <dd><input id="vdcode" type="text" name="validate" style="text-transform:uppercase;"/><img id="vdimgck" align="absmiddle" onClick="this.src=this.src+'?'" style="cursor: pointer;" alt="看不清？点击更换" src="../include/vdimgck.php"/>
-           <a href="#" onClick="changeAuthCode();">看不清？ </a></dd>
-		<?php
-       		}
-		?>
-		<dt>&nbsp;</dt>
-		<dd><button type="submit" name="sm1" class="login-btn" onclick="this.form.submit();">登录</button></dd>
-	 </dl>
-	</form>
-   </div>
-   <div class="login-power">Powered by<a href="http://www.dede58.com" title="DedeCMS官网"><strong>DedeCMS<?php echo $cfg_version; ?></strong></a>&copy; 2004-2011 <a href="http://www.desdev.cn" target="_blank">DesDev</a> Inc.</div>
-</div>
- 
-</body>
-</html>
+				
+					<div class="notification information png_bg">
+						<div>
+							<?php if(empty($loginerror)) echo '请输入用户名、密码以及验证码登陆.'; else echo $loginerror;?>
+						</div>
+					</div>
+					
+					<p>
+						<label>用户</label>
+						<input class="text-input" type="text" name="userid" />
+					</p>
+					<div class="clear"></div>
+					<p>
+						<label>密码</label>
+						<input class="text-input" type="password" name="pwd" />
+					</p>
+                    <div class="clear"></div>
+					<p>
+						<label>验证码</label>
+						<input id="vdcode" type="text" name="validate" style="text-transform:uppercase;" class="text-input" />
+                        <div style="position:absolute; margin-left:320px;">
+                                  <img id="vdimgck" align="absmiddle" onClick="this.src=this.src+'?'" style="cursor: pointer;" alt="看不清？点击更换" src="../include/vdimgck.php" />
+						</div>
+					</p>                    
+					<div class="clear"></div>
+					<!--<p id="remember-password">
+						<input type="checkbox" />记住我
+					</p>
+					<div class="clear"></div> -->
+					<p>
+						<input class="button" type="submit" name="submit" value="登陆" />
+					</p>
+					
+				</form>
+			</div> <!-- End #login-content -->
+			
+			
+		</div> <!-- End #login-wrapper -->
+		
+  
+  </body>
+  </html>

@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__).'/config.php');
 require_once(DEDEADMIN.'/inc/inc_batchup.php');
@@ -695,7 +695,7 @@ else if($dopost=='quickEditSave')
             CheckArcAdmin($aid, $cuserLogin->getUserID());
         }
     }
-    $title = dede_htmlspecialchars(cn_substrR($title, $cfg_title_maxlen));
+    $title = htmlspecialchars(cn_substrR($title, $cfg_title_maxlen));
     $shorttitle = cn_substrR($shorttitle, 36);
     $keywords = trim(cn_substrR($keywords, 60));
     if(!TestPurview('a_Check,a_AccCheck,a_MyCheck')) $arcrank = -1;

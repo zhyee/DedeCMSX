@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('c_Edit');
@@ -22,7 +22,7 @@ function __SaveEdit()
 if($dopost=="save")
 {
     $public = isset($public) && is_numeric($public) ? $public : 0;
-    $name = dede_htmlspecialchars($name);
+    $name = htmlspecialchars($name);
     $query = "UPDATE `#@__diyforms` SET name = '$name', listtemplate='$listtemplate', viewtemplate='$viewtemplate', posttemplate='$posttemplate', public='$public' WHERE diyid='$diyid' ";
     $dsql->ExecuteNoneQuery($query);
     ShowMsg("成功更改一个自定义表单！","diy_main.php");

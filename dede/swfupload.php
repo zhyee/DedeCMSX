@@ -6,13 +6,8 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
- error_reporting(0);
-if (trim($_POST['PHPSESSID']))
-{
-	session_id($_POST['PHPSESSID']);
-}
 require_once(dirname(__FILE__).'/config.php');
 require_once(DEDEINC.'/image.func.php');
 /************************

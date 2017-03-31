@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('c_Edit');
@@ -22,8 +22,8 @@ function __SaveEdit()
 if($dopost=="save")
 {
     $state = isset($state) && is_numeric($state) ? $state : 1;
-    $description = dede_htmlspecialchars($description);
-    $name = dede_htmlspecialchars($name);
+    $description = htmlspecialchars($description);
+    $name = htmlspecialchars($name);
     $query = "UPDATE `#@__member_model` SET name = '$name', description = '$description', state='$state' WHERE id='$id' ";
     $dsql->ExecuteNoneQuery($query);
     //更新会员模型缓存
@@ -128,7 +128,7 @@ else if($dopost=="copy")
             exit();
         }
         $state = isset($state) && is_numeric($state) ? $state : 0;
-        $newname = dede_htmlspecialchars($newname);
+        $newname = htmlspecialchars($newname);
         $row = $dsql->GetOne("SELECT * FROM #@__member_model WHERE id='$newid' OR `table` LIKE '$newtable' OR name LIKE '$newname' ");
         if(is_array($row))
         {

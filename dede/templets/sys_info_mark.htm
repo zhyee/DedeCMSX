@@ -1,19 +1,47 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>系统配置参数 - 图片水印设置</title>
-<link href='css/base.css' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<script language="javascript" src="js/jquery.min.js" type="text/javascript"></script>	
+<script type="text/javascript" src="js/admin.jquery.configuration.js"></script>
+
+<script language="javascript" src="js/global.js"></script>
+<script language="javascript" src="../include/js/dedeajax2.js"></script>
+
 </head>
-<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+<body>
+<div id="body-wrapper"> <!-- Wrapper for the radial gradient background -->
+<?php include(DEDEADMIN.'/templets/menu.htm'); ?>
+<script language="javascript">
+$("#sys").addClass("current");$("#sys_info_mark").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+					<h3>图片水印设置</h3>
+					
+					<ul class="content-box-tabs">
+
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+					
+<div class="tab-content  default-tab" id="tab1">				
 <table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
   <form action="sys_info_mark.php" method="post" enctype="multipart/form-data">
   <input type="hidden" name="action" value="save">
   <input type="hidden" name="get_photo_markimg" value="<?php echo $photo_markimg?>">
-  <tr> 
-    <td height="26" colspan="2" bgcolor="#FFFFFF" background="images/tbg.gif" style="padding-left:10px;">
-	<b>DedeCMS系统配置参数</b> - <strong>图片水印设置</strong>    </td>
-  </tr>
+
   <tr bgcolor="#FFFFFF"> 
     <td width="41%" height="24">上传的图片是否使用图片水印功能：<br> </td>
     <td width="59%">
@@ -120,13 +148,31 @@
         <tr>
           <td width="7%">&nbsp;</td>
           <td width="93%" align="center">
-		  <input name="imageField" class="np" type="image" src="images/button_ok.gif" width="60" height="22" border="0">
+          <input class="button" name="imageField" type="submit" value="确定" />
+		  
             　&nbsp;
-		 <img src="images/button_reset.gif" width="60" height="22">		  </td>
+		<input class="button" name="rset" id="rset" type="reset" value="重置" /> 	  </td>
         </tr>
       </table>	  </td>
   </tr>
   </form>
 </table>
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           <?php include(DEDEADMIN.'/templets/footer.htm'); ?>
+			
+		</div> <!-- End #main-content -->	
+	</div>
 </body>
 </html>

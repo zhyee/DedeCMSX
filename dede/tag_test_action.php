@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('temp_Test');
@@ -28,7 +28,7 @@ $pv->SetTemplet($partcode, "string");
 if( $showsource == "" || $showsource == "yes" )
 {
     echo "模板代码:";
-    echo "<span style='color:red;'><pre>".dede_htmlspecialchars($partcode)."</pre></span>";
+    echo "<span style='color:red;'><pre>".htmlspecialchars($partcode)."</pre></span>";
     echo "结果:<hr size='1' width='100%'>";
 }
 $pv->Display();

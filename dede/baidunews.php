@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 
@@ -36,7 +36,7 @@ if(empty($do))
     $dsql->Execute();
     while($row = $dsql->GetArray())
     {
-        $title = dede_htmlspecialchars($row['title']);
+        $title = htmlspecialchars($row['title']);
         $row1 = GetOneArchive($row['id']);
         if(strpos($row1['arcurl'],'http://') === false)
         {
@@ -45,9 +45,9 @@ if(empty($do))
         {
             $link = $row1['arcurl'];
         }
-        $link = dede_htmlspecialchars($link);
-        $description = dede_htmlspecialchars(strip_tags($row['description']));
-        $text = dede_htmlspecialchars(strip_tags($row['body']));
+        $link = htmlspecialchars($link);
+        $description = htmlspecialchars(strip_tags($row['description']));
+        $text = htmlspecialchars(strip_tags($row['body']));
         $image = $row['litpic'] =='' ? '' :$row['litpic'];
         if($image != '' && strpos($image, 'http://') === false)
         {
@@ -55,11 +55,11 @@ if(empty($do))
 
         }
         //$headlineimg = '';
-        $keywords = dede_htmlspecialchars($row['keywords']);
-        $category = dede_htmlspecialchars($row['typename']);
-        $author = dede_htmlspecialchars($row['writer']);
-        $source = dede_htmlspecialchars($row['source']);
-        $pubdate = dede_htmlspecialchars(gmdate('Y-m-d H:i',$row['pubdate'] + $cfg_cli_time * 3600));
+        $keywords = htmlspecialchars($row['keywords']);
+        $category = htmlspecialchars($row['typename']);
+        $author = htmlspecialchars($row['writer']);
+        $source = htmlspecialchars($row['source']);
+        $pubdate = htmlspecialchars(gmdate('Y-m-d H:i',$row['pubdate'] + $cfg_cli_time * 3600));
 
         $baidunews .= "<item>\n";
         $baidunews .= "<title>$title </title>\n";

@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_module');
@@ -62,13 +62,13 @@ function SendData($hash = '',$type = 1)
     if(!empty($hash)){
         global $cfg_basehost;
         $str = "basehost=".$cfg_basehost."&hash=".$hash."&type=".$type;
-        $fp = fsockopen('www.dede58.com',80,$errno,$errstr,30); 
+        $fp = fsockopen('www.dedecms.com',80,$errno,$errstr,30); 
         if(!$fp)
         {
             return FALSE;
         }else{ 
-            fputs($fp, "POST http://www.dede58.com/plugin.php HTTP/1.1\r\n"); 
-            fputs($fp, "Host: www.dede58.com\r\n"); 
+            fputs($fp, "POST http://www.dedecms.com/plugin.php HTTP/1.1\r\n"); 
+            fputs($fp, "Host: www.dedecms.com\r\n"); 
             fputs($fp, "Content-type: application/x-www-form-urlencoded\r\n"); 
             fputs($fp, "Content-length: ".strlen($str)."\r\n"); 
             fputs($fp, "Connection: close\r\n\r\n"); 
@@ -647,7 +647,7 @@ else if($action=='edit')
     if(!isset($moduletype)) $moduletype = 'soft';
 
     $menustring = $dm->GetSystemFile($hash, 'menustring');
-    $setupsql40 = dede_htmlspecialchars($dm->GetSystemFile($hash, 'setupsql40'));
+    $setupsql40 = htmlspecialchars($dm->GetSystemFile($hash, 'setupsql40'));
     $readmetxt = $dm->GetSystemFile($hash, 'readme');
     $delsql = $dm->GetSystemFile($hash, 'delsql');
     $filelist = $dm->GetSystemFile($hash,'oldfilelist',false);

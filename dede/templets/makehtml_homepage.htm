@@ -1,9 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>主页更新向导</title>
-<link href="css/base.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<script language="javascript" src="js/jquery.min.js" type="text/javascript"></script>	
+<script type="text/javascript" src="js/admin.jquery.configuration.js"></script>
+
+<script language="javascript" src="js/global.js"></script>
+<script language="javascript" src="../include/js/dedeajax2.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="../include/calendar/calendar-win2k-1.css" title="win2k-1" />
 <script type="text/javascript" src="../include/calendar/calendar.js"></script>
 <script type="text/javascript" src="../include/calendar/calendar-cn.js"></script>
@@ -16,32 +24,45 @@ function SelectTemplets(fname)
 }
 </script>
 </head>
-<body background="images/allbg.gif" leftmargin="8" topmargin="8">
+<body>
+<div id="body-wrapper"> <!-- Wrapper for the radial gradient background -->
+<?php include(DEDEADMIN.'/templets/menu.htm'); ?>
+<script language="javascript">
+$("#makehtml").addClass("current");$("#makehtml_homepage").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+					<h3>主页更新向导</h3>
+					
+					<ul class="content-box-tabs">
+
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+					
+<div class="tab-content  default-tab" id="tab1">				
 <table width="98%" border="0" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6" align="center">
   <form name="form1" action="makehtml_homepage.php" target="stafrm" method="post">
   <input type="hidden" name="dopost" value="make">
-    <tr> 
-      <td height="28" colspan="2" background='images/tbg.gif'>
-	  <table width="98%" border="0" cellpadding="0" cellspacing="0">
-          <tr> 
-            <td width="30%" height="18" style="padding-left:10px;"><strong>主页更新向导：</strong></td>
-            <td width="70%" align="right">&nbsp;</td>
-          </tr>
-        </table>
-		</td>
-    </tr>
+
     <tr> 
       <td width="177" valign="top" bgcolor="#FFFFFF">选择主页模板：</td>
       <td width="791" valign="top" bgcolor="#FFFFFF">
 	    <input name="templet" type="text" id="templet" style="width:300" value="<?php echo $row['templet']?>"> 
-        <input type="button" name="set4" value="浏览..." style="width:60" onClick="SelectTemplets('form1.templet');"> 
+        <input class="button" name="set4" type="button" value="浏览..." onClick="SelectTemplets('form1.templet');" />
       </td>
     </tr>
     <tr> 
-      <td height="20" colspan="2" valign="top" bgcolor="#FFFFFF">默认的情况下，生成的主页文件放在CMS的安装目录，如果您的CMS不是安装在网站根目录的，又想把主页创建到网站根目录，那么请用相对路径来表示“主页位置”。<br />
+      <td height="20" colspan="2" valign="top" bgcolor="#FFFFFF">默认的情况下，生成的主页文件放在CMS的安装目录，如果您的CMS不是安装在网站根目录的，又想把主页创建到网站根目录，那么请用相对路径来表示"主页位置"。<br />
         例：您的CMS安装在 
         http://www.abc.com/dedecms/ 目录，您想生成的主页为 http://www.abc.com/index.html，那么主页位置就应该用： 
-        “../index.html”。</td>
+        "../index.html"。</td>
     </tr>
     <tr> 
       <td height="20" valign="top" bgcolor="#FFFFFF">主页位置：</td>
@@ -55,7 +76,7 @@ function SelectTemplets(fname)
     <tr> 
       <td height="20" valign="top" bgcolor="#FFFFCC">远程发布：</td>
       <td height="20" valign="top" bgcolor="#FFFFCC"><input name="remotepos" type="text" id="remotepos" value="/index.html" size="30"> 
-        (“/”相对远程站点根目录)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        ("/"相对远程站点根目录)&nbsp;&nbsp;&nbsp;&nbsp;</td>
     </tr>
     <tr>
       <td height="20" colspan="2" valign="top" bgcolor="#FFFFCC">您已经启用远程发布,请确保正确 [<a href="sys_info.php" style="color:red">配置FTP</a>]</td>
@@ -83,9 +104,9 @@ function SelectTemplets(fname)
 
     <tr> 
       <td height="31" colspan="2" bgcolor="#ffffff" align="center">&nbsp;&nbsp;
-	    <input name="view" class='coolbg np' type="button" id="view" value="预览主页" onClick="window.open('makehtml_homepage.php?dopost=view&templet='+form1.templet.value);" />
+      <input class="button" name="view" type="button" id="view" value="预览主页" onClick="window.open('makehtml_homepage.php?dopost=view&templet='+form1.templet.value);" />
+      <input class="button" name="Submit" type="submit" value="更新主页HTML" />
 
-      <input type="submit" class='coolbg np' name="Submit" value="更新主页HTML" />
       &nbsp;
            <?php 
       if($cfg_remote_site=='Y')
@@ -124,5 +145,22 @@ function SelectTemplets(fname)
 	  </td>
   </tr>
 </table>
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           <?php include(DEDEADMIN.'/templets/footer.htm'); ?>
+			
+		</div> <!-- End #main-content -->	
+	</div>
 </body>
 </html>

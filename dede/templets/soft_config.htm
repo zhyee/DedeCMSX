@@ -1,9 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>软件频道设置</title>
-<link href="css/base.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<script language="javascript" src="js/jquery.min.js" type="text/javascript"></script>	
+<script type="text/javascript" src="js/admin.jquery.configuration.js"></script>
+
+<script language="javascript" src="js/global.js"></script>
+<script language="javascript" src="../include/js/dedeajax2.js"></script>
 <script language="JavaScript">
 function AddServer()
 {
@@ -14,18 +22,33 @@ function AddServer()
 }
 </script>
 </head>
-<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+<body>
+<div id="body-wrapper"> <!-- Wrapper for the radial gradient background -->
+<?php include(DEDEADMIN.'/templets/menu.htm'); ?>
+<script language="javascript">
+$("#sys").addClass("current");$("#soft_config").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+					<h3>软件频道设置</h3>
+					
+					<ul class="content-box-tabs">
+
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+					
+<div class="tab-content  default-tab" id="tab1">				
 <table width="98%" border="0" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6" align="center">
   <form name="form1" action="soft_config.php" method="post">
     <input type="hidden" name="dopost" value="save" />
-    <tr> 
-      <td height="28" colspan="2" background='images/tbg.gif'> <table width="98%" border="0" cellpadding="0" cellspacing="0">
-          <tr> 
-            <td width="30%" height="18" style="padding-left:10px;"><strong>软件频道设置：</strong></td>
-            <td width="70%" align="right">&nbsp;</td>
-          </tr>
-        </table></td>
-    </tr>
+
     <tr> 
       <td bgcolor="#FFFFFF" width="200">链接显示方式：</td>
       <td bgcolor="#FFFFFF">
@@ -70,7 +93,7 @@ function AddServer()
       </td>
     </tr>
     <tr> 
-      <td bgcolor="#F9FCEF" colspan='2' style="padding-left:10px;"><b>不管是全局，还是具体某软件设置了下面的参数，附件下载方式都必须链接到中转页，否则无效！</b></td>
+      <td colspan='2' style="padding-left:10px;">不管是全局，还是具体某软件设置了下面的参数，附件下载方式都必须链接到中转页，否则无效！</td>
     </td>
     <tr> 
       <td bgcolor="#FFFFFF">下载默认等级：</td>
@@ -104,8 +127,8 @@ function AddServer()
       </td>
     </tr>
     <tr> 
-      <td height="26" colspan="2" bgcolor="#F9FCEF" style="padding-left:10px;">
-      	<strong>镜像服务器列表：      </strong></td>
+      <td colspan="2" style="padding-left:10px;">
+      	镜像服务器列表：      </td>
     </tr>
     <tr> 
       <td colspan="2" bgcolor="#FFFFFF">服务器网址： 
@@ -114,25 +137,44 @@ function AddServer()
         <input name="servername" type="text" id="servername" />
         服务器类型： 
         <input name="servertype" type="text" id="servertype" value="默认" />
-		<input type="button" name="Submit" value="增加一项" onClick="AddServer()"  class="coolbg np" />
+        <input class="button" type="button" name="Submit" value="增加一项" onClick="AddServer()" />
+		
        </td>
     </tr>
     <tr>
       <td height="62" colspan="2" bgcolor="#FFFFFF"><textarea name="sites" id="sites" style="width:99%;height:150px"><?php echo $row['sites']; ?></textarea></td>
     </tr>
     <tr>
-      <td height="26" colspan="2" bgcolor="#F9FCEF" style="padding-left:10px;"><strong>下载说明：</strong></td>
+      <td colspan="2" style="padding-left:10px;">下载说明：</td>
     </tr>
     <tr> 
       <td height="62" colspan="2" bgcolor="#FFFFFF"><?php GetEditor('downmsg',$row['downmsg'],250); ?></td>
     </tr>
     <tr> 
       <td height="41" colspan="2" bgcolor="#F9FCEF" align="center">
-      <input type="submit" name="Submit" value="保存设置" class="coolbg np" />　　　　        
-        <input type="reset" name="rset" id="rset" value="重置" class="coolbg np" />
+      <input class="button" name="Submit" type="submit" value="保存设置" />
+      　　    <input class="button" name="rset" id="rset" type="reset" value="保存设置" />    
+     
       </td>
     </tr>
   </form>
 </table>
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           <?php include(DEDEADMIN.'/templets/footer.htm'); ?>
+			
+		</div> <!-- End #main-content -->	
+	</div>
 </body>
 </html>

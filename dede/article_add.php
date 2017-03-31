@@ -98,7 +98,7 @@ else if($dopost=='save')
     $sortrank = AddDay($pubdate,$sortup);
     $ismake = $ishtml==0 ? -1 : 0;
     $title = preg_replace("#\"#", '＂', $title);
-    $title = dede_htmlspecialchars(cn_substrR($title,$cfg_title_maxlen));
+    $title = htmlspecialchars(cn_substrR($title,$cfg_title_maxlen));
     $shorttitle = cn_substrR($shorttitle,36);
     $color =  cn_substrR($color,7);
     $writer =  cn_substrR($writer,20);
@@ -261,25 +261,19 @@ else if($dopost=='save')
 
 
     //返回成功信息
-    $msg = "    　　请选择你的后续操作：
+    $msg = "发布成功！<br />
     <a href='article_add.php?cid=$typeid'><u>继续发布文章</u></a>
-    &nbsp;&nbsp;
+    &nbsp;
     <a href='$artUrl' target='_blank'><u>查看文章</u></a>
-    &nbsp;&nbsp;
+    &nbsp;
     <a href='archives_do.php?aid=".$arcID."&dopost=editArchives'><u>更改文章</u></a>
-    &nbsp;&nbsp;
+    &nbsp;
     <a href='catalog_do.php?cid=$typeid&dopost=listArchives'><u>已发布文章管理</u></a>
-    &nbsp;&nbsp;
+    &nbsp;<br />
     $backurl
   ";
-  $msg = "<div style=\"line-height:36px;height:36px\">{$msg}</div>".GetUpdateTest();
-    $wintitle = "成功发布文章！";
-    $wecome_info = "文章管理::发布文章";
-    $win = new OxWindow();
-    $win->AddTitle("成功发布文章：");
-    $win->AddMsgItem($msg);
-    $winform = $win->GetWindow("hand","&nbsp;",false);
-    $win->Display();
+  $msg = "<style type='text/css'>#errorbox{border:#CCCCCC 1px dashed; width:500px; margin:30px auto; line-height:25px; background:#FFF;}#errortitle{height:30px; font-weight:bold; background-color:#CCCCCC; padding-left:10px;}#errorinfo{height:100px; padding:10px 10px;}#errorlink{height:30px; text-align:center;}#indexad1{line-height:25px; width:226px; height:100px; overflow:hidden; margin-left:10px;}#indexad2{ padding:0; margin:0;}#indexad3{lint-height:25px; width:160px; height:100px; margin-left:40px;}}</style><div id='errorbox'><div id='errortitle'>系统信息</div><div id='errorinfo'>{$msg}</div></div>".GetUpdateTest();
+    echo $msg;
 }
 
 ?>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * 后台管理菜单项
  *
@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/../config.php");
 
@@ -163,9 +163,9 @@ $adminMenu1
 $adminMenu2
 
 <m:top item='1_10_7_' name='系统帮助' display='none'>
-  <m:item name='更多织梦模板' link='http://www.dede58.com' rank='' target='_blank' />
-  <m:item name='意见建议反馈' link='http://site.desdev.cn/suggest/' rank='' target='_blank' />
-  <m:item name='官方交流论坛' link='http://bbs.dedecms.com' rank='' target='_blank' />
+  <m:item name='口袋源码' link='http://www.code8.net' rank='' target='_blank' />
+  <m:item name='www.code8.net' link='http://www.code8.net/' rank='' target='_blank' />
+  <m:item name='官方交流论坛' link='http://www.code8.net' rank='' target='_blank' />
 </m:top>
 
 -----------------------------------------------

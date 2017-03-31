@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__)."/config.php");
 require_once(DEDEINC."/oxwindow.class.php");
@@ -31,7 +31,7 @@ $groupissystem = $row['issystem'];
 $groupcreater = $row['creater'];
 $groupimg     = $row['groupimg'];
 $ismaster     = $row['ismaster'];
-$groupdes     = dede_htmlspecialchars($row['des']);
+$groupdes     = htmlspecialchars($row['des']);
 $groupisindex = $row['isindex'];
 $groupsmalltype = $row['smalltype'];
 

@@ -6,7 +6,7 @@
  * @package        DedeCMS.Administrator
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(dirname(__FILE__).'/../include/common.inc.php');
 require_once(DEDEINC.'/userlogin.class.php');
@@ -92,14 +92,12 @@ if($dopost=='login')
             //error
             else if($res==-1)
             {
-                ResetVdValue();
-				ShowMsg('你的用户名不存在!','login.php',0,1000);
+				ShowMsg('你的用户名不存在!',-1,0,1000);
 				exit;
             }
             else
             {
-                ResetVdValue();
-                ShowMsg('你的密码错误!','login.php',0,1000);
+                ShowMsg('你的密码错误!',-1,0,1000);
 				exit;
             }
         }
@@ -107,8 +105,7 @@ if($dopost=='login')
         //password empty
         else
         {
-            ResetVdValue();
-            ShowMsg('用户和密码没填写完整!','login.php',0,1000);
+            ShowMsg('用户和密码没填写完整!',-1,0,1000);
 			exit;
         }
     }
