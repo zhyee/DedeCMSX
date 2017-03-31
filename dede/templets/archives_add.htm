@@ -291,7 +291,7 @@ function checkSubmit()
       	<table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="90">&nbsp;阅读权限：</td>
-            <td width="240"> <select name="arcrank" id="arcrank" style="width:150px">
+            <td colspan="3"> <select name="arcrank" id="arcrank" style="width:150px">
                 <?php
               $urank = $cuserLogin->getUserRank();
               $dsql->SetQuery("Select * from `#@__arcrank` where adminrank<='$urank'");
@@ -302,12 +302,13 @@ function checkSubmit()
               }
               ?>
               </select> </td>
-            <td width="90">发布选项：</td>
-            <td>
-            	<input name="ishtml" type="radio" class="np" value="1" checked>
-              生成HTML
-              <input type="radio" name="ishtml" class="np" value="0">
-              仅动态浏览              </td>
+            <td width="90" style="display: none">发布选项：</td>
+            <td style="display: none">
+                <input type="radio" name="ishtml" class="np" value="0" checked>
+                仅动态浏览
+                <input name="ishtml" type="radio" class="np" value="1">
+                生成HTML
+            </td>
           </tr>
         </table></td>
     </tr>

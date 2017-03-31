@@ -242,12 +242,14 @@ function CheckCross()
           </tr>
           <tr> 
             <td height="26" style="padding-left:10px;">栏目列表选项：</td>
-            <td> <input type='radio' name='isdefault' value='1' class='np'<?php if($myrow['isdefault']==1) echo " checked='1' ";?>/>
+            <td>
+                <input type='radio' name='isdefault' value='-1' class='np'<?php if($myrow['isdefault']==-1) echo " checked='1' ";?>/>
+                使用动态页
+                <input type='radio' name='isdefault' value='1' class='np'<?php if($myrow['isdefault']==1) echo " checked='1' ";?>/>
               链接到默认页 
               <input type='radio' name='isdefault' value='0' class='np'<?php if($myrow['isdefault']==0) echo " checked='1' ";?>/>
-              链接到列表第一页 
-              <input type='radio' name='isdefault' value='-1' class='np'<?php if($myrow['isdefault']==-1) echo " checked='1' ";?>/>
-              使用动态页 </td>
+              链接到列表第一页
+            </td>
           </tr>
           <tr> 
             <td class='bline' height="26" style="padding-left:10px;">默认页的名称： </td>

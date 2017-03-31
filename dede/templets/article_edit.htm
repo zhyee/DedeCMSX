@@ -449,10 +449,12 @@ if($cfg_need_typeid2=='Y') {
               ?>
               </select></td>
             <td width="90">发布选项：</td>
-            <td><input name="ishtml" type="radio" class="np" value="1"<?php if($arcRow["ismake"]!=-1) echo " checked";?>>
-              生成HTML
-              <input type="radio" name="ishtml" class="np" value="0"<?php if($arcRow["ismake"]==-1) echo " checked";?>>
-              仅动态浏览 </td>
+            <td>
+                <input type="radio" name="ishtml" class="np" value="0"<?php if($arcRow["ismake"]==-1) echo " checked";?>>
+                仅动态浏览
+                <input name="ishtml" type="radio" class="np" value="1"<?php if($arcRow["ismake"]!=-1) echo " checked";?>>
+                生成HTML
+            </td>
           </tr>
         </table></td>
     </tr>
