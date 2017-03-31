@@ -26,6 +26,7 @@ $cfg_feedbackcheck = 'N';
 $cfg_keyword_replace = 'Y';
 $cfg_fck_xhtml = 'N';
 $cfg_df_style = 'default';
+$cfg_df_m_style = 'm_default';
 $cfg_multi_site = 'N';
 $cfg_dede_log = 'N';
 $cfg_powerby = 'Copyright &copy;南方矿业网站 版权所有';

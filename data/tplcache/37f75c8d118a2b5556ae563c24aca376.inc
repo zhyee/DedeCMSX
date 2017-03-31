@@ -1,0 +1,1 @@
+<div class="more_i m3"> <span>[field:typename/]</span><a href="list.php?tid=[field:id/]">查看更多</a> </div>

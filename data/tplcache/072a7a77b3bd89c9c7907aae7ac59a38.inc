@@ -1,0 +1,1 @@
+<li class="t2"> <a href="list.php?tid=[field:id/]">[field:typename/]</a> </li>

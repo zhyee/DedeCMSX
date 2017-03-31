@@ -1,0 +1,1 @@
+<li class="news1" style="height: 107px;"> <a href="view.php?aid=[field:id/]" title="[field:title/]"><span>[field:title/]</span><span>[field:pubdate function="MyDate('Y/m/d',@me)"/]</span></a> </li>

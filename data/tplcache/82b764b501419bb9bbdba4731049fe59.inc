@@ -1,0 +1,1 @@
+<a href="view.php?aid=[field:id/]">查看更多</a>

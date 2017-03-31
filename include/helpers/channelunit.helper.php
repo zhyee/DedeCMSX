@@ -442,9 +442,90 @@ function MfTypedir($typedir)
  */
 function MfTemplet($tmpdir)
 {
-    $tmpdir = str_replace("{style}", $GLOBALS['cfg_df_style'], $tmpdir);
+    if (is_mobile())
+    {
+        $tmpdir = str_replace("{style}", $GLOBALS['cfg_df_m_style'], $tmpdir);
+    }
+    else
+    {
+        $tmpdir = str_replace("{style}", $GLOBALS['cfg_df_style'], $tmpdir);
+    }
     $tmpdir = preg_replace("/\/{1,}/", "/", $tmpdir);
     return $tmpdir;
+}
+
+
+/**
+ * 判断是PC端访问还是手机端访问
+ * @return bool
+ */
+function is_mobile(){
+    $useragent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
+    $useragent_commentsblock = preg_match('|.∗?|', $useragent, $matches) > 0 ? $matches[0] : '';
+    $mobile_os_list = array(
+        'Google Wireless Transcoder',
+        'Windows CE',
+        'WindowsCE',
+        'Symbian',
+        'Android',
+        'armv6l',
+        'armv5',
+        'Mobile',
+        'CentOS',
+        'mowser',
+        'AvantGo',
+        'Opera Mobi',
+        'J2ME/MIDP',
+        'Smartphone',
+        'Go.Web',
+        'Palm',
+        'iPAQ'
+    );
+
+    $mobile_token_list = array(
+        'Profile/MIDP',
+        'Configuration/CLDC-',
+        '160×160',
+        '176×220',
+        '240×240',
+        '240×320',
+        '320×240',
+        'UP.Browser',
+        'UP.Link',
+        'SymbianOS',
+        'PalmOS',
+        'PocketPC',
+        'SonyEricsson',
+        'Nokia',
+        'BlackBerry',
+        'Vodafone',
+        'BenQ',
+        'Novarra-Vision',
+        'Iris',
+        'NetFront',
+        'HTC_',
+        'Xda_',
+        'SAMSUNG-SGH',
+        'Wapaka',
+        'DoCoMo',
+        'iPhone',
+        'iPod',
+        'iPad',
+        'HUAWEI',
+        'Coolpad'
+    );
+
+    foreach($mobile_os_list as $os){
+        if(strpos($useragent_commentsblock, $os) !== false){
+            return true;
+        }
+    }
+    foreach($mobile_token_list as $token){
+        if(strpos($useragent_commentsblock, $token) != false){
+            return true;
+        }
+    }
+    return false;
 }
 
 /**
