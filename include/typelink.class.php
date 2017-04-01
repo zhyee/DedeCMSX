@@ -6,7 +6,7 @@
  * @package        DedeCMS.Libraries
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(DEDEINC."/channelunit.func.php");
 
@@ -15,7 +15,7 @@ require_once(DEDEINC."/channelunit.func.php");
  *
  * @package          TypeLink
  * @subpackage       DedeCMS.Libraries
- * @link             http://www.dede58.com
+ * @link             http://www.dedecms.com
  */
 class TypeLink
 {

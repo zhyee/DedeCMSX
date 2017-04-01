@@ -2,394 +2,270 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eb2cc1c-28a4-43b7-bd17-604a0426b53e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dede/baidusitemap_main.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sessions_d41d8cd98f/sess_s0ntppevqm259n1udlsm413eo7" afterPath="$PROJECT_DIR$/data/sessions_d41d8cd98f/sess_s0ntppevqm259n1udlsm413eo7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/action_search.php" afterPath="$PROJECT_DIR$/dede/action_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/actionsearch_class.php" afterPath="$PROJECT_DIR$/dede/actionsearch_class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/ad_add.php" afterPath="$PROJECT_DIR$/dede/ad_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/ad_edit.php" afterPath="$PROJECT_DIR$/dede/ad_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/ad_main.php" afterPath="$PROJECT_DIR$/dede/ad_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/adtype_main.php" afterPath="$PROJECT_DIR$/dede/adtype_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/album_add.php" afterPath="$PROJECT_DIR$/dede/album_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/album_edit.php" afterPath="$PROJECT_DIR$/dede/album_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/album_testhtml.php" afterPath="$PROJECT_DIR$/dede/album_testhtml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/archives_add.php" afterPath="$PROJECT_DIR$/dede/archives_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/archives_do.php" afterPath="$PROJECT_DIR$/dede/archives_do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/archives_edit.php" afterPath="$PROJECT_DIR$/dede/archives_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/archives_sg_add.php" afterPath="$PROJECT_DIR$/dede/archives_sg_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/archives_sg_edit.php" afterPath="$PROJECT_DIR$/dede/archives_sg_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_add.php" afterPath="$PROJECT_DIR$/dede/article_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_allowurl_edit.php" afterPath="$PROJECT_DIR$/dede/article_allowurl_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_coonepage_rule.php" afterPath="$PROJECT_DIR$/dede/article_coonepage_rule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_description_main.php" afterPath="$PROJECT_DIR$/dede/article_description_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_edit.php" afterPath="$PROJECT_DIR$/dede/article_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_keywords_main.php" afterPath="$PROJECT_DIR$/dede/article_keywords_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_keywords_make.php" afterPath="$PROJECT_DIR$/dede/article_keywords_make.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_keywords_select.php" afterPath="$PROJECT_DIR$/dede/article_keywords_select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_select_sw.php" afterPath="$PROJECT_DIR$/dede/article_select_sw.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_source_edit.php" afterPath="$PROJECT_DIR$/dede/article_source_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_string_mix.php" afterPath="$PROJECT_DIR$/dede/article_string_mix.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_template_rand.php" afterPath="$PROJECT_DIR$/dede/article_template_rand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_test_same.php" afterPath="$PROJECT_DIR$/dede/article_test_same.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_test_title.php" afterPath="$PROJECT_DIR$/dede/article_test_title.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/article_writer_edit.php" afterPath="$PROJECT_DIR$/dede/article_writer_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/baidunews.php" afterPath="$PROJECT_DIR$/dede/baidunews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/cards_make.php" afterPath="$PROJECT_DIR$/dede/cards_make.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/cards_manage.php" afterPath="$PROJECT_DIR$/dede/cards_manage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/cards_type.php" afterPath="$PROJECT_DIR$/dede/cards_type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/catalog_add.php" afterPath="$PROJECT_DIR$/dede/catalog_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/catalog_del.php" afterPath="$PROJECT_DIR$/dede/catalog_del.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/catalog_do.php" afterPath="$PROJECT_DIR$/dede/catalog_do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/catalog_edit.php" afterPath="$PROJECT_DIR$/dede/catalog_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/catalog_main.php" afterPath="$PROJECT_DIR$/dede/catalog_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/catalog_menu.php" afterPath="$PROJECT_DIR$/dede/catalog_menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_add.php" afterPath="$PROJECT_DIR$/dede/co_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_do.php" afterPath="$PROJECT_DIR$/dede/co_do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_edit.php" afterPath="$PROJECT_DIR$/dede/co_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_edit_text.php" afterPath="$PROJECT_DIR$/dede/co_edit_text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_export.php" afterPath="$PROJECT_DIR$/dede/co_export.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_export_corule.php" afterPath="$PROJECT_DIR$/dede/co_export_corule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_gather_start.php" afterPath="$PROJECT_DIR$/dede/co_gather_start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_gather_start_action.php" afterPath="$PROJECT_DIR$/dede/co_gather_start_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_get_corule.php" afterPath="$PROJECT_DIR$/dede/co_get_corule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_getsource_url_action.php" afterPath="$PROJECT_DIR$/dede/co_getsource_url_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_main.php" afterPath="$PROJECT_DIR$/dede/co_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_test_rule.php" afterPath="$PROJECT_DIR$/dede/co_test_rule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_url.php" afterPath="$PROJECT_DIR$/dede/co_url.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/co_view.php" afterPath="$PROJECT_DIR$/dede/co_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/config.php" afterPath="$PROJECT_DIR$/dede/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_att.php" afterPath="$PROJECT_DIR$/dede/content_att.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_batch_up.php" afterPath="$PROJECT_DIR$/dede/content_batch_up.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_batchup_action.php" afterPath="$PROJECT_DIR$/dede/content_batchup_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_i_list.php" afterPath="$PROJECT_DIR$/dede/content_i_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_list.php" afterPath="$PROJECT_DIR$/dede/content_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_s_list.php" afterPath="$PROJECT_DIR$/dede/content_s_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_select_list.php" afterPath="$PROJECT_DIR$/dede/content_select_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_sg_list.php" afterPath="$PROJECT_DIR$/dede/content_sg_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/content_tj.php" afterPath="$PROJECT_DIR$/dede/content_tj.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/css/base.css" afterPath="$PROJECT_DIR$/dede/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/css/swfupload.css" afterPath="$PROJECT_DIR$/dede/css/swfupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/diy_add.php" afterPath="$PROJECT_DIR$/dede/diy_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/diy_edit.php" afterPath="$PROJECT_DIR$/dede/diy_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/diy_field_add.php" afterPath="$PROJECT_DIR$/dede/diy_field_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/diy_field_edit.php" afterPath="$PROJECT_DIR$/dede/diy_field_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/diy_list.php" afterPath="$PROJECT_DIR$/dede/diy_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/diy_main.php" afterPath="$PROJECT_DIR$/dede/diy_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/erraddsave.php" afterPath="$PROJECT_DIR$/dede/erraddsave.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/exit.php" afterPath="$PROJECT_DIR$/dede/exit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/feedback_edit.php" afterPath="$PROJECT_DIR$/dede/feedback_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/feedback_main.php" afterPath="$PROJECT_DIR$/dede/feedback_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/file_class.php" afterPath="$PROJECT_DIR$/dede/file_class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/file_manage_control.php" afterPath="$PROJECT_DIR$/dede/file_manage_control.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/file_manage_main.php" afterPath="$PROJECT_DIR$/dede/file_manage_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/file_manage_view.php" afterPath="$PROJECT_DIR$/dede/file_manage_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/file_pic_view.php" afterPath="$PROJECT_DIR$/dede/file_pic_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/freelist_add.php" afterPath="$PROJECT_DIR$/dede/freelist_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/freelist_edit.php" afterPath="$PROJECT_DIR$/dede/freelist_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/freelist_main.php" afterPath="$PROJECT_DIR$/dede/freelist_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/friendlink_add.php" afterPath="$PROJECT_DIR$/dede/friendlink_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/friendlink_edit.php" afterPath="$PROJECT_DIR$/dede/friendlink_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/friendlink_main.php" afterPath="$PROJECT_DIR$/dede/friendlink_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/friendlink_type.php" afterPath="$PROJECT_DIR$/dede/friendlink_type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/getdedesysmsg.php" afterPath="$PROJECT_DIR$/dede/getdedesysmsg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/group_edit.php" afterPath="$PROJECT_DIR$/dede/group_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/group_guestbook.php" afterPath="$PROJECT_DIR$/dede/group_guestbook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/group_main.php" afterPath="$PROJECT_DIR$/dede/group_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/group_notice.php" afterPath="$PROJECT_DIR$/dede/group_notice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/group_store.php" afterPath="$PROJECT_DIR$/dede/group_store.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/group_threads.php" afterPath="$PROJECT_DIR$/dede/group_threads.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/group_user.php" afterPath="$PROJECT_DIR$/dede/group_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/imagecut.php" afterPath="$PROJECT_DIR$/dede/imagecut.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/images/color.htm" afterPath="$PROJECT_DIR$/dede/images/color.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/images/colornew.htm" afterPath="$PROJECT_DIR$/dede/images/colornew.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_action_info.php" afterPath="$PROJECT_DIR$/dede/inc/inc_action_info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_archives_all.php" afterPath="$PROJECT_DIR$/dede/inc/inc_archives_all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_archives_functions.php" afterPath="$PROJECT_DIR$/dede/inc/inc_archives_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_batchup.php" afterPath="$PROJECT_DIR$/dede/inc/inc_batchup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_catalog_options.php" afterPath="$PROJECT_DIR$/dede/inc/inc_catalog_options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_coonepage.php" afterPath="$PROJECT_DIR$/dede/inc/inc_coonepage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_list_functions.php" afterPath="$PROJECT_DIR$/dede/inc/inc_list_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_menu.php" afterPath="$PROJECT_DIR$/dede/inc/inc_menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_menu_func.php" afterPath="$PROJECT_DIR$/dede/inc/inc_menu_func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_menu_map.php" afterPath="$PROJECT_DIR$/dede/inc/inc_menu_map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/inc/inc_menu_module.php" afterPath="$PROJECT_DIR$/dede/inc/inc_menu_module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/index.php" afterPath="$PROJECT_DIR$/dede/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/index_body.php" afterPath="$PROJECT_DIR$/dede/index_body.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/index_menu.php" afterPath="$PROJECT_DIR$/dede/index_menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/index_menu_load.php" afterPath="$PROJECT_DIR$/dede/index_menu_load.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/index_menu_module.php" afterPath="$PROJECT_DIR$/dede/index_menu_module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/index_testenv.php" afterPath="$PROJECT_DIR$/dede/index_testenv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/index_top.php" afterPath="$PROJECT_DIR$/dede/index_top.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/album.js" afterPath="$PROJECT_DIR$/dede/js/album.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/base.js" afterPath="$PROJECT_DIR$/dede/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/blank.js" afterPath="$PROJECT_DIR$/dede/js/blank.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/boxy.js" afterPath="$PROJECT_DIR$/dede/js/boxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/calendar/calendar-green.css" afterPath="$PROJECT_DIR$/dede/js/calendar/calendar-green.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/calendar/calendar.js" afterPath="$PROJECT_DIR$/dede/js/calendar/calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/co.js" afterPath="$PROJECT_DIR$/dede/js/co.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/context_menu.js" afterPath="$PROJECT_DIR$/dede/js/context_menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/contextmenu.css" afterPath="$PROJECT_DIR$/dede/js/contextmenu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/dedeajax.js" afterPath="$PROJECT_DIR$/dede/js/dedeajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/dialog.js" afterPath="$PROJECT_DIR$/dede/js/dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/diy.js" afterPath="$PROJECT_DIR$/dede/js/diy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/drag.js" afterPath="$PROJECT_DIR$/dede/js/drag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/float.js" afterPath="$PROJECT_DIR$/dede/js/float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/frame.js" afterPath="$PROJECT_DIR$/dede/js/frame.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/global.js" afterPath="$PROJECT_DIR$/dede/js/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/handlers.js" afterPath="$PROJECT_DIR$/dede/js/handlers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/ieemu.js" afterPath="$PROJECT_DIR$/dede/js/ieemu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/indexbody.js" afterPath="$PROJECT_DIR$/dede/js/indexbody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/jquery.json-2.2.min.js" afterPath="$PROJECT_DIR$/dede/js/jquery.json-2.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/key.js" afterPath="$PROJECT_DIR$/dede/js/key.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/leftmenu.js" afterPath="$PROJECT_DIR$/dede/js/leftmenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/list.js" afterPath="$PROJECT_DIR$/dede/js/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/main.js" afterPath="$PROJECT_DIR$/dede/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/member.js" afterPath="$PROJECT_DIR$/dede/js/member.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/story.js" afterPath="$PROJECT_DIR$/dede/js/story.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/js/tb-box.js" afterPath="$PROJECT_DIR$/dede/js/tb-box.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/log_edit.php" afterPath="$PROJECT_DIR$/dede/log_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/log_list.php" afterPath="$PROJECT_DIR$/dede/log_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/login.php" afterPath="$PROJECT_DIR$/dede/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_all.php" afterPath="$PROJECT_DIR$/dede/makehtml_all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_archives.php" afterPath="$PROJECT_DIR$/dede/makehtml_archives.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_archives_action.php" afterPath="$PROJECT_DIR$/dede/makehtml_archives_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_freelist.php" afterPath="$PROJECT_DIR$/dede/makehtml_freelist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_freelist_action.php" afterPath="$PROJECT_DIR$/dede/makehtml_freelist_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_homepage.php" afterPath="$PROJECT_DIR$/dede/makehtml_homepage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_js.php" afterPath="$PROJECT_DIR$/dede/makehtml_js.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_js_action.php" afterPath="$PROJECT_DIR$/dede/makehtml_js_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_list.php" afterPath="$PROJECT_DIR$/dede/makehtml_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_list_action.php" afterPath="$PROJECT_DIR$/dede/makehtml_list_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_map.php" afterPath="$PROJECT_DIR$/dede/makehtml_map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_map_guide.php" afterPath="$PROJECT_DIR$/dede/makehtml_map_guide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_rss.php" afterPath="$PROJECT_DIR$/dede/makehtml_rss.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_rss_action.php" afterPath="$PROJECT_DIR$/dede/makehtml_rss_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makehtml_spec.php" afterPath="$PROJECT_DIR$/dede/makehtml_spec.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/makeremote_all.php" afterPath="$PROJECT_DIR$/dede/makeremote_all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/media_add.php" afterPath="$PROJECT_DIR$/dede/media_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/media_edit.php" afterPath="$PROJECT_DIR$/dede/media_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/media_main.php" afterPath="$PROJECT_DIR$/dede/media_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_do.php" afterPath="$PROJECT_DIR$/dede/member_do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_feed_edit.php" afterPath="$PROJECT_DIR$/dede/member_feed_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_guestbook.php" afterPath="$PROJECT_DIR$/dede/member_guestbook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_info_main.php" afterPath="$PROJECT_DIR$/dede/member_info_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_main.php" afterPath="$PROJECT_DIR$/dede/member_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_model_add.php" afterPath="$PROJECT_DIR$/dede/member_model_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_model_edit.php" afterPath="$PROJECT_DIR$/dede/member_model_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_model_field_add.php" afterPath="$PROJECT_DIR$/dede/member_model_field_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_model_field_edit.php" afterPath="$PROJECT_DIR$/dede/member_model_field_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_model_main.php" afterPath="$PROJECT_DIR$/dede/member_model_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_msg_edit.php" afterPath="$PROJECT_DIR$/dede/member_msg_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_operations.php" afterPath="$PROJECT_DIR$/dede/member_operations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_pm.php" afterPath="$PROJECT_DIR$/dede/member_pm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_pmall.php" afterPath="$PROJECT_DIR$/dede/member_pmall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_pmone.php" afterPath="$PROJECT_DIR$/dede/member_pmone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_rank.php" afterPath="$PROJECT_DIR$/dede/member_rank.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_scores.php" afterPath="$PROJECT_DIR$/dede/member_scores.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_toadmin.php" afterPath="$PROJECT_DIR$/dede/member_toadmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_type.php" afterPath="$PROJECT_DIR$/dede/member_type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/member_view.php" afterPath="$PROJECT_DIR$/dede/member_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/module_main.php" afterPath="$PROJECT_DIR$/dede/module_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/module_make.php" afterPath="$PROJECT_DIR$/dede/module_make.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/module_upload.php" afterPath="$PROJECT_DIR$/dede/module_upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mychannel_add.php" afterPath="$PROJECT_DIR$/dede/mychannel_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mychannel_edit.php" afterPath="$PROJECT_DIR$/dede/mychannel_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mychannel_field_add.php" afterPath="$PROJECT_DIR$/dede/mychannel_field_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mychannel_field_edit.php" afterPath="$PROJECT_DIR$/dede/mychannel_field_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mychannel_main.php" afterPath="$PROJECT_DIR$/dede/mychannel_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mynews_add.php" afterPath="$PROJECT_DIR$/dede/mynews_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mynews_edit.php" afterPath="$PROJECT_DIR$/dede/mynews_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mynews_main.php" afterPath="$PROJECT_DIR$/dede/mynews_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mytag_add.php" afterPath="$PROJECT_DIR$/dede/mytag_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mytag_edit.php" afterPath="$PROJECT_DIR$/dede/mytag_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mytag_main.php" afterPath="$PROJECT_DIR$/dede/mytag_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mytag_tag_guide.php" afterPath="$PROJECT_DIR$/dede/mytag_tag_guide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/mytag_tag_guide_ok.php" afterPath="$PROJECT_DIR$/dede/mytag_tag_guide_ok.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/pic_view.php" afterPath="$PROJECT_DIR$/dede/pic_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/plus_edit.php" afterPath="$PROJECT_DIR$/dede/plus_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/plus_main.php" afterPath="$PROJECT_DIR$/dede/plus_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/public_guide.php" afterPath="$PROJECT_DIR$/dede/public_guide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/recycling.php" afterPath="$PROJECT_DIR$/dede/recycling.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/search_keywords_main.php" afterPath="$PROJECT_DIR$/dede/search_keywords_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/shops_delivery.php" afterPath="$PROJECT_DIR$/dede/shops_delivery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/shops_operations.php" afterPath="$PROJECT_DIR$/dede/shops_operations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/shops_operations_cart.php" afterPath="$PROJECT_DIR$/dede/shops_operations_cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/shops_operations_userinfo.php" afterPath="$PROJECT_DIR$/dede/shops_operations_userinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/soft_add.php" afterPath="$PROJECT_DIR$/dede/soft_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/soft_config.php" afterPath="$PROJECT_DIR$/dede/soft_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/soft_edit.php" afterPath="$PROJECT_DIR$/dede/soft_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/spec_add.php" afterPath="$PROJECT_DIR$/dede/spec_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/spec_edit.php" afterPath="$PROJECT_DIR$/dede/spec_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/stepselect_main.php" afterPath="$PROJECT_DIR$/dede/stepselect_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_add.php" afterPath="$PROJECT_DIR$/dede/story_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_add_action.php" afterPath="$PROJECT_DIR$/dede/story_add_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_add_content.php" afterPath="$PROJECT_DIR$/dede/story_add_content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_add_content_action.php" afterPath="$PROJECT_DIR$/dede/story_add_content_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_add_photo.php" afterPath="$PROJECT_DIR$/dede/story_add_photo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_add_photo_action.php" afterPath="$PROJECT_DIR$/dede/story_add_photo_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_books.php" afterPath="$PROJECT_DIR$/dede/story_books.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_catalog.php" afterPath="$PROJECT_DIR$/dede/story_catalog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_content_edit.php" afterPath="$PROJECT_DIR$/dede/story_content_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_do.php" afterPath="$PROJECT_DIR$/dede/story_do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_edit.php" afterPath="$PROJECT_DIR$/dede/story_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_edit_action.php" afterPath="$PROJECT_DIR$/dede/story_edit_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_edit_content_action.php" afterPath="$PROJECT_DIR$/dede/story_edit_content_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_edit_photo_action.php" afterPath="$PROJECT_DIR$/dede/story_edit_photo_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_list_chapter.php" afterPath="$PROJECT_DIR$/dede/story_list_chapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_list_content.php" afterPath="$PROJECT_DIR$/dede/story_list_content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/story_photo_edit.php" afterPath="$PROJECT_DIR$/dede/story_photo_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/swfupload.php" afterPath="$PROJECT_DIR$/dede/swfupload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_admin_user.php" afterPath="$PROJECT_DIR$/dede/sys_admin_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_admin_user_add.php" afterPath="$PROJECT_DIR$/dede/sys_admin_user_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_admin_user_edit.php" afterPath="$PROJECT_DIR$/dede/sys_admin_user_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_admin_user_tj.php" afterPath="$PROJECT_DIR$/dede/sys_admin_user_tj.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_cache_up.php" afterPath="$PROJECT_DIR$/dede/sys_cache_up.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_data.php" afterPath="$PROJECT_DIR$/dede/sys_data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_data_done.php" afterPath="$PROJECT_DIR$/dede/sys_data_done.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_data_replace.php" afterPath="$PROJECT_DIR$/dede/sys_data_replace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_data_revert.php" afterPath="$PROJECT_DIR$/dede/sys_data_revert.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_group.php" afterPath="$PROJECT_DIR$/dede/sys_group.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_group_add.php" afterPath="$PROJECT_DIR$/dede/sys_group_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_group_edit.php" afterPath="$PROJECT_DIR$/dede/sys_group_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_info.php" afterPath="$PROJECT_DIR$/dede/sys_info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_info_mark.php" afterPath="$PROJECT_DIR$/dede/sys_info_mark.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_multiserv.php" afterPath="$PROJECT_DIR$/dede/sys_multiserv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_passport.php" afterPath="$PROJECT_DIR$/dede/sys_passport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_payment.php" afterPath="$PROJECT_DIR$/dede/sys_payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_repair.php" afterPath="$PROJECT_DIR$/dede/sys_repair.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_safe.php" afterPath="$PROJECT_DIR$/dede/sys_safe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_safetest.php" afterPath="$PROJECT_DIR$/dede/sys_safetest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_sql_info.php" afterPath="$PROJECT_DIR$/dede/sys_sql_info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_sql_query.php" afterPath="$PROJECT_DIR$/dede/sys_sql_query.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_task.php" afterPath="$PROJECT_DIR$/dede/sys_task.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_task_add.php" afterPath="$PROJECT_DIR$/dede/sys_task_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_task_edit.php" afterPath="$PROJECT_DIR$/dede/sys_task_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/sys_verifies.php" afterPath="$PROJECT_DIR$/dede/sys_verifies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/tag_test.php" afterPath="$PROJECT_DIR$/dede/tag_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/tag_test_action.php" afterPath="$PROJECT_DIR$/dede/tag_test_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/tags_main.php" afterPath="$PROJECT_DIR$/dede/tags_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/task_do.php" afterPath="$PROJECT_DIR$/dede/task_do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/ad_add.htm" afterPath="$PROJECT_DIR$/dede/templets/ad_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/ad_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/ad_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/ad_main.htm" afterPath="$PROJECT_DIR$/dede/templets/ad_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/adtype_main.htm" afterPath="$PROJECT_DIR$/dede/templets/adtype_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/album_add.htm" afterPath="$PROJECT_DIR$/dede/templets/album_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/album_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/album_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/archives_add.htm" afterPath="$PROJECT_DIR$/dede/templets/archives_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/archives_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/archives_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/article_add.htm" afterPath="$PROJECT_DIR$/dede/templets/article_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/article_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/article_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/catalog_add.htm" afterPath="$PROJECT_DIR$/dede/templets/catalog_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/catalog_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/catalog_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/catalog_main.htm" afterPath="$PROJECT_DIR$/dede/templets/catalog_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/catalog_menu.htm" afterPath="$PROJECT_DIR$/dede/templets/catalog_menu.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/co_add_step1.htm" afterPath="$PROJECT_DIR$/dede/templets/co_add_step1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/co_config.htm" afterPath="$PROJECT_DIR$/dede/templets/co_config.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/co_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/co_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/content_att.htm" afterPath="$PROJECT_DIR$/dede/templets/content_att.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/content_i_list.htm" afterPath="$PROJECT_DIR$/dede/templets/content_i_list.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/content_list.htm" afterPath="$PROJECT_DIR$/dede/templets/content_list.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/diy_add.htm" afterPath="$PROJECT_DIR$/dede/templets/diy_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/diy_main.htm" afterPath="$PROJECT_DIR$/dede/templets/diy_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/feedback_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/feedback_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/feedback_main.htm" afterPath="$PROJECT_DIR$/dede/templets/feedback_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/file_manage_main.htm" afterPath="$PROJECT_DIR$/dede/templets/file_manage_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/freelist_add.htm" afterPath="$PROJECT_DIR$/dede/templets/freelist_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/freelist_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/freelist_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/freelist_main.htm" afterPath="$PROJECT_DIR$/dede/templets/freelist_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/friendlink_add.htm" afterPath="$PROJECT_DIR$/dede/templets/friendlink_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/friendlink_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/friendlink_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/friendlink_main.htm" afterPath="$PROJECT_DIR$/dede/templets/friendlink_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/friendlink_type.htm" afterPath="$PROJECT_DIR$/dede/templets/friendlink_type.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/index2.htm" afterPath="$PROJECT_DIR$/dede/templets/index2.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/index_body.htm" afterPath="$PROJECT_DIR$/dede/templets/index_body.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/index_body_move.htm" afterPath="$PROJECT_DIR$/dede/templets/index_body_move.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/index_menu2.htm" afterPath="$PROJECT_DIR$/dede/templets/index_menu2.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/log_list.htm" afterPath="$PROJECT_DIR$/dede/templets/log_list.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/login.htm" afterPath="$PROJECT_DIR$/dede/templets/login.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_all.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_all.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_archives.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_archives.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_homepage.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_homepage.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_js.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_js.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_list.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_list.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_map_guide.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_map_guide.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_rss.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_rss.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/makehtml_spec.htm" afterPath="$PROJECT_DIR$/dede/templets/makehtml_spec.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/media_add.htm" afterPath="$PROJECT_DIR$/dede/templets/media_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/media_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/media_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/media_main.htm" afterPath="$PROJECT_DIR$/dede/templets/media_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_feed_main.htm" afterPath="$PROJECT_DIR$/dede/templets/member_feed_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_guestbook.htm" afterPath="$PROJECT_DIR$/dede/templets/member_guestbook.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_main.htm" afterPath="$PROJECT_DIR$/dede/templets/member_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_model_add.htm" afterPath="$PROJECT_DIR$/dede/templets/member_model_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_model_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/member_model_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_model_field_add.htm" afterPath="$PROJECT_DIR$/dede/templets/member_model_field_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_model_field_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/member_model_field_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_model_main.htm" afterPath="$PROJECT_DIR$/dede/templets/member_model_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_mood_main.htm" afterPath="$PROJECT_DIR$/dede/templets/member_mood_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_pm.htm" afterPath="$PROJECT_DIR$/dede/templets/member_pm.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_rank.htm" afterPath="$PROJECT_DIR$/dede/templets/member_rank.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_scores.htm" afterPath="$PROJECT_DIR$/dede/templets/member_scores.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/member_view.htm" afterPath="$PROJECT_DIR$/dede/templets/member_view.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/module_main.htm" afterPath="$PROJECT_DIR$/dede/templets/module_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/module_make.htm" afterPath="$PROJECT_DIR$/dede/templets/module_make.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/module_upload.htm" afterPath="$PROJECT_DIR$/dede/templets/module_upload.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/mychannel_add.htm" afterPath="$PROJECT_DIR$/dede/templets/mychannel_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/mychannel_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/mychannel_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/mychannel_main.htm" afterPath="$PROJECT_DIR$/dede/templets/mychannel_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/mytag_add.htm" afterPath="$PROJECT_DIR$/dede/templets/mytag_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/mytag_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/mytag_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/mytag_main.htm" afterPath="$PROJECT_DIR$/dede/templets/mytag_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/mytag_tag_guide.htm" afterPath="$PROJECT_DIR$/dede/templets/mytag_tag_guide.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/plus_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/plus_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/plus_main.htm" afterPath="$PROJECT_DIR$/dede/templets/plus_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/recycling.htm" afterPath="$PROJECT_DIR$/dede/templets/recycling.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/soft_add.htm" afterPath="$PROJECT_DIR$/dede/templets/soft_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/soft_config.htm" afterPath="$PROJECT_DIR$/dede/templets/soft_config.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/soft_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/soft_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/stepselect_main.htm" afterPath="$PROJECT_DIR$/dede/templets/stepselect_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_admin_user.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user_add.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_admin_user_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_admin_user_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user_tj.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_admin_user_tj.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_cache_up.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_cache_up.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_data.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_data.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_data_revert.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_data_revert.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_group.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_group.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_group_add.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_group_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_info.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_info.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_info_mark.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_info_mark.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_multiserv.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_multiserv.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_safe.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_safe.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_safetest.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_safetest.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_sql_query.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_sql_query.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_task.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_task.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_task_add.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_task_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_task_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_task_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/sys_verifies.htm" afterPath="$PROJECT_DIR$/dede/templets/sys_verifies.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/tag_test.htm" afterPath="$PROJECT_DIR$/dede/templets/tag_test.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/templets_default.htm" afterPath="$PROJECT_DIR$/dede/templets/templets_default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/templets_one.htm" afterPath="$PROJECT_DIR$/dede/templets/templets_one.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/templets_one_add.htm" afterPath="$PROJECT_DIR$/dede/templets/templets_one_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/templets_tagsource.htm" afterPath="$PROJECT_DIR$/dede/templets/templets_tagsource.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/tpl_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/tpl_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/tpl_edit_tag.htm" afterPath="$PROJECT_DIR$/dede/templets/tpl_edit_tag.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/vote_add.htm" afterPath="$PROJECT_DIR$/dede/templets/vote_add.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/vote_edit.htm" afterPath="$PROJECT_DIR$/dede/templets/vote_edit.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/vote_getcode.htm" afterPath="$PROJECT_DIR$/dede/templets/vote_getcode.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets/vote_main.htm" afterPath="$PROJECT_DIR$/dede/templets/vote_main.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets_main.php" afterPath="$PROJECT_DIR$/dede/templets_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets_one.php" afterPath="$PROJECT_DIR$/dede/templets_one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets_one_add.php" afterPath="$PROJECT_DIR$/dede/templets_one_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets_one_edit.php" afterPath="$PROJECT_DIR$/dede/templets_one_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/templets_tagsource.php" afterPath="$PROJECT_DIR$/dede/templets_tagsource.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/testenv.php" afterPath="$PROJECT_DIR$/dede/testenv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/tpl.php" afterPath="$PROJECT_DIR$/dede/tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/update_guide.php" afterPath="$PROJECT_DIR$/dede/update_guide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/vote_add.php" afterPath="$PROJECT_DIR$/dede/vote_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/vote_edit.php" afterPath="$PROJECT_DIR$/dede/vote_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/vote_getcode.php" afterPath="$PROJECT_DIR$/dede/vote_getcode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dede/vote_main.php" afterPath="$PROJECT_DIR$/dede/vote_main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/0013920_47.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/00141400_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001414_80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/0014501_75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/00145200_48.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/00145200_88.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/00145200_91.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001453_17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001453_19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001453_71.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/001454_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/1BF19AA82AA8ADE2BDA66CB7B7390F8B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/24hour_09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/6a8f90a07cd4c2db24c7a04eb4fb94c4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/748111E12612C94067C348534F1A4687.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/748111e12612c94067c348534f1a4687.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/8D1BB4399B9AE3ECC7AD094D98CA8587.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/8e9e22559b7dd05046d65c6465e672a2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/F46F0059-8766-42A2-9A1F-F4096C844E9F.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/_b_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/about.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/about1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/about_us_bg_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/ad_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/ad_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/ad_scroll_back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/ad_scroll_forward.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/b_next_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/banner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/blackbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/car_number.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/cart_add.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/cart_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/cart_cut.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/ddddssss_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/drop_down_icon_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/fan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/fan_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/ggeege_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/icons1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/imap_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/left_bottom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/left_radiu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/left_title1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/left_top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/leftbtn1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/li_icon_bg_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/li_pic_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/link_li_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/links_border_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/lllllo_23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/logo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/model_car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/msg_btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/msg_line1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/nav_li_bg_07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/onload.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/opa75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/orange_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/pdf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/product_zoom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/quit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/rightbtn1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/shang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/shang_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/slid_next_07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/sss0as0_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/title_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/tubiao_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/view_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/view_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/vip_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/vip_nu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/vip_xiao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/weixin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/xia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/images/xia_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/MFC39F5.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/article_pic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/child_atm.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/child_cart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/child_form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/child_msg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/child_page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/master.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/css/subpage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/child_atm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/humane.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/jquery.ad-gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/lihe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/select_beauty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/superslide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/default/js/zoom.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/arc.archives.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/arc.listview.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/arc.searchview.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/arc.sglistview.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/helpers/channelunit.helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/article_pic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/child_atm.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/child_cart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/child_form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/child_msg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/child_page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/master.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/css/subpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/0013920_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/00141400_09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001414_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/0014501_75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/00145200_48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/00145200_88.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/00145200_91.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001453_17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001453_19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001453_71.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/001454_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/1BF19AA82AA8ADE2BDA66CB7B7390F8B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/24hour_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/6a8f90a07cd4c2db24c7a04eb4fb94c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/748111E12612C94067C348534F1A4687.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/748111e12612c94067c348534f1a4687.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/8D1BB4399B9AE3ECC7AD094D98CA8587.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/8e9e22559b7dd05046d65c6465e672a2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/F46F0059-8766-42A2-9A1F-F4096C844E9F.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/_b_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/about.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/about1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/about_us_bg_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/ad_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/ad_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/ad_scroll_back.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/ad_scroll_forward.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/b_next_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/banner1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/banner2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/banner3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/banner4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/blackbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/car_number.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/cart_add.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/cart_clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/cart_cut.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/ddddssss_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/drop_down_icon_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/fan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/fan_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/ggeege_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/icons1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/imap_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/left_bottom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/left_radiu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/left_title1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/left_top.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/leftbtn1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/li_icon_bg_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/li_pic_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/link_li_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/links_border_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/lllllo_23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/logo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/model_car.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/msg_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/msg_line1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/nav_li_bg_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/onload.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/opa75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/orange_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/pdf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/product_zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/quit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/rightbtn1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/shang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/shang_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/slid_next_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/sss0as0_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/title_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/tubiao_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/view_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/view_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/vip_member.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/vip_nu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/vip_xiao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/weixin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/xia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/images/xia_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/MFC39F5.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/child_atm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/humane.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/jquery.ad-gallery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/lihe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/select_beauty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/superslide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skin/js/zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/article_article_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/article_default_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/footer_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/header_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/index_default_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/index_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/list_article_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/list_default_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/liuyan_m.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/default/search_m.htm" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/footer.htmef1f3d52617cb63e.inc" afterPath="$PROJECT_DIR$/data/tplcache/footer.htmef1f3d52617cb63e.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/footer.htmef1f3d52617cb63e.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/footer.htmef1f3d52617cb63e.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/head.htmab48fbc0e6a1c129.inc" afterPath="$PROJECT_DIR$/data/tplcache/head.htmab48fbc0e6a1c129.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/head.htmab48fbc0e6a1c129.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/head.htmab48fbc0e6a1c129.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc" afterPath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc" afterPath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/index_about.htmf4fd596aa05534f8.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/common.inc.php" afterPath="$PROJECT_DIR$/include/common.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/typelink.class.php" afterPath="$PROJECT_DIR$/include/typelink.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/article_article.htm" afterPath="$PROJECT_DIR$/templets/default/article_article.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/article_pic.htm" afterPath="$PROJECT_DIR$/templets/default/article_pic.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/footer.htm" afterPath="$PROJECT_DIR$/templets/default/footer.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/head.htm" afterPath="$PROJECT_DIR$/templets/default/head.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index.htm" afterPath="$PROJECT_DIR$/templets/default/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index_about.htm" afterPath="$PROJECT_DIR$/templets/default/index_about.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index_article.htm" afterPath="$PROJECT_DIR$/templets/default/index_article.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index_contact.htm" afterPath="$PROJECT_DIR$/templets/default/index_contact.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_article.htm" afterPath="$PROJECT_DIR$/templets/default/list_article.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_case.htm" afterPath="$PROJECT_DIR$/templets/default/list_case.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_pic.htm" afterPath="$PROJECT_DIR$/templets/default/list_pic.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/liuyan.htm" afterPath="$PROJECT_DIR$/templets/default/liuyan.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/search.htm" afterPath="$PROJECT_DIR$/templets/default/search.htm" />
     </list>
     <ignored path="nanfang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -410,102 +286,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="arc.sglistview.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/arc.sglistview.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4598">
-              <caret line="242" column="54" selection-start-line="242" selection-start-column="45" selection-end-line="242" selection-end-column="54" />
-              <folding>
-                <marker date="1452391436000" expanded="true" signature="3126:3265" ph="SELECT id,to... ##@__arctype" />
-                <marker date="1452391436000" expanded="true" signature="3549:3659" ph="SELECT id,to... ##@__arctype" />
-                <marker date="1452391436000" expanded="true" signature="6886:6943" ph="SELECT COUNT... ${{$this-&gt;AddTable}}" />
-                <marker date="1452391436000" expanded="true" signature="7032:7083" ph="SELECT COUNT... ##@__arctiny" />
-                <marker date="1452391436000" expanded="true" signature="22781:23140" ph="SELECT tp.ty... ${{$this-&gt;AddTable}}" />
-                <marker date="1452391436000" expanded="true" signature="23366:23450" ph="SELECT id Fr... ##@__arctiny" />
-                <marker date="1452391436000" expanded="true" signature="23827:24206" ph="SELECT tp.ty... ${{$this-&gt;AddTable}}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.cache.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/config.cache.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <marker date="1490941128925" expanded="true" signature="646:677" ph="Select * Fro... ##@__homepageset" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="channelunit.helper.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/include/helpers/channelunit.helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="458" column="18" selection-start-line="458" selection-start-column="18" selection-end-line="458" selection-end-column="18" />
-              <folding>
-                <marker date="1490970672785" expanded="true" signature="19774:19895" ph="SELECT keywo... ##@_" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/common.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3344">
-              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header_m.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/header_m.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arc.archives.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/arc.archives.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10412">
-              <caret line="548" column="24" selection-start-line="548" selection-start-column="16" selection-end-line="548" selection-end-column="24" />
-              <folding>
-                <marker date="1464161038000" expanded="true" signature="1423:1479" ph="SELECT chann... ##@__arctiny" />
-                <marker date="1464161038000" expanded="true" signature="1963:2243" ph="SELECT arc.*... ##@__archives" />
-                <marker date="1464161038000" expanded="true" signature="4171:4254" ph="SELECT * FRO... ${{$this-&gt;ChannelUnit-&gt;ChannelInfos['addtable']}}" />
-                <marker date="1464161038000" expanded="true" signature="16835:16897" ph="Update `##@__... " />
-                <marker date="1464161038000" expanded="true" signature="28812:28925" ph="Select id Fr... ##@__arctiny" />
-                <marker date="1464161038000" expanded="true" signature="28971:29083" ph="Select id Fr... ##@__arctiny" />
-                <marker date="1464161038000" expanded="true" signature="29286:29606" ph="Select arc.i... ##@__archives" />
-                <marker date="1464161038000" expanded="true" signature="42832:42893" ph="SELECT * FRO... ##@_" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="661">
+              <caret line="221" column="32" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/index_default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_article.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/list_article.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/list_default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liuyan.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/liuyan.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="694">
+              <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/search.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+              <folding>
+                <element signature="e#950#958#1" expanded="true" />
+                <element signature="e#1313#1321#1" expanded="true" />
+                <element signature="e#1434#1442#1" expanded="true" />
+                <element signature="e#1562#1570#1" expanded="true" />
+                <element signature="e#1622#1630#1" expanded="true" />
+                <element signature="e#2539#2547#1" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changelog.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/changelog.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/article_default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="699">
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/footer.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/header.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -528,7 +414,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/skin/css/child_atm.css" />
-        <option value="$PROJECT_DIR$/templets/default/article_article.htm" />
         <option value="$PROJECT_DIR$/templets/default/index_article.htm" />
         <option value="$PROJECT_DIR$/templets/default/index_news.htm" />
         <option value="$PROJECT_DIR$/templets/default/left.htm" />
@@ -542,10 +427,8 @@
         <option value="$PROJECT_DIR$/templets/default/list_pic.htm" />
         <option value="$PROJECT_DIR$/skin/css/child_page.css" />
         <option value="$PROJECT_DIR$/skin/css/article_pic.css" />
-        <option value="$PROJECT_DIR$/include/common.inc.php" />
         <option value="$PROJECT_DIR$/templets/default/head.htm" />
         <option value="$PROJECT_DIR$/include/common.func.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/dede/templets/catalog_edit.htm" />
         <option value="$PROJECT_DIR$/dede/templets/catalog_add.htm" />
         <option value="$PROJECT_DIR$/dede/templets/album_add.htm" />
@@ -553,7 +436,6 @@
         <option value="$PROJECT_DIR$/dede/templets/archives_add.htm" />
         <option value="$PROJECT_DIR$/dede/templets/archives_edit.htm" />
         <option value="$PROJECT_DIR$/dede/templets/article_edit.htm" />
-        <option value="$PROJECT_DIR$/templets/default/index.htm" />
         <option value="$PROJECT_DIR$/include/dedetag.class.php" />
         <option value="$PROJECT_DIR$/include/helpers/archive.helper.php" />
         <option value="$PROJECT_DIR$/include/helpers/arctype.helper.php" />
@@ -562,7 +444,22 @@
         <option value="$PROJECT_DIR$/m/index.php" />
         <option value="$PROJECT_DIR$/templets/default/index_m.htm" />
         <option value="$PROJECT_DIR$/templets/default/header_m.htm" />
+        <option value="$PROJECT_DIR$/templets/default/article_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/index.htm" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/include/common.inc.php" />
         <option value="$PROJECT_DIR$/include/helpers/channelunit.helper.php" />
+        <option value="$PROJECT_DIR$/include/arc.archives.class.php" />
+        <option value="$PROJECT_DIR$/include/typelink.class.php" />
+        <option value="$PROJECT_DIR$/templets/m_default/article_article.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/article_default.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/index.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/index_default.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/list_article.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/list_default.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/liuyan.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/search.htm" />
+        <option value="$PROJECT_DIR$/changelog.md" />
       </list>
     </option>
   </component>
@@ -603,7 +500,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -646,28 +542,82 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="templets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m_default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/project/268_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CI_IMS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\DedeCMSX\jishu" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\nanfang\skin\images" />
-      <recent name="E:\project\nanfang\skin\js" />
-      <recent name="E:\project\nanfang\templets\default" />
-      <recent name="E:\project\nanfang\uploads\allimg\170313" />
-      <recent name="E:\project\nanfang\uploads\170313" />
+      <recent name="E:\project\DedeCMSX" />
+      <recent name="E:\project\DedeCMSX\include" />
+      <recent name="E:\project\DedeCMSX\include\tpllib" />
+      <recent name="E:\project\DedeCMSX\include\helpers" />
+      <recent name="E:\project\DedeCMSX\templets\default" />
     </key>
   </component>
   <component name="RunManager">
@@ -740,20 +690,22 @@
       <workItem from="1490880522867" duration="600000" />
       <workItem from="1490923821339" duration="34937000" />
       <workItem from="1490972431318" duration="421000" />
+      <workItem from="1491028089397" duration="9061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97364000" />
+    <option name="totallyTimeSpent" value="106425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17435622" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13948497" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3383948" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11695279" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -764,7 +716,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51084596" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -785,166 +736,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/payment/alipay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1364795338000" expanded="true" signature="2943:2960" ph="..." />
-            <marker date="1364795338000" expanded="true" signature="3898:3954" ph="SELECT * FRO... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="4279:4341" ph="SELECT * FRO... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="6247:6303" ph="SELECT state... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="6429:6524" ph="UPDATE `##@__... " />
-            <marker date="1364795338000" expanded="true" signature="6939:7035" ph="UPDATE `##@__... " />
-            <marker date="1364795338000" expanded="true" signature="7191:7262" ph="SELECT cardi... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="7395:7454" ph="SELECT num F... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="7521:7604" ph="UPDATE `##@__... " />
-            <marker date="1364795338000" expanded="true" signature="7752:7856" ph="UPDATE ##@__m... " />
-            <marker date="1364795338000" expanded="true" signature="7993:8072" ph="UPDATE ##@__m... " />
-            <marker date="1364795338000" expanded="true" signature="8550:8607" ph="SELECT rank,... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="8753:8817" ph="SELECT uptim... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="9157:9212" ph="SELECT money... ##@_" />
-            <marker date="1364795338000" expanded="true" signature="9260:9490" ph="UPDATE ##@__m... " />
-            <marker date="1364795338000" expanded="true" signature="9538:9619" ph="UPDATE ##@__m... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/dedesql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="13318:13327" ph="..." />
-            <marker date="1452391436000" expanded="true" signature="13413:13456" ph="..." />
-            <marker date="1452391436000" expanded="true" signature="13495:13505" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/channelunit.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="1035:1082" ph="SELECT * FRO... ##@__channeltype" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/system/channel_list.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/helpers/util.helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="222" column="13" selection-start-line="222" selection-start-column="13" selection-end-line="222" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/taglib/channel.lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="170" column="20" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="20" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="1856:1902" ph="SELECT * FRO... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="2204:2385" ph="SELECT id,ty... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="2482:2671" ph="SELECT id,ty... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="2767:2956" ph="SELECT id,ty... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="3444:3633" ph="SELECT id,ty... ##@__arctype" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/catalog_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/catalog_edit.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="242" column="15" selection-start-line="242" selection-start-column="15" selection-end-line="242" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/archives_sg_add.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3291">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/archives_sg_edit.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3011">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/article_add.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11561">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/archives_edit.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="288" column="16" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/archives_add.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="304" column="53" selection-start-line="304" selection-start-column="49" selection-end-line="304" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/album_edit.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="336" column="17" selection-start-line="336" selection-start-column="17" selection-end-line="336" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/album_add.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="484" column="18" selection-start-line="484" selection-start-column="18" selection-end-line="484" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/catalog_add.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="331" column="17" selection-start-line="331" selection-start-column="17" selection-end-line="331" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/article_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1273">
-          <caret line="98" column="11" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dede/article_edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1035,18 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/helpers/arctype.helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#6#115#0#PHP" expanded="false" />
-            <marker date="1490952781815" expanded="true" signature="462:505" ph="SELECT topid... ##@__arctype" />
-            <marker date="1490952781815" expanded="true" signature="462:506" ph="SELECT topid... ##@__arctype" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
@@ -1083,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/config.cache.bak.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-712">
@@ -1114,31 +885,6 @@
             <marker date="1452391436000" expanded="true" signature="3557:3633" ph="UPDATE `##@__... " />
             <marker date="1452391436000" expanded="true" signature="4064:4138" ph="SELECT `scor... ##@__member" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/arc.archives.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10412">
-          <caret line="548" column="24" selection-start-line="548" selection-start-column="16" selection-end-line="548" selection-end-column="24" />
-          <folding>
-            <marker date="1464161038000" expanded="true" signature="1423:1479" ph="SELECT chann... ##@__arctiny" />
-            <marker date="1464161038000" expanded="true" signature="1963:2243" ph="SELECT arc.*... ##@__archives" />
-            <marker date="1464161038000" expanded="true" signature="4171:4254" ph="SELECT * FRO... ${{$this-&gt;ChannelUnit-&gt;ChannelInfos['addtable']}}" />
-            <marker date="1464161038000" expanded="true" signature="16835:16897" ph="Update `##@__... " />
-            <marker date="1464161038000" expanded="true" signature="28812:28925" ph="Select id Fr... ##@__arctiny" />
-            <marker date="1464161038000" expanded="true" signature="28971:29083" ph="Select id Fr... ##@__arctiny" />
-            <marker date="1464161038000" expanded="true" signature="29286:29606" ph="Select arc.i... ##@__archives" />
-            <marker date="1464161038000" expanded="true" signature="42832:42893" ph="SELECT * FRO... ##@_" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,16 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <marker date="1490965202158" expanded="true" signature="384:415" ph="Select * Fro... ##@__homepageset" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dede/inc/configgroup.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1207,55 +943,308 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/arc.sglistview.class.php">
+    <entry file="file://$PROJECT_DIR$/templets/default/css/master.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4598">
-          <caret line="242" column="54" selection-start-line="242" selection-start-column="45" selection-end-line="242" selection-end-column="54" />
+        <state relative-caret-position="646">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
-            <marker date="1452391436000" expanded="true" signature="3126:3265" ph="SELECT id,to... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="3549:3659" ph="SELECT id,to... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="6886:6943" ph="SELECT COUNT... ${{$this-&gt;AddTable}}" />
-            <marker date="1452391436000" expanded="true" signature="7032:7083" ph="SELECT COUNT... ##@__arctiny" />
-            <marker date="1452391436000" expanded="true" signature="22781:23140" ph="SELECT tp.ty... ${{$this-&gt;AddTable}}" />
-            <marker date="1452391436000" expanded="true" signature="23366:23450" ph="SELECT id Fr... ##@__arctiny" />
-            <marker date="1452391436000" expanded="true" signature="23827:24206" ph="SELECT tp.ty... ${{$this-&gt;AddTable}}" />
+            <marker date="1490777596563" expanded="true" signature="29736:29778" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/common.inc.php">
+    <entry file="file://$PROJECT_DIR$/templets/default/article_article.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3344">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="737">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <marker date="1490941128925" expanded="true" signature="646:677" ph="Select * Fro... ##@__homepageset" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config.cache.bak.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config.file.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/config.cache.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="269">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/common.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="226" column="1" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/helpers/channelunit.helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="458" column="18" selection-start-line="458" selection-start-column="18" selection-end-line="458" selection-end-column="18" />
+        <state relative-caret-position="304">
+          <caret line="447" column="1" selection-start-line="447" selection-start-column="1" selection-end-line="447" selection-end-column="1" />
           <folding>
-            <marker date="1490970672785" expanded="true" signature="19774:19895" ph="SELECT keywo... ##@_" />
+            <marker date="1394673626000" expanded="true" signature="18074:18195" ph="SELECT keywo... ##@_" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/helpers/arctype.helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#115#0#PHP" expanded="true" />
+            <marker date="1490952781815" expanded="true" signature="462:505" ph="SELECT topid... ##@__arctype" />
+            <marker date="1490952781815" expanded="true" signature="462:506" ph="SELECT topid... ##@__arctype" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/typelink.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding>
+            <marker date="1433139992000" expanded="true" signature="1409:1577" ph="SELECT tp.*,... ##@__arctype" />
+            <marker date="1433139992000" expanded="true" signature="2486:2680" ph="SELECT ##@__a... " />
+            <marker date="1433139992000" expanded="true" signature="4927:5059" ph="SELECT id,re... ##@_" />
+            <marker date="1433139992000" expanded="true" signature="6881:6951" ph="SELECT id,ty... ##@_" />
+            <marker date="1433139992000" expanded="true" signature="7650:7704" ph="SELECT id,ty... ##@__arctype" />
+            <marker date="1433139992000" expanded="true" signature="7864:7936" ph="SELECT reid ##@__arctype" />
+            <marker date="1433139992000" expanded="true" signature="8572:8672" ph="SELECT id,ty... ##@__arctype" />
+            <marker date="1433139992000" expanded="true" signature="8750:8850" ph="SELECT id,ty... ##@__arctype" />
+            <marker date="1433139992000" expanded="true" signature="9927:10026" ph="SELECT id,ty... ##@_" />
+            <marker date="1433139992000" expanded="true" signature="11950:11997" ph="SELECT reid ##@_" />
+            <marker date="1433139992000" expanded="true" signature="12196:12365" ph="SELECT id,ty... ##@_" />
+            <marker date="1433139992000" expanded="true" signature="12464:12641" ph="SELECT id,ty... ##@_" />
+            <marker date="1433139992000" expanded="true" signature="12723:12900" ph="SELECT id,ty... ##@_" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/tpllib/arc.archives.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/arc.archives.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="560" column="45" selection-start-line="560" selection-start-column="45" selection-end-line="560" selection-end-column="45" />
+          <folding>
+            <marker date="1469517690000" expanded="true" signature="1425:1481" ph="SELECT chann... ##@__arctiny" />
+            <marker date="1469517690000" expanded="true" signature="1965:2245" ph="SELECT arc.*... ##@__archives" />
+            <marker date="1469517690000" expanded="true" signature="4173:4256" ph="SELECT * FRO... ${{$this-&gt;ChannelUnit-&gt;ChannelInfos['addtable']}}" />
+            <marker date="1469517690000" expanded="true" signature="16796:16858" ph="Update `##@__... " />
+            <marker date="1469517690000" expanded="true" signature="28771:28884" ph="Select id Fr... ##@__arctiny" />
+            <marker date="1469517690000" expanded="true" signature="28930:29042" ph="Select id Fr... ##@__arctiny" />
+            <marker date="1469517690000" expanded="true" signature="29245:29565" ph="Select arc.i... ##@__archives" />
+            <marker date="1469517690000" expanded="true" signature="42072:42133" ph="SELECT * FRO... ##@_" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/arc.listview.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="230" column="42" selection-start-line="230" selection-start-column="42" selection-end-line="230" selection-end-column="42" />
+          <folding>
+            <marker date="1475039889000" expanded="true" signature="3018:3157" ph="SELECT id,to... ##@__arctype" />
+            <marker date="1475039889000" expanded="true" signature="3441:3551" ph="SELECT id,to... ##@__arctype" />
+            <marker date="1475039889000" expanded="true" signature="7069:7120" ph="SELECT COUNT... ##@__arctiny" />
+            <marker date="1475039889000" expanded="true" signature="26769:27110" ph="SELECT arc.*... ##@__archives" />
+            <marker date="1475039889000" expanded="true" signature="27274:27357" ph="SELECT id FR... ##@__arctiny" />
+            <marker date="1475039889000" expanded="true" signature="27733:28107" ph="SELECT arc.*... ##@__archives" />
+            <marker date="1475039889000" expanded="true" signature="35746:35766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/arc.searchview.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+          <folding>
+            <marker date="1433383000000" expanded="true" signature="3112:3159" ph="SELECT chann... ##@__arctype" />
+            <marker date="1433383000000" expanded="true" signature="4752:4857" ph="UPDATE `##@__... " />
+            <marker date="1433383000000" expanded="true" signature="5503:5585" ph="SELECT spwor... ##@__search_keywords" />
+            <marker date="1433383000000" expanded="true" signature="6583:6764" ph="INSERT INTO `##@__search_keywords`... " />
+            <marker date="1433383000000" expanded="true" signature="6898:7007" ph="UPDATE `##@__... " />
+            <marker date="1433383000000" expanded="true" signature="9333:9424" ph="SELECT keywo... ##@__search_keywords" />
+            <marker date="1433383000000" expanded="true" signature="13483:13531" ph="SELECT addta... ##@__channeltype" />
+            <marker date="1433383000000" expanded="true" signature="13713:13757" ph="SELECT * FRO... ${{$this-&gt;AddTable}}" />
+            <marker date="1433383000000" expanded="true" signature="13872:13931" ph="SELECT * FRO... ##@__arccache" />
+            <marker date="1433383000000" expanded="true" signature="14779:14819" ph="DELETE FROM " />
+            <marker date="1433383000000" expanded="true" signature="14967:15084" ph="INSERT INTO `##@__arccache`... " />
+            <marker date="1433383000000" expanded="true" signature="21038:21315" ph="SELECT arc.*... ##@__archives" />
+            <marker date="1433383000000" expanded="true" signature="22269:22578" ph="SELECT arc.*... ${{$this-&gt;AddTable}}" />
+            <marker date="1433383000000" expanded="true" signature="30895:30901" ph=" " />
+            <marker date="1433383000000" expanded="true" signature="31029:31035" ph=" " />
+            <marker date="1433383000000" expanded="true" signature="31193:31207" ph="..." />
+            <marker date="1433383000000" expanded="true" signature="31591:31613" ph="..." />
+            <marker date="1433383000000" expanded="true" signature="31745:31781" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/arc.sglistview.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="232" column="42" selection-start-line="232" selection-start-column="42" selection-end-line="232" selection-end-column="42" />
+          <folding>
+            <marker date="1475039889000" expanded="true" signature="3128:3267" ph="SELECT id,to... ##@__arctype" />
+            <marker date="1475039889000" expanded="true" signature="3551:3661" ph="SELECT id,to... ##@__arctype" />
+            <marker date="1475039889000" expanded="true" signature="6888:6945" ph="SELECT COUNT... ${{$this-&gt;AddTable}}" />
+            <marker date="1475039889000" expanded="true" signature="7034:7085" ph="SELECT COUNT... ##@__arctiny" />
+            <marker date="1475039889000" expanded="true" signature="22813:23172" ph="SELECT tp.ty... ${{$this-&gt;AddTable}}" />
+            <marker date="1475039889000" expanded="true" signature="23398:23482" ph="SELECT id Fr... ##@__arctiny" />
+            <marker date="1475039889000" expanded="true" signature="23859:24238" ph="SELECT tp.ty... ${{$this-&gt;AddTable}}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <marker date="1490965202158" expanded="true" signature="384:415" ph="Select * Fro... ##@__homepageset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <marker date="1309509375000" expanded="true" signature="647:678" ph="Select * Fro... ##@__homepageset" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/article_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/article_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="221" column="32" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/index_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/list_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/liuyan.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/search.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="e#950#958#1" expanded="true" />
+            <element signature="e#1313#1321#1" expanded="true" />
+            <element signature="e#1434#1442#1" expanded="true" />
+            <element signature="e#1562#1570#1" expanded="true" />
+            <element signature="e#1622#1630#1" expanded="true" />
+            <element signature="e#2539#2547#1" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

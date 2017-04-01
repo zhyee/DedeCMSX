@@ -6,7 +6,7 @@
  * @package        DedeCMS.Libraries
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(DEDEINC."/typelink.class.php");
 require_once(DEDEINC."/dedetag.class.php");
@@ -22,7 +22,7 @@ require_once(DEDEINC."/taglib/channel.lib.php");
  *
  * @package          SearchView
  * @subpackage       DedeCMS.Libraries
- * @link             http://www.dede58.com
+ * @link             http://www.dedecms.com
  */
 class SearchView
 {

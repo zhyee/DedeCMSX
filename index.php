@@ -4,7 +4,7 @@
  * @package        DedeCMS.Site
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 if(!file_exists(dirname(__FILE__).'/data/common.inc.php'))
 {
@@ -27,7 +27,7 @@ if(isset($_GET['upcache']) || !file_exists('index.html'))
         $pv->SaveToHtml(dirname(__FILE__).'/index.html');
         include(dirname(__FILE__).'/index.html');
         exit();
-    } else {
+    } else { 
         $pv->Display();
         exit();
     }

@@ -143,6 +143,91 @@ if($_FILES)
 //数据库配置文件
 require_once(DEDEDATA.'/common.inc.php');
 
+
+/**
+ * 判断是PC端访问还是手机端访问
+ * @return bool
+ */
+function is_mobile(){
+    $useragent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
+
+    $mobile_os_list = array(
+        'Google Wireless Transcoder',
+        'Windows CE',
+        'WindowsCE',
+        'Symbian',
+        'Android',
+        'armv6l',
+        'armv5',
+        'Mobile',
+        'CentOS',
+        'mowser',
+        'AvantGo',
+        'Opera Mobi',
+        'J2ME/MIDP',
+        'Smartphone',
+        'Go.Web',
+        'Palm',
+        'iPAQ'
+    );
+
+    $mobile_token_list = array(
+        'Profile/MIDP',
+        'Configuration/CLDC-',
+        '160×160',
+        '176×220',
+        '240×240',
+        '240×320',
+        '320×240',
+        'UP.Browser',
+        'UP.Link',
+        'SymbianOS',
+        'PalmOS',
+        'PocketPC',
+        'SonyEricsson',
+        'Nokia',
+        'BlackBerry',
+        'Vodafone',
+        'BenQ',
+        'Novarra-Vision',
+        'Iris',
+        'NetFront',
+        'HTC_',
+        'Xda_',
+        'SAMSUNG-SGH',
+        'Wapaka',
+        'DoCoMo',
+        'iPhone',
+        'iPod',
+        'iPad',
+        'HUAWEI',
+        'Coolpad'
+    );
+
+    foreach($mobile_os_list as $os)
+    {
+        if(strpos($useragent, $os) !== false)
+        {
+            return true;
+        }
+    }
+    foreach($mobile_token_list as $token)
+    {
+        if(strpos($useragent, $token) != false)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+if (is_mobile() && !empty($cfg_df_m_style))
+{
+    $cfg_df_style = $cfg_df_m_style;
+}
+
+
+
 //载入系统验证安全配置
 if(file_exists(DEDEDATA.'/safe/inc_safe_config.php'))
 {

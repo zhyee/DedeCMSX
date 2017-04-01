@@ -7,7 +7,7 @@ if(!defined('DEDEINC')) exit("Request Error!");
  * @package        DedeCMS.Libraries
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
 require_once(DEDEINC."/typelink.class.php");
 require_once(DEDEINC."/channelunit.class.php");
@@ -20,7 +20,7 @@ require_once(DEDEINC.'/ftp.class.php');
  *
  * @package          TypeLink
  * @subpackage       DedeCMS.Libraries
- * @link             http://www.dede58.com
+ * @link             http://www.dedecms.com
  */
 class Archives
 {
@@ -276,7 +276,7 @@ class Archives
             $this->TotalPage = count($this->SplitFields);
             $this->Fields['totalpage'] = $this->TotalPage;
         }
-        
+
         //处理默认缩略图等
         if (isset($this->Fields['litpic']))
         {
@@ -289,7 +289,7 @@ class Archives
                 $this->Fields['litpic'] = $GLOBALS['cfg_mainsite'].$this->Fields['litpic'];
             }
             $this->Fields['picname'] = $this->Fields['litpic'];
-            
+
             //模板里直接使用{dede:field name='image'/}获取缩略图
             $this->Fields['image'] = (!preg_match('/jpg|gif|png/i', $this->Fields['picname']) ? '' : "<img src='{$this->Fields['picname']}' />");
         }
@@ -304,7 +304,7 @@ class Archives
                 $this->Fields['vote'] = "<script language='javascript' src='{$GLOBALS['cfg_mainsite']}/data/vote/vote_{$voteid}.js'></script>";
             }
         }
-        
+
         if (isset($this->Fields['goodpost']) && isset($this->Fields['badpost']))
         {
             //digg
@@ -396,7 +396,7 @@ class Archives
         $this->Fields['arcurl'] = $this->Fields['fullname'] = $filenameFull;
 
         //对于已设置不生成HTML的文章直接返回网址
-        if($this->Fields['ismake']==-1 || $this->Fields['arcrank']!=0 || $this->Fields['money']>0 
+        if($this->Fields['ismake']==-1 || $this->Fields['arcrank']!=0 || $this->Fields['money']>0
            || ($this->Fields['typeid']==0 && $this->Fields['channel'] != -1) )
         {
             return $this->GetTrueUrl($filename);
@@ -423,7 +423,7 @@ class Archives
                 //如果启用远程发布则需要进行判断
                 if($cfg_remote_site=='Y' && $isremote == 1)
                 {
-            
+
                     //分析远程文件路径
                     $remotefile = str_replace(DEDEROOT, '', $TRUEfilename);
                     $localfile = '..'.$remotefile;
@@ -795,7 +795,7 @@ class Archives
      *  获取上一篇，下一篇链接
      *
      * @access    public
-     * @param     string  $gtype  获取类型  
+     * @param     string  $gtype  获取类型
      *                    pre:上一篇  preimg:上一篇图片  next:下一篇  nextimg:下一篇图片
      * @return    string
      */
@@ -818,28 +818,24 @@ class Archives
             {
                 $mlink = GetFileUrl($preRow['id'],$preRow['typeid'],$preRow['senddate'],$preRow['title'],$preRow['ismake'],$preRow['arcrank'],
                 $preRow['namerule'],$preRow['typedir'],$preRow['money'],$preRow['filename'],$preRow['moresite'],$preRow['siteurl'],$preRow['sitepath']);
-                $this->PreNext['pre'] = "<a href='$mlink'>上一篇：{$preRow['title']}</a> ";
-				$this->PreNext['prewap'] = "<a href=\"view.php?aid={$preRow['id']}\" class=\"page\" data-ignore=\"true\">上一条:{$preRow['title']}</a>  ";
-                $this->PreNext['preimg'] = "<a href='$mlink'><img src=\"{$preRow['litpic']}\" alt=\"{$preRow['title']}\"/></a> "; 
+                $this->PreNext['pre'] = "上一篇：<a href='$mlink'>{$preRow['title']}</a> ";
+                $this->PreNext['preimg'] = "<a href='$mlink'><img src=\"{$preRow['litpic']}\" alt=\"{$preRow['title']}\"/></a> ";
             }
             else
             {
                 $this->PreNext['pre'] = "上一篇：没有了 ";
-				$this->PreNext['prewap'] = "<a href=\"javascript:;\" class=\"page\" data-ignore=\"true\">上一条：暂无记录</a>  ";
                 $this->PreNext['preimg'] ="<img src=\"/templets/default/images/nophoto.jpg\" alt=\"对不起，没有上一图集了！\"/>";
             }
             if(is_array($nextRow))
             {
                 $mlink = GetFileUrl($nextRow['id'],$nextRow['typeid'],$nextRow['senddate'],$nextRow['title'],$nextRow['ismake'],$nextRow['arcrank'],
                 $nextRow['namerule'],$nextRow['typedir'],$nextRow['money'],$nextRow['filename'],$nextRow['moresite'],$nextRow['siteurl'],$nextRow['sitepath']);
-                $this->PreNext['next'] = "<a href='$mlink'>下一篇：{$nextRow['title']}</a> ";
-				$this->PreNext['nextwap'] = "<a href=\"view.php?aid={$nextRow['id']}\" class=\"page\" data-ignore=\"true\">下一条:{$nextRow['title']}</a> ";
+                $this->PreNext['next'] = "下一篇：<a href='$mlink'>{$nextRow['title']}</a> ";
                 $this->PreNext['nextimg'] = "<a href='$mlink'><img src=\"{$nextRow['litpic']}\" alt=\"{$nextRow['title']}\"/></a> ";
             }
             else
             {
                 $this->PreNext['next'] = "下一篇：没有了 ";
-				$this->PreNext['nextwap'] = "<a href=\"javascript:;\" class=\"page\" data-ignore=\"true\">下一条：暂无记录</a> ";
                 $this->PreNext['nextimg'] ="<a href='javascript:void(0)' alt=\"\"><img src=\"/templets/default/images/nophoto.jpg\" alt=\"对不起，没有下一图集了！\"/></a>";
             }
         }
@@ -847,24 +843,16 @@ class Archives
         {
             $rs =  $this->PreNext['pre'];
         }
-		else if($gtype=='prewap'){
-            
-            $rs =  $this->PreNext['prewap'];
-        }
         else if($gtype=='preimg'){
-            
+
             $rs =  $this->PreNext['preimg'];
         }
         else if($gtype=='next')
         {
             $rs =  $this->PreNext['next'];
         }
-		else if($gtype=='nextwap')
-        {
-            $rs =  $this->PreNext['nextwap'];
-        }
         else if($gtype=='nextimg'){
-            
+
             $rs =  $this->PreNext['nextimg'];
         }
         else
@@ -1216,7 +1204,7 @@ class Archives
             }
         }
         */
-        $query = "SELECT * FROM #@__keywords WHERE rpurl<>'' ORDER BY rank DESC"; 
+        $query = "SELECT * FROM #@__keywords WHERE rpurl<>'' ORDER BY rank DESC";
         $this->dsql->SetQuery($query);
         $this->dsql->Execute();
         while($row = $this->dsql->GetArray())
@@ -1228,7 +1216,12 @@ class Archives
         }
 
         // 这里可能会有错误
-        $body = @preg_replace("#(^|>)([^<]+)(?=<|$)#sUe", "_highlight('\\2', \$karr, \$kaarr, '\\1')", $body);
+        if (version_compare(PHP_VERSION, '5.5.0', '>='))
+        {
+            $body = @preg_replace_callback("#(^|>)([^<]+)(?=<|$)#sU", "_highlight('\\2', \$karr, \$kaarr, '\\1')", $body);
+        } else {
+            $body = @preg_replace("#(^|>)([^<]+)(?=<|$)#sUe", "_highlight('\\2', \$karr, \$kaarr, '\\1')", $body);
+        }
 
         //恢复超链接
         $body = preg_replace("#(<a(.*))-\]-(.*)-\[-(\/a>)#isU", '\\1>\\3<\\4', $body);
@@ -1242,6 +1235,11 @@ class Archives
 function _highlight($string, $words, $result, $pre)
 {
     global $cfg_replace_num;
+    if (version_compare(PHP_VERSION, '5.5.0', '>='))
+    {
+        $string = $string[0];
+        $pre = $pre[0];
+    }
     $string = str_replace('\"', '"', $string);
     if($cfg_replace_num > 0)
     {

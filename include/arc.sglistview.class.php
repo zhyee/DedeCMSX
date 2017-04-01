@@ -6,7 +6,7 @@
  * @package        DedeCMS.Libraries
  * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://help.dedecms.com/usersguide/license.html
- * @link           http://www.dede58.com
+ * @link           http://www.dedecms.com
  */
  
 @set_time_limit(0);
@@ -17,7 +17,7 @@ require_once(DEDEINC."/arc.partview.class.php");
  *
  * @package          SgListView
  * @subpackage       DedeCMS.Libraries
- * @link             http://www.dede58.com
+ * @link             http://www.dedecms.com
  */
 class SgListView
 {
@@ -298,7 +298,7 @@ class SgListView
             return $reurl;
         }
 
-        $this->CountRecord();
+        if(empty($this->TotalResult)) $this->CountRecord();
         //初步给固定值的标记赋值
         $this->ParseTempletsFirst();
         $totalpage = ceil($this->TotalResult/$this->PageSize);

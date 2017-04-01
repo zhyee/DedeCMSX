@@ -15,5 +15,7 @@ $z[5]=Array("global","",697,723);
 $z[5][4]['name']="cfg_powerby";
 $z[6]=Array("global","",1174,1195);
 $z[6][4]['name']="cfg_qq";
+$z[7]=Array("global","",1338,1370);
+$z[7][4]['name']="cfg_templets_skin";
 
 ?>
