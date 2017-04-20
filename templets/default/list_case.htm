@@ -44,9 +44,32 @@
 <!-- 头部 -->
 
 {dede:include filename="head.htm"/} 
-<!-- 头部 end --> 
+<!-- 头部 end -->
 
-{dede:include filename="left.htm"/}
+
+<!-- banner -->
+
+<div class="child_top">
+  <div class="sear_b">
+    <div class="head">
+      <!-- search -->
+      <div class="search">
+        <form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+          <input type="hidden" name="kwtype" value="0" />
+          <div class="s_c">
+            <input type="text" name="q" id="q" value="" class="search_text" placeholder="请输入关键词！" />
+          </div>
+          <input type="submit" name="submit" id="submit" value=" " class="search_submit" />
+        </form>
+      </div>
+      <!-- search end -->
+    </div>
+  </div>
+  <a href="javascript:;" target="_self" class="random_pic">
+    <img src="{dede:global.cfg_templets_skin/}/images/banner1.jpg" alt="banner">
+  </a>
+</div>
+
 <div class="main_c">
   <div class="main" id="content">
 

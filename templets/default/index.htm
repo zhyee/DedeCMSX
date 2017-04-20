@@ -15,7 +15,6 @@
 <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/lihe.js"></script>
 <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/superslide.js"></script>
 <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/select_beauty.js"></script>
-<meta http-equiv="mobile-agent" content="format=xhtml;url={dede:global.cfg_mobileurl/}/index.php">
 <!--[if IE 6]>
 <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/png.js"></script>
 <script>DD_belatedPNG.fix('div,img,span,li,a,a:hover,dd,p,input,select')</script>
@@ -141,14 +140,11 @@ $(function(){
       [field:content  function='cn_substr(html2text(@me),550)'/]
       {/dede:sql} ...</div>
   </div>
-  <div class="img atm_mid"></div>
-  <script type="text/javascript">
-			var atmdateD = [{"is_url":"0","url_controller":"","url_action":"","url_para":"","pic_path":"/skin\/images\/about.jpg","title":"aboutus","href":"","url":"\/skin\/images\/about.jpg"}];
-			$(document).ready(function(){
-				var bannerShow = new Atm();
-				bannerShow.randomPic(atmdateD,".atm_mid","auto","228");
-			});
-		</script> 
+  <div class="img atm_mid">
+    <a href="javascript:;" target="_self" title="aboutus" class="random_pic">
+      <img src="{dede:global.cfg_templets_skin/}/images/about.jpg" alt="aboutus" height="228">
+    </a>
+  </div>
 </div>
 <!-- 关于我们 end --> 
 <!-- 产品中心 -->

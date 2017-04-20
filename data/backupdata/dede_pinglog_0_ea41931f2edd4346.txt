@@ -1,1 +1,0 @@
-INSERT INTO `dede_pinglog` VALUES('36','1380183938','1');

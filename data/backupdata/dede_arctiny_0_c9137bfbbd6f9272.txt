@@ -1,4 +1,4 @@
-INSERT INTO `dede_arctiny` VALUES('2','2','0','0','1','1444356808','1444356793','1');
+INSERT INTO `dede_arctiny` VALUES('2','2','0','0','1','1444356808','1490946134','1');
 INSERT INTO `dede_arctiny` VALUES('3','19','0','0','1','1444358413','1490836896','1');
 INSERT INTO `dede_arctiny` VALUES('4','19','0','0','1','1444358458','1489827977','1');
 INSERT INTO `dede_arctiny` VALUES('6','10','0','-2','1','1444359287','1444359234','1');
