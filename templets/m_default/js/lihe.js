@@ -4,7 +4,7 @@ $(function(){
         pagination: '.swiper-pagination',
         paginationClickable: true,
         loop:true,
-       /* autoplay:3000*/
+       autoplay:3000
     });
 
     $(".bangdan_c li:odd").css('background-color', '#e1e1e1');

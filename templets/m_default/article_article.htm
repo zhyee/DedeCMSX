@@ -46,7 +46,6 @@
       <div class="nav-btn commonfont">&#xe60b;</div>
     </div>
     <div class="type">
-      <h1>搜索：</h1>
       <div class="common-pro-search">
         <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
           <input type="hidden" name="mobile" value="1" />
@@ -55,14 +54,6 @@
           <input type="submit" class="common-submit commonfont" value="&#xe602;"/>
         </form>
       </div>
-      <h1>产品展示分类：</h1>
-      <ul>
-        {dede:channel type='son' row='10' typeid='3' currentstyle="<li class='hover'><a href='[field:typelink/]'><span>~typename~</span></a> </li>"}
-        <li> <a href="[field:typelink/]" title="[field:typename/]">[field:typename/]</a> <span class="commonfont class-down">&#xe60c;</span>
-          <dl></dl>
-        </li>
-        {/dede:channel}
-      </ul>
     </div>
   </div>
   <div class="content">

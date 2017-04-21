@@ -74,6 +74,10 @@ $(function(){
 		$(this).find('a').stop().animate({'width':'60px','left':0}, 300)
 	});
 
+	$(".back_top").click(function () {
+		$('html,body').animate({scrollTop : 0}, 1000);
+	});
+
 	$(".side_nav .sub_QR").addClass('side_nav_3')//控制二维码
 	$(".side_nav .sub_QR").hover(function() {
 		$(this).find('span').stop().toggle(300)

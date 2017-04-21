@@ -88,8 +88,6 @@ input[type="text"], input[type="password"], input[type="submit"], input[type="re
 }
 .logo {
 	display: inline-block;
-	width: 62.8125%;
-	height: auto;
 }
 .top-nav {
 	position: absolute;
@@ -212,7 +210,10 @@ body {
 .nav li a {
 	display: block;
 	width: 100%;
-	font: 700 16px/50px '微软雅黑';
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: normal;
+	font-family: '微软雅黑', 'Microsoft YaHei', sans-serif;
 	color: #fff;
 	text-align: center;
 }
@@ -319,7 +320,7 @@ body {
 	right: 16%;
 	top: 0%;
 	width: 18.0625%;
-	font-size: 0.24rem;
+	font-size: 0.3rem;
 	line-height: 0.666rem;
 	color: #fff;
 	text-align: center;
@@ -554,8 +555,7 @@ body {
 	-moz-transition: all 0.3s ease-in-out 0s;
 	-ms-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
-	height: 3rem;
-	padding: 0.1rem 0;
+	padding: 0.3rem 0;
 	display: none
 }
 .type li {
@@ -733,12 +733,18 @@ body {
 /* product */
 .product-top {
 	width: 91.25%;
-	margin: 2% auto;
+	margin: 4% auto;
 	border-bottom: 1px solid #c9c9c9;
-	height: 0.5833rem;
 	font: 0.2rem/0.5833rem "microsoft yahei";
 	color: #7b7b7b;
 }
+
+.product-top li
+{
+	display: inline-block;
+	padding: 5px;
+}
+
 .product-top p {
 	float: left;
 }

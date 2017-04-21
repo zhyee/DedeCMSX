@@ -2,134 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eb2cc1c-28a4-43b7-bd17-604a0426b53e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_about_0_bc02e628821eabef.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addcase_0_50fb051f817804fd.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon117_0_3df7b90819bf6c6d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon1237_0_81282da45d666e34.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon1238_0_aef05b07d1d9d433.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon12_0_d5299b5bcdfa4357.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon14_0_c21a3d348b5e0c5e.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon15_0_2cf7fffb6660db5d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon17_0_73784c18d0f34acc.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon18_0_9fe1904b43f18e84.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon19_0_8a88f45a220cb330.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon20_0_5f07d67676dbb537.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon21_0_119a7aa3b6149b8d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon26_0_45a768856eb47a81.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon27_0_74fc618f0bfef5a0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon28_0_c77e88c1b09d822a.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addon4417_0_e90a32eb56776fc4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonabout_0_06c4db12b1f6692b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonad_0_274fa3e57b1d8f5a.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonarticle17_0_91fe98d933e9cb2f.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonarticle18_0_d6da401bbc28a026.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonarticle4418_0_c6d241819e01830f.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonarticle7_0_6dff0678b911b483.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonarticle_0_df12f269fbcfc38e.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonarticlecake_0_a76dbf2fc77c86d1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addoncase_0_2ca2c5da48da4e07.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonclient_0_cc52b4c9c235614e.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonhot_0_c2f80433c667cc9f.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonimages17_0_25ee0656c5c6bd55.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonimages_0_94300feab85dfad6.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonmovie_0_35909964bbf549e5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonservices_0_f44ff7f6b5ed17f5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonshow_0_dd9b120d2bc5a20c.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addontop_0_fdb7dd2ae653abcb.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonvideo_0_b86042606d37a545.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonzyyy_0_5503a9788a4b0237.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_admin_0_954dd2481a3e929f.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_admintype_0_50430ceedb88ad77.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arcatt_0_bd8813f0baf05aa3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arccache_full_0_154ae28bf47b74f7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_archives_0_b34ebbb05d869a5b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arcmulti_0_1944a8dbf9f736a2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arcrank_0_3c12d196f77941e4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arctiny_0_454d23c38e7bc453.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arctype_0_22db023f87028d61.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_area_0_39d4d32648ef1004.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_b2b_0_d6800e7562cfe1ed.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_b2c_0_8a48192a9d32fd82.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_baoming_0_6bd7963bdaf70217.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_cache_feedbackurl_0_0fcbbc45545ecc46.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_case_0_f4fae208b890c72b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_channeltype_0_6176a85dc8688f20.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_co_onepage_0_05a6dcd0451a4975.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_diy_0_c991a95929aeb4db.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_diyform_dp_0_db2a44cc5eb8439b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_diyforms_0_0f32f3d5d984a2c0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_feedbacks_0_078b271a9fe37d9d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_flash_0_dfbcdfdfb379ac63.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_flinktype_0_0a8d6c3b11bef659.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_freelist_0_a4e7bce9760bdb68.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_full_search_0_50c0cd64d491f503.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_homepageset_0_10a669b1e9c05853.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_kwkeyword_0_21685a0740dea56d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_0_f08593267b483d45.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_group_0_b2dae0e3436417e9.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_model_0_41eb415d91b1d83f.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_person_0_bf6c6d946c6f46f0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_space_0_18d6333bf6494b74.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_stowtype_0_5df3444d3dcb7fdf.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_tj_0_adf3420a3cc54b35.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_type_0_3d3b17efc07f2e9d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_modules_0_1f4e0880e4b41c6a.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_moneycard_type_0_582e6ad11b043498.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_myad_0_a04b153d2e1961d7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_myppt_0_65d914d37b290c1b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_nic_ratings_0_9323f61a5db6e118.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_nic_star_score_0_633541b8833a0cc7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_payment_0_420127ff6016ebcb.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_pinglog_0_ea41931f2edd4346.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_plugins_config_0_6109c5e322857e63.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_plus_0_7989e6c550c4cfc4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_plus_changyan_setting_0_10972e22a3bd4d9c.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_plus_seoinfo_0_3b45d11349170c91.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_rpad_0_7f305ddeb15f2944.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_scores_0_d02d50e926a8f15d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_search_keywords_0_981cc7d1b0faf476.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_shops_delivery_0_fe8bcae8c5bf23b0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_softconfig_0_d5eb3c792164a922.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_stepselect_0_5583696762ed2f8d.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_store_groups_0_66fc8f4bf8ba953e.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sys_enum_0_129fde1ceb4b0cea.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sys_module_0_369a3be2db93f5fd.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sys_set_0_e39593f27792a8be.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sysconfig_0_016a1491e6c35ea5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_syspassport_0_3eeff28c54d00992.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_tag_index_0_c46c4e23448a3f50.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_tag_list_0_cfe193358f654256.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_taoke_shop_0_33287186bd62fe2b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_task_0_6a90ef7186214d13.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_team_0_78e4c11165428f94.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_uploads_0_715d207f9c96b8f8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_vote_0_fa96c7d6411a82a6.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_website_0_baa279cee4055dad.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_webtagindex_0_464c1084fc0a50e5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_webtaglist_0_74babbde39aeee6b.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_xm_0_9b25c3a03f73f417.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_zt_0_d1384deb104476e4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/tables_struct_2710e96edaeea69e.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/m_default/images/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/m_default/images/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/m_default/images/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/m_default/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/m_default/css/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templets/m_default/searchbox.htm" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/m_default/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/m_default/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/m_default/images/02af728488b88d1c0888e9f0e69f6f05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/m_default/images/02f5de7f46b56158f447bdc4c3b47d86.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templets/m_default/images/fad700e736706c88d271edfaf683e82f.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/170313/1-1F313001433L0.jpg" afterPath="$PROJECT_DIR$/uploads/170313/1-1F313001433L0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/170313/1-1F313001530M2.jpg" afterPath="$PROJECT_DIR$/uploads/170313/1-1F313001530M2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/170313/1-1F313001615V3.jpg" afterPath="$PROJECT_DIR$/uploads/170313/1-1F313001615V3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/170313/1-1F313001A9315.jpg" afterPath="$PROJECT_DIR$/uploads/170313/1-1F313001A9315.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/170313/1-1F313001IL91.jpg" afterPath="$PROJECT_DIR$/uploads/170313/1-1F313001IL91.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/170313/1-1F313001R2W0.jpg" afterPath="$PROJECT_DIR$/uploads/170313/1-1F313001R2W0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/170313/1-1F313002001460.jpg" afterPath="$PROJECT_DIR$/uploads/170313/1-1F313002001460.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/article_pic.htm91f8a874b6d7419f.inc" afterPath="$PROJECT_DIR$/data/tplcache/article_pic.htm91f8a874b6d7419f.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/article_pic.htm91f8a874b6d7419f.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/article_pic.htm91f8a874b6d7419f.inc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc" afterPath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/index.htm8b1b9b537f36b7f6.inc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index_contact.htmc4efe9632eb82d87.inc" afterPath="$PROJECT_DIR$/data/tplcache/index_contact.htmc4efe9632eb82d87.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index_contact.htmc4efe9632eb82d87.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/index_contact.htmc4efe9632eb82d87.inc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/left.htm1b0e8505e2d300b8.inc" afterPath="$PROJECT_DIR$/data/tplcache/left.htm1b0e8505e2d300b8.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/left.htm1b0e8505e2d300b8.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/left.htm1b0e8505e2d300b8.inc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc" afterPath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/list_article.htm5de9860b66805677.inc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_case.htm3ce3d46bdb99e35c.inc" afterPath="$PROJECT_DIR$/data/tplcache/list_case.htm3ce3d46bdb99e35c.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_case.htm3ce3d46bdb99e35c.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/list_case.htm3ce3d46bdb99e35c.inc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_pic.htm9f61e8e887a94eeb.inc" afterPath="$PROJECT_DIR$/data/tplcache/list_pic.htm9f61e8e887a94eeb.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_pic.htm9f61e8e887a94eeb.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/list_pic.htm9f61e8e887a94eeb.inc.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index.htm" afterPath="$PROJECT_DIR$/templets/default/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/left.htm" afterPath="$PROJECT_DIR$/templets/default/left.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_article.htm" afterPath="$PROJECT_DIR$/templets/default/list_article.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_case.htm" afterPath="$PROJECT_DIR$/templets/default/list_case.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_pic.htm" afterPath="$PROJECT_DIR$/templets/default/list_pic.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/footer.htmef1f3d52617cb63e.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/footer.htmef1f3d52617cb63e.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/arc.searchview.class.php" afterPath="$PROJECT_DIR$/include/arc.searchview.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/css/master.css" afterPath="$PROJECT_DIR$/templets/default/css/master.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/footer.htm" afterPath="$PROJECT_DIR$/templets/default/footer.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/js/lihe.js" afterPath="$PROJECT_DIR$/templets/default/js/lihe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/article_article.htm" afterPath="$PROJECT_DIR$/templets/m_default/article_article.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/article_default.htm" afterPath="$PROJECT_DIR$/templets/m_default/article_default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/css/master.css" afterPath="$PROJECT_DIR$/templets/m_default/css/master.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/css/subpage.css" afterPath="$PROJECT_DIR$/templets/m_default/css/subpage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/footer.htm" afterPath="$PROJECT_DIR$/templets/m_default/footer.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/header.htm" afterPath="$PROJECT_DIR$/templets/m_default/header.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/index.htm" afterPath="$PROJECT_DIR$/templets/m_default/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/index_default.htm" afterPath="$PROJECT_DIR$/templets/m_default/index_default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/js/lihe.js" afterPath="$PROJECT_DIR$/templets/m_default/js/lihe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/list_article.htm" afterPath="$PROJECT_DIR$/templets/m_default/list_article.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/list_default.htm" afterPath="$PROJECT_DIR$/templets/m_default/list_default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/liuyan.htm" afterPath="$PROJECT_DIR$/templets/m_default/liuyan.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/m_default/search.htm" afterPath="$PROJECT_DIR$/templets/m_default/search.htm" />
     </list>
     <ignored path="nanfang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,21 +59,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list_default.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/m_default/list_default.htm">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+            <state relative-caret-position="191">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="71" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#6;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#8;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subpage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/css/subpage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1239">
+              <caret line="322" column="18" selection-start-line="322" selection-start-column="18" selection-end-line="322" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="liuyan.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/m_default/liuyan.htm">
+      <file leaf-file-name="index_default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/index_default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1881">
-              <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+            <state relative-caret-position="570">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding>
+                <element signature="e#1596#1604#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/css/master.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchbox.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/searchbox.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/list_default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -173,86 +128,62 @@
       <file leaf-file-name="search.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templets/m_default/search.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="703">
+              <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plus/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
               <folding>
-                <element signature="e#950#958#1" expanded="true" />
-                <element signature="e#1313#1321#1" expanded="true" />
-                <element signature="e#1434#1442#1" expanded="true" />
-                <element signature="e#1562#1570#1" expanded="true" />
-                <element signature="e#1622#1630#1" expanded="true" />
-                <element signature="e#2539#2547#1" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1489370195556" expanded="true" signature="1682:1764" ph="SELECT spwor... ##@__search_keywords" />
+                <marker date="1489370195556" expanded="true" signature="1832:2012" ph="INSERT INTO `##@__search_keywords`... " />
+                <marker date="1489370195556" expanded="true" signature="2134:2243" ph="UPDATE `##@__... " />
+                <marker date="1489370195556" expanded="true" signature="2790:2839" ph="Select id,ty... ##@__arctype" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/m_default/footer.htm">
+      <file leaf-file-name="arc.searchview.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/arc.searchview.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="411">
+              <caret line="130" column="116" selection-start-line="130" selection-start-column="116" selection-end-line="130" selection-end-column="116" />
+              <folding>
+                <marker date="1492772396901" expanded="true" signature="3112:3159" ph="SELECT chann... ##@__arctype" />
+                <marker date="1492772396901" expanded="true" signature="4635:4740" ph="UPDATE `##@__... " />
+                <marker date="1492772396901" expanded="true" signature="5386:5468" ph="SELECT spwor... ##@__search_keywords" />
+                <marker date="1492772396901" expanded="true" signature="6466:6647" ph="INSERT INTO `##@__search_keywords`... " />
+                <marker date="1492772396901" expanded="true" signature="6781:6890" ph="UPDATE `##@__... " />
+                <marker date="1492772396901" expanded="true" signature="9216:9307" ph="SELECT keywo... ##@__search_keywords" />
+                <marker date="1492772396901" expanded="true" signature="13366:13414" ph="SELECT addta... ##@__channeltype" />
+                <marker date="1492772396901" expanded="true" signature="13596:13640" ph="SELECT * FRO... ${{$this-&gt;AddTable}}" />
+                <marker date="1492772396901" expanded="true" signature="13755:13814" ph="SELECT * FRO... ##@__arccache" />
+                <marker date="1492772396901" expanded="true" signature="14662:14702" ph="DELETE FROM " />
+                <marker date="1492772396901" expanded="true" signature="14850:14967" ph="INSERT INTO `##@__arccache`... " />
+                <marker date="1492772396901" expanded="true" signature="20921:21198" ph="SELECT arc.*... ##@__archives" />
+                <marker date="1492772396901" expanded="true" signature="22152:22461" ph="SELECT arc.*... ${{$this-&gt;AddTable}}" />
+                <marker date="1492772396901" expanded="true" signature="30778:30784" ph=" " />
+                <marker date="1492772396901" expanded="true" signature="30912:30918" ph=" " />
+                <marker date="1492772396901" expanded="true" signature="31076:31090" ph="..." />
+                <marker date="1492772396901" expanded="true" signature="31474:31496" ph="..." />
+                <marker date="1492772396901" expanded="true" signature="31628:31664" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_case.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/list_case.htm">
+      <file leaf-file-name="liuyan.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/m_default/liuyan.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_article.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="72" column="69" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_pic.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/list_pic.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/left.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="355">
+              <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -263,8 +194,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -274,14 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/skin/css/child_atm.css" />
-        <option value="$PROJECT_DIR$/templets/default/index_article.htm" />
-        <option value="$PROJECT_DIR$/templets/default/index_news.htm" />
-        <option value="$PROJECT_DIR$/templets/default/index_contact.htm" />
-        <option value="$PROJECT_DIR$/templets/default/demo.html" />
-        <option value="$PROJECT_DIR$/templets/default/article_pic.htm" />
-        <option value="$PROJECT_DIR$/skin/css/master.css" />
-        <option value="$PROJECT_DIR$/templets/default/footer.htm" />
         <option value="$PROJECT_DIR$/skin/css/subpage.css" />
         <option value="$PROJECT_DIR$/skin/css/child_page.css" />
         <option value="$PROJECT_DIR$/skin/css/article_pic.css" />
@@ -307,20 +230,32 @@
         <option value="$PROJECT_DIR$/include/helpers/channelunit.helper.php" />
         <option value="$PROJECT_DIR$/include/arc.archives.class.php" />
         <option value="$PROJECT_DIR$/include/typelink.class.php" />
-        <option value="$PROJECT_DIR$/templets/m_default/article_article.htm" />
-        <option value="$PROJECT_DIR$/templets/m_default/article_default.htm" />
-        <option value="$PROJECT_DIR$/templets/m_default/index.htm" />
-        <option value="$PROJECT_DIR$/templets/m_default/index_default.htm" />
-        <option value="$PROJECT_DIR$/templets/m_default/list_article.htm" />
-        <option value="$PROJECT_DIR$/templets/m_default/list_default.htm" />
-        <option value="$PROJECT_DIR$/templets/m_default/liuyan.htm" />
-        <option value="$PROJECT_DIR$/templets/m_default/search.htm" />
         <option value="$PROJECT_DIR$/changelog.md" />
         <option value="$PROJECT_DIR$/templets/default/left.htm" />
         <option value="$PROJECT_DIR$/templets/default/list_article.htm" />
         <option value="$PROJECT_DIR$/templets/default/list_case.htm" />
         <option value="$PROJECT_DIR$/templets/default/list_pic.htm" />
         <option value="$PROJECT_DIR$/templets/default/index.htm" />
+        <option value="$PROJECT_DIR$/templets/default/js/lihe.js" />
+        <option value="$PROJECT_DIR$/templets/default/footer.htm" />
+        <option value="$PROJECT_DIR$/templets/default/css/master.css" />
+        <option value="$PROJECT_DIR$/templets/m_default/css/iconfont.css" />
+        <option value="$PROJECT_DIR$/templets/m_default/footer.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/js/lihe.js" />
+        <option value="$PROJECT_DIR$/templets/m_default/header.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/article_article.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/css/subpage.css" />
+        <option value="$PROJECT_DIR$/templets/m_default/searchbox.html" />
+        <option value="$PROJECT_DIR$/templets/m_default/list_article.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/index_default.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/article_default.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/list_default.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/search.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/liuyan.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/index.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/searchbox.htm" />
+        <option value="$PROJECT_DIR$/templets/m_default/css/master.css" />
+        <option value="$PROJECT_DIR$/include/arc.searchview.class.php" />
       </list>
     </option>
   </component>
@@ -390,6 +325,88 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m_default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m_default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plus" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DedeCMSX" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -410,11 +427,11 @@
       <recent name="E:\project\DedeCMSX\jishu" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\DedeCMSX" />
-      <recent name="E:\project\DedeCMSX\include" />
-      <recent name="E:\project\DedeCMSX\include\tpllib" />
-      <recent name="E:\project\DedeCMSX\include\helpers" />
-      <recent name="E:\project\DedeCMSX\templets\default" />
+      <recent name="E:\project\DedeCMSX\templets\m_default\images" />
+      <recent name="E:\project\DedeCMSX\uploads\170313" />
+      <recent name="E:\project\DedeCMSX\templets\m_default\css" />
+      <recent name="E:\project\DedeCMSX\templets\m_default\font" />
+      <recent name="E:\project\DedeCMSX\templets\m_default\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -488,21 +505,23 @@
       <workItem from="1490923821339" duration="34937000" />
       <workItem from="1490972431318" duration="421000" />
       <workItem from="1491028089397" duration="9730000" />
-      <workItem from="1492667452005" duration="2379000" />
+      <workItem from="1492667452005" duration="16669000" />
+      <workItem from="1492751620896" duration="18067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109473000" />
+    <option name="totallyTimeSpent" value="141830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1056" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14109442" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23229614" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3383948" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11695279" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -513,7 +532,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3383948" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -534,119 +552,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/helper.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/arc.partview.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2023">
-          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/common.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/helpers/archive.helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/dedesqli.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="351" column="12" selection-start-line="351" selection-start-column="8" selection-end-line="351" selection-end-column="12" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="11589:11622" ph="SELECT * FRO... $" />
-            <marker date="1452391436000" expanded="true" signature="13985:13994" ph="..." />
-            <marker date="1452391436000" expanded="true" signature="14075:14118" ph="..." />
-            <marker date="1452391436000" expanded="true" signature="14152:14162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/index_about.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/article_article_m.htm" />
-    <entry file="file://$PROJECT_DIR$/templets/default/index_contact.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/common.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="802:973" ph="SELECT tp.id... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="1106:1220" ph="SELECT ch.is... ##@__arctype" />
-            <marker date="1452391436000" expanded="true" signature="2153:2180" ph="SELECT * FRO... ##@__arcrank" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <marker date="1452391436000" expanded="true" signature="1906:1933" ph="SELECT * FRO... ##@__arcrank" />
-            <marker date="1452391436000" expanded="true" signature="2478:2580" ph="SELECT aid,m... ##@__member_operation" />
-            <marker date="1452391436000" expanded="true" signature="3227:3436" ph="INSERT INTO `##@__member_operation`... " />
-            <marker date="1452391436000" expanded="true" signature="3557:3633" ph="UPDATE `##@__... " />
-            <marker date="1452391436000" expanded="true" signature="4064:4138" ph="SELECT `scor... ##@__member" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plus/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/templets/sys_data.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2223">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dede/sys_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3515">
-          <caret line="183" column="45" selection-start-line="183" selection-start-column="45" selection-end-line="183" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templets/default/header_m.htm" />
     <entry file="file://$PROJECT_DIR$/templets/default/index_m.htm" />
     <entry file="file://$PROJECT_DIR$/dede/inc/configgroup.txt">
@@ -660,13 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
           <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/css/master.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -705,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="226" column="1" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,33 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/arc.searchview.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
-          <folding>
-            <marker date="1433383000000" expanded="true" signature="3112:3159" ph="SELECT chann... ##@__arctype" />
-            <marker date="1433383000000" expanded="true" signature="4752:4857" ph="UPDATE `##@__... " />
-            <marker date="1433383000000" expanded="true" signature="5503:5585" ph="SELECT spwor... ##@__search_keywords" />
-            <marker date="1433383000000" expanded="true" signature="6583:6764" ph="INSERT INTO `##@__search_keywords`... " />
-            <marker date="1433383000000" expanded="true" signature="6898:7007" ph="UPDATE `##@__... " />
-            <marker date="1433383000000" expanded="true" signature="9333:9424" ph="SELECT keywo... ##@__search_keywords" />
-            <marker date="1433383000000" expanded="true" signature="13483:13531" ph="SELECT addta... ##@__channeltype" />
-            <marker date="1433383000000" expanded="true" signature="13713:13757" ph="SELECT * FRO... ${{$this-&gt;AddTable}}" />
-            <marker date="1433383000000" expanded="true" signature="13872:13931" ph="SELECT * FRO... ##@__arccache" />
-            <marker date="1433383000000" expanded="true" signature="14779:14819" ph="DELETE FROM " />
-            <marker date="1433383000000" expanded="true" signature="14967:15084" ph="INSERT INTO `##@__arccache`... " />
-            <marker date="1433383000000" expanded="true" signature="21038:21315" ph="SELECT arc.*... ##@__archives" />
-            <marker date="1433383000000" expanded="true" signature="22269:22578" ph="SELECT arc.*... ${{$this-&gt;AddTable}}" />
-            <marker date="1433383000000" expanded="true" signature="30895:30901" ph=" " />
-            <marker date="1433383000000" expanded="true" signature="31029:31035" ph=" " />
-            <marker date="1433383000000" expanded="true" signature="31193:31207" ph="..." />
-            <marker date="1433383000000" expanded="true" signature="31591:31613" ph="..." />
-            <marker date="1433383000000" expanded="true" signature="31745:31781" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/arc.sglistview.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -826,9 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <marker date="1490965202158" expanded="true" signature="384:415" ph="Select * Fro... ##@__homepageset" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,141 +709,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/article_article.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/article_default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4199">
-          <caret line="221" column="32" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/index_default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/list_article.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/list_default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/liuyan.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/search.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-          <folding>
-            <element signature="e#950#958#1" expanded="true" />
-            <element signature="e#1313#1321#1" expanded="true" />
-            <element signature="e#1434#1442#1" expanded="true" />
-            <element signature="e#1562#1570#1" expanded="true" />
-            <element signature="e#1622#1630#1" expanded="true" />
-            <element signature="e#2539#2547#1" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/changelog.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="133">
             <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/m_default/footer.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templets/default/list_case.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="1159">
           <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/css/master.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="72" column="69" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="513">
+          <caret line="321" column="17" selection-start-line="321" selection-start-column="17" selection-end-line="321" selection-end-column="17" />
+          <folding>
+            <marker date="1492675706125" expanded="true" signature="29693:29735" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/list_pic.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/footer.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="675">
+          <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/left.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/js/lihe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="475">
+          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -984,7 +755,243 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="69" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/left.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/js/iconfont.js" />
+    <entry file="file://$PROJECT_DIR$/templets/m_default/font/iconfont.css" />
+    <entry file="file://$PROJECT_DIR$/templets/m_default/css/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_pic.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/css/swiper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/js/swipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/js/lihe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/images/m_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/article_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/arc.taglist.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452391436000" expanded="true" signature="1792:1850" ph="Select * Fro... ##@__tagindex" />
+            <marker date="1452391436000" expanded="true" signature="2124:2128" ph="&gt;" />
+            <marker date="1452391436000" expanded="true" signature="2128:2132" ph="&gt;" />
+            <marker date="1452391436000" expanded="true" signature="3401:3495" ph="SELECT COUNT... ##@__taglist" />
+            <marker date="1452391436000" expanded="true" signature="3694:3818" ph="UPDATE `##@__... " />
+            <marker date="1452391436000" expanded="true" signature="4061:4143" ph="UPDATE `##@__... " />
+            <marker date="1452391436000" expanded="true" signature="4317:4401" ph="UPDATE `##@__... " />
+            <marker date="1452391436000" expanded="true" signature="9362:9463" ph="SELECT aid F... ##@__taglist" />
+            <marker date="1452391436000" expanded="true" signature="9976:10205" ph="SELECT se.*,... ##@__archives" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/article_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/list_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/liuyan.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/css/subpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="322" column="18" selection-start-line="322" selection-start-column="18" selection-end-line="322" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/index_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="e#1596#1604#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#6;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#8;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/searchbox.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/m_default/search.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+          <folding>
+            <marker date="1489370195556" expanded="true" signature="1682:1764" ph="SELECT spwor... ##@__search_keywords" />
+            <marker date="1489370195556" expanded="true" signature="1832:2012" ph="INSERT INTO `##@__search_keywords`... " />
+            <marker date="1489370195556" expanded="true" signature="2134:2243" ph="UPDATE `##@__... " />
+            <marker date="1489370195556" expanded="true" signature="2790:2839" ph="Select id,ty... ##@__arctype" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/arc.searchview.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="130" column="116" selection-start-line="130" selection-start-column="116" selection-end-line="130" selection-end-column="116" />
+          <folding>
+            <marker date="1492772396901" expanded="true" signature="3112:3159" ph="SELECT chann... ##@__arctype" />
+            <marker date="1492772396901" expanded="true" signature="4635:4740" ph="UPDATE `##@__... " />
+            <marker date="1492772396901" expanded="true" signature="5386:5468" ph="SELECT spwor... ##@__search_keywords" />
+            <marker date="1492772396901" expanded="true" signature="6466:6647" ph="INSERT INTO `##@__search_keywords`... " />
+            <marker date="1492772396901" expanded="true" signature="6781:6890" ph="UPDATE `##@__... " />
+            <marker date="1492772396901" expanded="true" signature="9216:9307" ph="SELECT keywo... ##@__search_keywords" />
+            <marker date="1492772396901" expanded="true" signature="13366:13414" ph="SELECT addta... ##@__channeltype" />
+            <marker date="1492772396901" expanded="true" signature="13596:13640" ph="SELECT * FRO... ${{$this-&gt;AddTable}}" />
+            <marker date="1492772396901" expanded="true" signature="13755:13814" ph="SELECT * FRO... ##@__arccache" />
+            <marker date="1492772396901" expanded="true" signature="14662:14702" ph="DELETE FROM " />
+            <marker date="1492772396901" expanded="true" signature="14850:14967" ph="INSERT INTO `##@__arccache`... " />
+            <marker date="1492772396901" expanded="true" signature="20921:21198" ph="SELECT arc.*... ##@__archives" />
+            <marker date="1492772396901" expanded="true" signature="22152:22461" ph="SELECT arc.*... ${{$this-&gt;AddTable}}" />
+            <marker date="1492772396901" expanded="true" signature="30778:30784" ph=" " />
+            <marker date="1492772396901" expanded="true" signature="30912:30918" ph=" " />
+            <marker date="1492772396901" expanded="true" signature="31076:31090" ph="..." />
+            <marker date="1492772396901" expanded="true" signature="31474:31496" ph="..." />
+            <marker date="1492772396901" expanded="true" signature="31628:31664" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

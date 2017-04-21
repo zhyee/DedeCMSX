@@ -9,127 +9,88 @@
 <meta name="description" content="{dede:global.cfg_description/}" />
 <meta name="keywords" content="{dede:global.cfg_keywords/}" />
 
-<style>
-.head {
-	background: #1b1c1d
-}
-.foot {
-	background: #000000
-}
-.nav {
-	background: #000000
-}
-.nav_color {
-	background: #000000
-}
-</style>
 <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/subpage.css">
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/share_style0_32.css">
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/iconfont.css">
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/master.css">
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/swiper.css">
+
 <script src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
 <script src="{dede:global.cfg_templets_skin/}/js/nav.js"></script>
 <script src="{dede:global.cfg_templets_skin/}/js/respond.js"></script>
 <script src="{dede:global.cfg_templets_skin/}/js/sdcms.js"></script>
 <script src="{dede:global.cfg_templets_skin/}/js/jquery.validator.js"></script>
-<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/master.css">
-<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/swiper.css">
 <script src="{dede:global.cfg_templets_skin/}/js/swipe.js"></script>
 <script src="{dede:global.cfg_templets_skin/}/js/lihe.js"></script>
 <script src="{dede:global.cfg_templets_skin/}/js/share.js"></script>
-<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/share_style0_32.css">
-<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/cart_icon.js"></script>
 
 
 </head>
 <body>
 {dede:include filename="header.htm"/}
 <div class="allpage">
-<div class="black-fixed iconfont"></div>
+<div class="black-fixed iconfont icon-close"></div>
 <div class="header">
-  <div class="head"> <a href="index.php" title="{dede:global.cfg_webname/}" class="logo"> <img src="{dede:global.cfg_templets_skin/}/images/m_logo.png" alt="{dede:global.cfg_webname/}"/> </a>
-    <div class="search_hl iconfont"></div>
-    <div class="nav-btn iconfont"></div>
-    <div class="search_hl iconfont"></div>
+  <div class="head"> <a href="{dede:global.cfg_cmsurl/}/" title="{dede:global.cfg_webname/}" class="logo"> <img src="{dede:global.cfg_templets_skin/}/images/logo.png" alt="{dede:global.cfg_webname/}"/> </a>
+    <i class="search_hl iconfont icon-search"></i>
+    <div class="nav-btn"><span class="iconfont icon-sort"></span></div>
     <div class="search" style="display: block;">
       <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
         <input type="hidden" name="mobile" value="1" />
         <input type="hidden" name="kwtype" value="0" />
-        <a class="xbtn iconfont" href="javascript:;"></a>
+        <i class="xbtn iconfont icon-close"></i>
         <input type="text" name="q" class="search-lh-input" placeholder="请输入搜索关键词">
-        <input type="submit" class="search-lh-btn iconfont" value="">
+        <button type="submit" class="search-lh-btn iconfont icon-search"></button>
       </form>
     </div>
   </div>
-</div>
-<div class="nav_new tpp">
-  <ul>
-    {dede:type typeid='1'}
-    <li class="t1"> <a href="[field:typelink/]">[field:typename/]</a> </li>
-    {/dede:type} 
-    {dede:type typeid='3'}
-    <li class="t2"> <a href="[field:typelink/]">[field:typename/]</a> </li>
-    {/dede:type} 
-    {dede:type typeid='2'}
-    <li class="t3"> <a href="[field:typelink/]">[field:typename/]</a> </li>
-    {/dede:type} 
-    {dede:type typeid='14'}
-    <li class="t4"> <a href="[field:typelink/]">[field:typename/]</a> </li>
-    {/dede:type}
-  </ul>
-  <div class="c"></div>
 </div>
 <div class="content content_new">
   <div class="banner">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"> <img src="{dede:global.cfg_templets_skin/}/images/02f5de7f46b56158f447bdc4c3b47d86.jpg" /> </div>
-        <div class="swiper-slide"> <img src="{dede:global.cfg_templets_skin/}/images/fad700e736706c88d271edfaf683e82f.jpg" /> </div>
-        <div class="swiper-slide"> <img src="{dede:global.cfg_templets_skin/}/images/02af728488b88d1c0888e9f0e69f6f05.jpg" /> </div>
+        <div class="swiper-slide"><img src="{dede:global.cfg_templets_skin/}/images/banner1.jpg" /></div>
+        <div class="swiper-slide"><img src="{dede:global.cfg_templets_skin/}/images/banner2.jpg" /></div>
+        <div class="swiper-slide"><img src="{dede:global.cfg_templets_skin/}/images/banner3.jpg" /></div>
       </div>
       <!-- Add Pagination -->
       <div class="swfra">
         <div class="swiper-pagination"></div>
       </div>
     </div>
-    <p class="boda"><a href="tel:+86-0000-96877"><font class="iconfont1"></font>咨询热线：+86-4000-99877</a></p>
-    <div class="icon_nav">
-      <ul>
-        {dede:type typeid='4'}
-        <li class="la1"> <a href="/plus/list.php?tid=[field:id/]"> <strong class="iconfont1_ys"><span>[field:typename/]</span></strong> </a> </li>
-        {/dede:type} 
-        {dede:type typeid='5'}
-        <li class="la2"> <a href="/plus/list.php?tid=[field:id/]"> <strong class="iconfont1_ys"><span>[field:typename/]</span></strong> </a> </li>
-        {/dede:type} 
-        {dede:type typeid='6'}
-        <li class="la3"> <a href="/plus/list.php?tid=[field:id/]"> <strong class="iconfont1_ys"><span>[field:typename/]</span></strong> </a> </li>
-        {/dede:type} 
-        {dede:type typeid='3'}
-        <li class="la4"> <a href="/plus/list.php?tid=[field:id/]"> <strong class="iconfont1_ys">...</strong> </a> </li>
-        {/dede:type}
-      </ul>
-      <div class="c"></div>
+
+    <p class="boda">
+      <a href="tel:+86-{dede:global.cfg_dh/}"><i class="phone iconfont icon-dianhua"></i>咨询热线：+86-{dede:global.cfg_dh/}</a>
+    </p>
+
+
+    <div class="about_i">
+      <div class="more_i"> {dede:type typeid='1'}<span>[field:typename/]</span><a href="[field:typelink/]">查看更多</a> {/dede:type} </div>
+      <div class="clear"></div>
+      <div class="about_i_c"> {dede:sql sql='Select content from dede_arctype where id=1'}
+        [field:content  function='cn_substr(html2text(@me),400)'/]
+        {/dede:sql} ...　　 </div>
+      <div class="clear"></div>
     </div>
+
     <div class="clear"></div>
+
     <div class="honor_i">
       <div class="more_i "> <span>产品展示</span>{dede:type typeid='3'} <a href="/plus/list.php?tid=[field:id/]">查看更多</a> {/dede:type} </div>
       <div class="clear"></div>
       <div class="honor_i_c">
         <ul>
           {dede:arclist typeid='3' row='6' titlelen='50' orderby='pubdate'}
-          <li> <a href="/plus/view.php?aid=[field:id/]" title="[field:title/]"> <img src="[field:picname/]" alt="[field:title/]" style=" width:274px; height:206px;"> <span>[field:title/]</span> </a> </li>
+          <li> <a href="/plus/view.php?aid=[field:id/]" title="[field:title/]"> <img src="[field:picname/]" alt="[field:title/]"> <span>[field:title/]</span></a> </li>
           {/dede:arclist}
         </ul>
         <div class="c"></div>
       </div>
       <div class="clear"></div>
     </div>
+
     <div class="clear"></div>
-    <div class="about_i">
-      <div class="more_i"> <span>公司简介</span>{dede:type typeid='1'} <a href="/plus/view.php?aid=[field:id/]">查看更多</a> {/dede:type} </div>
-      <div class="clear"></div>
-      <div class="about_i_c"> {dede:sql sql='Select content from dede_arctype where id=1'} 
-        [field:content  function='cn_substr(html2text(@me),400)'/]
-        {/dede:sql} ...　　 </div>
-      <div class="clear"></div>
-    </div>
+
     <div class="clear"></div>
     <div class="honor_i"> {dede:type typeid='9'}
       <div class="more_i m1"> <span>[field:typename/]</span><a href="/plus/list.php?tid=[field:id/]">查看更多</a> </div>
@@ -179,17 +140,25 @@
       <div class="more_i"> <span>[field:typename/]</span><a href="/plus/list.php?tid=[field:id/]">查看更多</a> </div>
       {/dede:type}
       <div class="clear"></div>
-      <div class="youhui"> {dede:arclist typeid='2' row='1' titlelen='50' orderby='pubdate' infolen='200'} <a href="/plus/view.php?aid=[field:id/]">
-        <label>> [field:title/]</label>
-        <div class="yright"> <img src="[field:picname/]"/> <span>　　[field:info/]...</span> </div>
-        </a> {/dede:arclist}
+      <div class="youhui">
+        {dede:arclist typeid='2' row='1' titlelen='50' orderby='pubdate' flag='p' infolen='200'}
+        <a href="/plus/view.php?aid=[field:id/]">
+          <i class="arror-right iconfont icon-right"></i><label>[field:title/]</label>
+        <div class="yright">
+          <img src="[field:picname/]"/>
+          <span>　[field:info/]...</span>
+          <div class="c"></div>
+        </div>
+        </a>
+        {/dede:arclist}
         <div class="c"></div>
       </div>
       <div class="clear"></div>
       <div class="case_i_c" id="nn1">
         <ul>
           {dede:arclist typeid='2' row='3' titlelen='50' orderby='pubdate'}
-          <li> <a href="/plus/view.php?aid=[field:id/]"> <span class="iconfont"></span>
+          <li> <a href="/plus/view.php?aid=[field:id/]">
+            <i class="arror-right iconfont icon-right"></i>
             <h2>[field:title/]</h2>
             </a> </li>
           {/dede:arclist}
@@ -198,7 +167,7 @@
       <div class="clear"></div>
     </div>
     <div class="honor_i"> {dede:type typeid='10'}
-      <div class="more_i m3"> <span>[field:typename/]</span><a href="list.php?tid=[field:id/]">查看更多</a> </div>
+      <div class="more_i m3"> <span>[field:typename/]</span><a href="[field:typelink/]">查看更多</a> </div>
       {/dede:type}
       <div class="clear"></div>
       <div class="honor_i_h">
@@ -212,8 +181,8 @@
     </div>
     <div class="baomingfra">
       <div class="baoming">
-        <div class="left"><span><font class="iconfont1"></font>咨询热线：+{dede:global.cfg_dh/}</span></div>
-        <div class="right"> <span>地址：{dede:global.cfg_dh/}</span> <span>来院路线：38路,39路公交车</span> </div>
+        <div class="left"><span><i class="phone iconfont icon-dianhua"></i>咨询热线：+86-{dede:global.cfg_dh/}</span></div>
+        <div class="right"> <span>地址：{dede:global.cfg_dz/}</span> </div>
         <div class="c"></div>
       </div>
     </div>

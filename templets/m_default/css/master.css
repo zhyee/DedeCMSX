@@ -1,38 +1,19 @@
 ﻿
+.head,.foot,.nav,.nav_color {
+	background: #96703a;
+}
+
 body, input {
-	font-family: "microsoft yahei";
+	font-family: "microsoft yahei", sans-serif;
 }
 .allpage {
 	background-color: #ffffff!important;
 }
-/*font*/
-@font-face {
-	font-family: "iconfont";
-	src: url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype');
-}
-@font-face {
-	font-family: "iconfont1";
-	src: url('../font/iconfont1.woff') format('woff'), url('../font/iconfont1.ttf') format('truetype');
-}
-.iconfont {
-	font-family: "iconfont" !important;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-stroke-width: 0.2px;
-	-moz-osx-font-smoothing: grayscale;
-}
-.iconfont1 {
-	font-family: "iconfont1" !important;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-stroke-width: 0.2px;
-	-moz-osx-font-smoothing: grayscale;
- borde/r-radius: 50%;
-	display: inline-block;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-stroke-width: 0.2px;
-	-moz-osx-font-smoothing: grayscale;
+
+
+a
+{
+	color: #666;
 }
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 .casei {
@@ -47,7 +28,7 @@ body, input {
 	float: left;
 	text-align: center;
 	margin: 0;
-	border-right: 1px solid #000000;
+	border-right: 1px solid #96703a;
 }
 .nav_new {
 	width: 100%;
@@ -62,7 +43,7 @@ body, input {
 .nav_new ul li a {
 	display: inline-block;
 	/* padding:80%; */
-	color: #000000;
+	color: #96703a;
 	font-size: 0.22rem;
 	font-family: "microsoft yahei";
 	height: 0.5rem;
@@ -89,12 +70,10 @@ body, input {
 	bottom: 5%;
 }
 .swiper-pagination {
-	padding: 0;
 	margin: 0;
 	display: inline-block;
 	text-align: center!important;
 	bottom: -0.05rem!important;
-	background: rgba(255,255,255,.39);
 	padding: 0 3%;
 	border-radius: 0.1rem;
 	position: relative !important;
@@ -102,17 +81,17 @@ body, input {
 .swiper-pagination-bullet {
 	width: 0.15rem!important;
 	height: 0.15rem!important;
-	background-color: #ecca34;
-	border: 0.02rem solid #ecca34;
+	background: #999 !important;
+	border: 0.02rem solid #999;
 	opacity: 1!important;
 	border-radius: 50%!important;
 }
 .swiper-pagination-bullet-active {
-	background: none;
-	border: 0.02rem solid #f63132;
+	background: #fff !important;
+	border: 0.02rem solid #f0f0f0;
 }
 .swiper-pagination-bullet {
-	margin: 0 0.02rem!important;
+	margin: 0 3px!important;
 }
 input {
 	outline: none;
@@ -137,7 +116,7 @@ input {
 	border: 1px solid #65b673;
 	border-left: none;
 	height: 0.491rem;
-	font-size: 0.25rem;
+	font-size: 0.3rem;
 	margin-top: 2%;
 }
 .search_hl {
@@ -146,7 +125,7 @@ input {
 	top: -1px;
 	position: absolute;
 	height: 100%;
-	font-size: 0.38rem;
+	font-size: 0.3rem;
 	line-height: 0.8rem;
 	color: #fff;
 	text-align: center;
@@ -159,12 +138,12 @@ input {
 	position: absolute;
 	top: -120%;
 	left: 0;
-	background-color: #000;
+	background-color: #96703a;
 	font-family: "microsoft yahei";
 }
 .search-lh-input {
 	width: 75%;
-	border: 1px solid #000;
+	border: 1px solid #96703a;
 	border-radius: 15px 0 0 15px;
 	float: left;
 	border-right: none;
@@ -174,17 +153,7 @@ input {
 	text-indent: 5%;
 	margin-top: 2%;
 }
-.search-lh-btn {
-	width: 15%;
-	float: left;
-	background-color: #fff;
-	border-radius: 0 15px 15px 0;
-	border: 1px solid #000;
-	border-left: none;
-	height: 0.491rem;
-	font-size: 0.25rem;
-	margin-top: 2%;
-}
+
 .search a {
 	display: inline-block;
 	width: 9%;
@@ -209,6 +178,16 @@ input {
 	text-align: center;
 	margin-top: 3%;
 }
+
+.xbtn {
+	float: left;
+	color: #fff;
+	font-size: 24px;
+	margin-right: 5px;
+	height: 48px;
+	line-height: 48px;
+}
+
 .search_new input {
 	width: 98%;
 	border: 1px solid #cdcdcd;
@@ -263,13 +242,13 @@ input {
 	background: #ff0000;
 }
 .la3 {
-	background: #000000;
+	background: #96703a;
 }
 .la4 {
 	background: #f7cb0c;
 }
 .la1 .iconfont1_ys {
-	color: #000;
+	color: #96703a;
 }
 .la2 .iconfont1_ys {
 	color: #fff;
@@ -278,7 +257,7 @@ input {
 	color: #fff;
 }
 .la4 .iconfont1_ys {
-	color: #000;
+	color: #96703a;
 	font-size: 0.4rem;
 	font-weight: bold;
 	line-height: 0.7;
@@ -315,9 +294,9 @@ input {
 	float: left;
 	padding: 0;
 	margin-left: 4.5%;
-	background: #000;
-	margin-top: 2%;
-	border-left: 0.05rem solid #ff0000
+	background: #96703a;
+	margin-top: 5%;
+	border-left: 0.05rem solid #96703a
 }
 .more_i span {
 	float: left;
@@ -329,7 +308,7 @@ input {
 }
 .more_i a {
 	float: right;
-	color: #000;
+	color: #333;
 	background: #f0c402;
 	font-size: 0.2rem;
 	padding: 1.5% 2%;
@@ -398,14 +377,14 @@ input {
 }
 .beian {
 	background-color: #ffffff;
-	color: #000000;
+	color: #96703a;
 	text-align: center;
 	height: 0.65rem;
 	line-height: 0.65rem;
 	font-size: 0.21rem;
 }
 .beian a {
-	color: #000000;
+	color: #96703a;
 	font-size: 0.21rem;
 }
 .common_bg {
@@ -468,19 +447,19 @@ input {
 }
 .baomingfra {
 	width: 100%;
-	background: #000;
+	background: #96703a;
 }
 .baoming {
 	padding: 3% 0 4% 0;
 	width: 90.625%;
-	background: #f0c402;
-	font-family: "microsoft yahei";
+	background: #96703a;
+	font-family: "微软雅黑", "microsoft yahei", sans-serif;
 	color: #ff9292;
 	text-align: left;
 	margin: 3% auto 0 auto;
 }
 .baoming .right span {
-	color: #000000;
+	color: #fff;
 	width: 98%;
 	padding: 2% 1% 0 1%;
 	background: url(../images/line.gif) center bottom no-repeat;
@@ -493,15 +472,15 @@ input {
 	width: 100%;
 	font-size: 0.23rem;
 	text-align: center;
-	color: #000;
+	color: #fff;
 	overflow: hidden;
 }
 .baoming .left font {
-	color: #000;
+	color: #96703a;
 	font-size: 0.3rem;
 }
 .baoming .left span {
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #96703a;
 	display: inline-block;
 	padding: 0 2%;
 	line-height: 1.7;
@@ -543,7 +522,7 @@ input {
 	height: auto;
 }
 .case_i_c ul li {
-	padding: 1% 0 1% 0;
+	padding: 2% 0 2% 0;
 	width: 90.625%;
 	display: block;
 	float: left;
@@ -560,14 +539,16 @@ input {
 	background: #fff
 }
 .case_i_c ul li a {
-	float: left;
+	height: 22px;
+	line-height: 22px;
 	width: 100%;
 	color: #282828;
 }
 .case_i_c ul li h2 {
-	float: left;
+	display: inline;
 	margin-left: 1.5%;
-	line-height: 1.5;
+	line-height: 22px;
+	height: 22px;
 	font-size: 0.20rem;
 	font-weight: normal;
 	width: 65%;
@@ -587,17 +568,17 @@ input {
 }
 .boda {
 	text-align: center;
-	background: #000;
-	padding: 1% 0;
+	background: #96703a;
+	padding: 6px 0;
 	width: 100%;
 	margin: 0 auto;
-	font-size: 0.22rem;
+	font-size: 16px;
 	display: block;
 	color: #f7cb0c
 }
-.boda font {
+.boda .phone {
 	font-size: 0.3rem;
-	color: #f7cb0c;
+	color: #fff;
 	font-weight: normal;
 	vertical-align: -0.01rem;
 }
@@ -606,8 +587,7 @@ input {
 	display: block;
 	padding: 0.5% 0;
 	margin: 0 auto;
-	color: #f7cb0c;
-	border: 1px solid #f7cb0c
+	color: #fff;
 }
 .youhui {
 	margin: 2.5% auto 0 auto;
@@ -618,18 +598,23 @@ input {
 	width: 25.6896%;
 }
 .yright {
-	float: left;
+	margin: 5px 0;
 	width: 100%;
 }
+
+.arror-right {
+	font-size: 14px;
+	height: 22px;
+	line-height: 22px;
+}
+
 .youhui label {
 	font-weight: normal;
-	display: block;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	font-size: 0.2rem;
-	color: #000000;
-	padding: 0% 0 2% 0;
+	color: #96703a;
 }
 .yright span {
 	float: left;
