@@ -33,48 +33,36 @@
 <script src="{dede:global.cfg_templets_skin/}/js/lihe.js"></script>
 <script src="{dede:global.cfg_templets_skin/}/js/share.js"></script>
 <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/share_style0_32.css">
-  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/iconfont.css">
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/iconfont.css">
+
 </head>
 <body>
 {dede:include filename="header.htm"/}
 <div class="allpage">
   <div class="black-fixed commonfont">&#xe607;</div>
   <div class="header">
-    <div class="head">
-      {dede:type}<a href="[field:typelink/]" title="返回列表" class="home-btn commonfont">&#xe609;</a>{/dede:type}
-      <p class="top-title">{dede:field.typename/}</p>
-      <div class="class-btn"><span class="iconfont icon-search"></span></div>
-      <div class="nav-btn commonfont">&#xe60b;</div>
-    </div>
-    <div class="type">
-      <div class="common-pro-search">
-        <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
-          <input type="hidden" name="mobile" value="1" />
-          <input type="hidden" name="kwtype" value="0" />
-          <input type="text" class="common-text" name="q" placeholder="请输入搜索关键词"/>
-          <input type="submit" class="common-submit commonfont" value="&#xe602;"/>
-        </form>
-      </div>
-    </div>
+    {dede:include filename="searchbox.htm"/}
   </div>
   <div class="content">
     <div class="about">
       <h1>{dede:field.title/}</h1>
-      <span class="picContent">
+      <div class="picContent">
+        {dede:field name='imgurls' alt='图片输出区'}
+          <p>
+            <a href='[field:linkurl/]'>
+              <img src='[field:imgsrc/]' style="display: block;width: 95%;margin: 5px auto" alt='[field:alttext /]'  />
+            </a>
+          </p>
+        {/dede:field}
+
+
       <p>{dede:field.body/}</p>
-      </span>
+      </div>
       <p>{dede:prenext get='pre'/}</p>
       <p>{dede:prenext get='next'/}</p>
-      {dede:type}<a href="[field:typelink/]" title="返回列表" class="back">返回列表</a>{/dede:type}
+      {dede:type} <a href="[field:typelink/]" title="返回列表" class="back">返回列表</a> {/dede:type}
     </div>
   </div>
-  {dede:include filename="footer.htm"/}
-</div>
-
-    <script tylpe="text/javascript">
-	
-		$('.picContent').find('img').css({'width': '100%', 'height': 'auto', 'border': 0});
-	
-	</script>
+  {dede:include filename="footer.htm"/} </div>
 </body>
 </html>

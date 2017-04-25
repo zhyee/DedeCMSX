@@ -233,7 +233,7 @@ body {
 	font-size: 0.18rem
 }
 .share {
-	bottom: 5%;
+	bottom: 10%;
 	display: none;
 	z-index: 9;
 	position: fixed!important;
@@ -816,10 +816,10 @@ body {
 .imore, .back {
 	display: block;
 	width: 36%;
-	margin: 2% auto;
+	margin: 4% auto;
 	overflow: hidden;
 	border-radius: 0.3rem;
-	background: #b30f1a;
+	background: #96703a;
 	text-align: center;
 	color: #fff;
 	font: 0.20rem/2.2 "microsoft yahei";

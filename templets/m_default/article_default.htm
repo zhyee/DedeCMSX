@@ -48,7 +48,11 @@
       <h1>{dede:field.title/}</h1>
       <span class="picContent">
       <p>{dede:field.body/}</p>
-      </span> {dede:prenext get='prewap'/} {dede:type} <a href="[field:typelink/]" title="返回列表" class="back">返回列表</a> {/dede:type} </div>
+      </span>
+      <p>{dede:prenext get='pre'/}</p>
+      <p>{dede:prenext get='next'/}</p>
+      {dede:type} <a href="[field:typelink/]" title="返回列表" class="back">返回列表</a> {/dede:type}
+    </div>
   </div>
   {dede:include filename="footer.htm"/} </div>
 </body>
