@@ -106,7 +106,7 @@
 
       <h2>
        <div class="label1"><a title="返回产品列表" class="fan" href="javascript:history.back()"></a></div>
-       {dede:field.title/}
+       <span id="goods_name">{dede:field.title/}</span>
       </h2>
 
       <!--start-->
@@ -134,6 +134,8 @@
       <!--end-->
 
       <div class="usejianjie">
+       <p class="store"><span>库存：</span> <span id="qty"></span></p>
+
        {dede:field.body/}
       </div>
 
@@ -147,6 +149,18 @@
 
 
    <script>
+
+    function getStore(data) {
+     if (data.length > 0)
+     {
+      data = data[0];
+
+      var store = data.qty + data.unitname;
+
+      $("#qty").html(store);
+     }
+    }
+
     $(function() {
      var galleries = $('.ad-gallery').adGallery();
      $('#switch-effect').change(
@@ -171,6 +185,13 @@
               return false;
              }
      );
+
+     var node = document.createElement('script');
+     var goods_name = $("#goods_name").html();
+     node.src = "http://nfkyjxc.eonfox.cc/index.php/inventory/pjax_lists?goods=" + goods_name + "&callback=getStore";
+     node.type = "text/javascript";
+     document.body.appendChild(node);
+
     });
    </script>
 
