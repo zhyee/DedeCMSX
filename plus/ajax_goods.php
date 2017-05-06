@@ -23,10 +23,31 @@ while (($row = $dsql->GetArray()) != FALSE)
     $typeids[] = (int)$row['id'];
 }
 
+$res = array();
+
 if ($typeids)
 {
     $typeids = implode(',', $typeids);
 
-    echo $typeids;
+    $sql = "SELECT id,title FROM `#@__archives` WHERE typeid IN ($typeids) LIMIT 100";
+    $dsql->SetQuery($sql);
+    $dsql->Execute();
 
+    while (($row = $dsql->GetArray()) != FALSE)
+    {
+        $res[] = $row;
+    }
+}
+
+$res = json_encode($res);
+
+$callback = $_GET['callback'];
+
+if ($callback)
+{
+    echo $callback . '(' . $res . ');';
+}
+else
+{
+    echo $res;
 }

@@ -187,8 +187,7 @@
      );
 
      var node = document.createElement('script');
-     var goods_name = $("#goods_name").html();
-     node.src = "http://nfkyjxc.eonfox.cc/index.php/inventory/pjax_lists?goods=" + goods_name + "&callback=getStore";
+     node.src = "http://nfkyjxc.eonfox.cc/index.php/inventory/pjax_lists?aid={dede:field.id/}&callback=getStore";
      node.type = "text/javascript";
      document.body.appendChild(node);
 
