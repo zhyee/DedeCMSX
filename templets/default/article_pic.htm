@@ -134,7 +134,7 @@
       <!--end-->
 
       <div class="usejianjie">
-       <p class="store"><span>库存：</span> <span id="qty"></span></p>
+       <p class="store" style="font-size: 16px; color:#339996;"><span>库存：</span> <span id="qty"></span></p>
 
        {dede:field.body/}
       </div>
@@ -151,14 +151,14 @@
    <script>
 
     function getStore(data) {
-     if (data.length > 0)
-     {
-      data = data[0];
+      if (data.length > 0)
+      {
+       data = data[0];
 
-      var store = data.qty + data.unitname;
+       var store = data.qty + data.unitname;
 
-      $("#qty").html(store);
-     }
+       $("#qty").html(store);
+      }
     }
 
     $(function() {
